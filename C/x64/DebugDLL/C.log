@@ -1,0 +1,31 @@
+﻿  antlr3baserecognizer.c
+  antlr3basetree.c
+  antlr3basetreeadaptor.c
+  antlr3bitset.c
+  antlr3collections.c
+  antlr3commontoken.c
+C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO\Lab1\C\src\antlr3collections.c(1932,50): warning C4100: 'key': unreferenced formal parameter
+  antlr3commontree.c
+  antlr3commontreeadaptor.c
+  antlr3commontreenodestream.c
+  antlr3convertutf.c
+  antlr3cyclicdfa.c
+  antlr3debughandlers.c
+  antlr3encodings.c
+  antlr3exception.c
+  antlr3filestream.c
+  antlr3inputstream.c
+  antlr3intstream.c
+  antlr3lexer.c
+  antlr3parser.c
+  antlr3rewritestreams.c
+  Generating Code...
+  Compiling...
+  antlr3string.c
+  antlr3tokenstream.c
+  antlr3treeparser.c
+  Generating Code...
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1392,5): warning MSB8012: TargetPath(C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO\Lab1\C\x64\DebugDLL\C.dll) does not match the Linker's OutputFile property value (C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO\Lab1\C\x64\DebugDLL\antlr3c64d.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1394,5): warning MSB8012: TargetName(C) does not match the Linker's OutputFile property value (antlr3c64d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO\Lab1\C\x64\DebugDLL\C_dll.lib and object C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO\Lab1\C\x64\DebugDLL\C_dll.exp
+  C.vcxproj -> C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO\Lab1\C\x64\DebugDLL\C.dll

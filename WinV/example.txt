@@ -1,0 +1,63 @@
+
+void swap(int arr[], int i, int j) {
+	int tmp;
+	tmp = arr[i];
+	arr[i] = arr[j];
+	arr[j] = tmp;
+}
+
+void bubble_sort(int arr[], int size) {
+	int i, j;
+	i = 0;
+	j = 0;
+
+	if (arr[j] > arr[j]) swap(arr[], j, j+1);
+
+	while (i < size-1) {
+		while (j < size-i-1) {
+			
+		++j;
+		}
+	++i;
+	}
+}
+
+int main() {
+	int arr[6];
+
+	arr[0] = 6;
+	arr[1] = 4;
+	arr[2] = 8;
+	arr[3] = 3;
+	arr[4] = 2;
+	arr[5] = 9;
+
+	int size;
+	size = 6;
+
+	bubble_sort(arr, size);
+
+	int i;
+	i = 0;
+
+	while (i < size) {
+		printf("%d ", arr[i]);
+		++i;
+	}
+}
+
+/*
+int sum(int a, int b) {
+	if (a > b) {
+		int g;
+	}
+}
+
+int main(string args[]) {
+	int a, b, c;
+	a = 4;
+	b = 5;
+	c = sum(a, b);
+	return(c);
+}
+*/

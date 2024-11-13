@@ -1,0 +1,16 @@
+﻿  labgrammLexer.c
+C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\LinuxV\antlr\labgrammLexer.h(237,13): error C1083: Cannot open include file: 'antlr3.h': No such file or directory
+  (compiling source file '../LinuxV/antlr/labgrammLexer.c')
+  
+  labgrammParser.c
+C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\LinuxV\antlr\labgrammParser.h(231,13): error C1083: Cannot open include file: 'antlr3.h': No such file or directory
+  (compiling source file '../LinuxV/antlr/labgrammParser.c')
+  
+  main.c
+C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\LinuxV\antlr\labgrammLexer.h(237,13): error C1083: Cannot open include file: 'antlr3.h': No such file or directory
+  (compiling source file '../LinuxV/main.c')
+  
+  treeStructure.c
+C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\LinuxV\antlr\labgrammLexer.h(237,13): error C1083: Cannot open include file: 'antlr3.h': No such file or directory
+  (compiling source file '../LinuxV/treeStructure.c')
+  

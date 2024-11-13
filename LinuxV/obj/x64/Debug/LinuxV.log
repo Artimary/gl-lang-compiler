@@ -1,0 +1,47 @@
+﻿  Validating sources
+  Copying sources remotely to '127.0.0.1'
+  Build command not configured, skipping.
+  Invoking 'make build', working directory: '/home/user/projects/LinuxV/LinuxV/'
+  gcc -g -O0 -o ./app ./main.c labgrammLexer.c -L/C -I/libantlr3c-3.4 labgrammParser.c ./treeStructure.c 
+  
+  In file included from ./treeStructure.h:2,
+                   from ./treeStructure.c:2,
+                   from ./main.c:4:
+  ./antlr/labgrammLexer.h:237:13: fatal error: antlr3.h: Нет такого файла или каталога
+    237 | #include    <antlr3.h>
+        |             ^~~~~~~~~~
+  compilation terminated.
+  In file included from antlr/antlr3defs.h:250,
+                   from antlr/antlr3.h:33,
+                   from labgrammLexer.h:237,
+                   from labgrammLexer.c:46:
+  antlr/antlr3config.h:8: warning: "ANTLR3_USE_64BIT" redefined
+      8 | #define ANTLR3_USE_64BIT 1
+        | 
+  antlr/antlr3defs.h:116: note: this is the location of the previous definition
+    116 | # define ANTLR3_USE_64BIT
+        | 
+  
+  In file included from antlr/antlr3defs.h:250,
+                   from antlr/antlr3.h:33,
+                   from labgrammParser.h:231,
+                   from labgrammParser.c:46:
+  antlr/antlr3config.h:8: warning: "ANTLR3_USE_64BIT" redefined
+      8 | #define ANTLR3_USE_64BIT 1
+        | 
+  antlr/antlr3defs.h:116: note: this is the location of the previous definition
+    116 | # define ANTLR3_USE_64BIT
+        | 
+  
+./antlr/labgrammLexer.h(237,13): error : antlr3.h: Нет такого файла или каталога
+./antlr/labgrammLexer.h(237,13): error : antlr3.h: Нет такого файла или каталога
+  In file included from ./treeStructure.h:2,
+                   from ./treeStructure.c:2:
+  ./antlr/labgrammLexer.h:237:13: fatal error: antlr3.h: Нет такого файла или каталога
+    237 | #include    <antlr3.h>
+        |             ^~~~~~~~~~
+  compilation terminated.
+  make: *** [makefile:3: build] Ошибка 1
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Application Type\Linux\1.0\Linux.Makefile.Targets(345,5): error : make build exited with code 2, please see the Output Window - Build output for more details (NOTE: the build output verbosity might need to be changed in Tools Options to see more information in the Output Window).
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Application Type\Linux\1.0\Linux.Makefile.Targets(345,5): warning : Cannot copy file '/home/user/projects/LinuxV/LinuxV/app', file not found on the remote system.
