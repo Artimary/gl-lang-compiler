@@ -38,6 +38,9 @@
     <ClInclude Include="..\LinuxV\antlr\labgrammParser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\LinuxV\define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="example.txt">

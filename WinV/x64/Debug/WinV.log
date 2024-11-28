@@ -1,15 +1,2 @@
-﻿  labgrammLexer.c
-  labgrammParser.c
-  main.c
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\LinuxV\treeStructure.c(68,22): warning C4133: 'function': incompatible types - from 'treeStruct *' to 'const char *const '
-  (compiling source file '../LinuxV/main.c')
-  
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\LinuxV\treeStructure.c(122,20): warning C4133: 'function': incompatible types - from 'char *' to 'treeStruct *'
-  (compiling source file '../LinuxV/main.c')
-  
-  treeStructure.c
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\LinuxV\treeStructure.c(68,22): warning C4133: 'function': incompatible types - from 'treeStruct *' to 'const char *const '
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\LinuxV\treeStructure.c(122,20): warning C4133: 'function': incompatible types - from 'char *' to 'treeStruct *'
-  Generating Code...
-     Creating library C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\x64\Debug\WinV.lib and object C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\x64\Debug\WinV.exp
-  WinV.vcxproj -> C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\x64\Debug\WinV.exe
+﻿     Creating library C:\SPO_labs\x64\Debug\WinV.lib and object C:\SPO_labs\x64\Debug\WinV.exp
+  WinV.vcxproj -> C:\SPO_labs\x64\Debug\WinV.exe

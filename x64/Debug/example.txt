@@ -23,7 +23,7 @@ void bubble_sort(int arr[], int size) {
 }
 
 int main() {
-	int arr[6];
+	int[][,][,,] arr;
 
 	arr[0] = 6;
 	arr[1] = 4;

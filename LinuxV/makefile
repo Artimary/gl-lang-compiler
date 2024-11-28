@@ -1,8 +1,8 @@
 
 build:
-	gcc -g -O0 -o ./app ./main.c labgrammLexer.c -L/C -I/libantlr3c-3.4 labgrammParser.c ./treeStructure.c 
+	gcc -g -O0 -o ./app ./main.c antlr/labgrammLexer.c antlr/labgrammParser.c ./treeStructure.c -lantlr3c  
 
 clean:
-	rm ./app
+	rm -f ./app
 
 rebuild: clean build

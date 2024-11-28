@@ -27,6 +27,7 @@
   <ItemGroup>
     <ClInclude Include="..\LinuxV\antlr\labgrammLexer.h" />
     <ClInclude Include="..\LinuxV\antlr\labgrammParser.h" />
+    <ClInclude Include="..\LinuxV\define.h" />
     <ClInclude Include="..\LinuxV\treeStructure.h" />
   </ItemGroup>
   <ItemGroup>
@@ -123,7 +124,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <WarningLevel>Level3</WarningLevel>
+      <WarningLevel>Level4</WarningLevel>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
@@ -132,7 +133,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\x64\DebugDLL;C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\SPO_labs\C\x64\DebugDLL;C:\SPO_labs\C\x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>antlr3cd.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>

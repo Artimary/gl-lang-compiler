@@ -800,7 +800,7 @@ $unwind$__local_stdio_printf_options DD 010201H
 	DD	07002H
 xdata	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT stringFree
 _TEXT	SEGMENT
 string$ = 48
@@ -851,7 +851,7 @@ $LN2@stringFree:
 stringFree ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT stringInitUTF16
 _TEXT	SEGMENT
 string$ = 16
@@ -1044,7 +1044,7 @@ stringInitUTF16 PROC					; COMDAT
 stringInitUTF16 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT stringInit8
 _TEXT	SEGMENT
 string$ = 16
@@ -1237,7 +1237,7 @@ stringInit8 PROC					; COMDAT
 stringInit8 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT toUTF8_UTF16
 _TEXT	SEGMENT
 outputEnd$ = 56
@@ -1422,7 +1422,7 @@ $LN2@toUTF8_UTF:
 toUTF8_UTF16 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT toUTF8_8
 _TEXT	SEGMENT
 string$ = 48
@@ -1454,7 +1454,7 @@ toUTF8_8 PROC						; COMDAT
 toUTF8_8 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT to8_UTF16
 _TEXT	SEGMENT
 newStr$ = 32
@@ -1616,7 +1616,7 @@ $LN1@to8_UTF16:
 to8_UTF16 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT to8_8
 _TEXT	SEGMENT
 string$ = 16
@@ -1638,7 +1638,7 @@ to8_8	PROC						; COMDAT
 to8_8	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT toInt32_UTF16
 _TEXT	SEGMENT
 input$ = 32
@@ -1779,7 +1779,7 @@ $LN9@toInt32_UT:
 toInt32_UTF16 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT toInt32_8
 _TEXT	SEGMENT
 string$ = 48
@@ -1806,7 +1806,7 @@ toInt32_8 PROC						; COMDAT
 toInt32_8 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT subStringUTF16
 _TEXT	SEGMENT
 newStr$ = 32
@@ -1877,7 +1877,7 @@ $LN2@subStringU:
 subStringUTF16 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT subString8
 _TEXT	SEGMENT
 newStr$ = 32
@@ -1947,7 +1947,7 @@ $LN2@subString8:
 subString8 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT charAtUTF16
 _TEXT	SEGMENT
 string$ = 16
@@ -1997,7 +1997,7 @@ $LN1@charAtUTF1:
 charAtUTF16 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT charAt8
 _TEXT	SEGMENT
 string$ = 16
@@ -2047,7 +2047,7 @@ $LN1@charAt8:
 charAt8	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT compareS
 _TEXT	SEGMENT
 string$ = 48
@@ -2078,7 +2078,7 @@ compareS PROC						; COMDAT
 compareS ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT compareUTF16_UTF16
 _TEXT	SEGMENT
 ourString$ = 0
@@ -2183,7 +2183,7 @@ $LN1@compareUTF:
 compareUTF16_UTF16 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT compareUTF16_8
 _TEXT	SEGMENT
 ourString$ = 0
@@ -2282,7 +2282,7 @@ $LN1@compareUTF:
 compareUTF16_8 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT compare8
 _TEXT	SEGMENT
 string$ = 48
@@ -2311,7 +2311,7 @@ compare8 PROC						; COMDAT
 compare8 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT insertiUTF16
 _TEXT	SEGMENT
 newbit$ = 40
@@ -2378,7 +2378,7 @@ insertiUTF16 PROC					; COMDAT
 insertiUTF16 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT inserti8
 _TEXT	SEGMENT
 newbit$ = 40
@@ -2445,7 +2445,7 @@ inserti8 PROC						; COMDAT
 inserti8 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT addiUTF16
 _TEXT	SEGMENT
 newbit$ = 40
@@ -2509,7 +2509,7 @@ addiUTF16 PROC						; COMDAT
 addiUTF16 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT addi8
 _TEXT	SEGMENT
 newbit$ = 40
@@ -2573,7 +2573,7 @@ addi8	PROC						; COMDAT
 addi8	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT addcUTF16
 _TEXT	SEGMENT
 ptr$ = 32
@@ -2692,7 +2692,7 @@ $LN1@addcUTF16:
 addcUTF16 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT addc8
 _TEXT	SEGMENT
 newAlloc$1 = 32
@@ -2800,7 +2800,7 @@ $LN1@addc8:
 addc8	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT insertS
 _TEXT	SEGMENT
 string$ = 48
@@ -2833,7 +2833,7 @@ insertS	PROC						; COMDAT
 insertS	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT appendS
 _TEXT	SEGMENT
 string$ = 48
@@ -2898,7 +2898,7 @@ $LN1@appendS:
 appendS	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT setS
 _TEXT	SEGMENT
 string$ = 48
@@ -2928,7 +2928,7 @@ setS	PROC						; COMDAT
 setS	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT insertUTF16_UTF16
 _TEXT	SEGMENT
 len$ = 32
@@ -3163,7 +3163,7 @@ $LN1@insertUTF1:
 insertUTF16_UTF16 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT insertUTF16_8
 _TEXT	SEGMENT
 len$ = 32
@@ -3379,7 +3379,7 @@ $LN1@insertUTF1:
 insertUTF16_8 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT insert8
 _TEXT	SEGMENT
 len$ = 32
@@ -3562,7 +3562,7 @@ $LN1@insert8:
 insert8	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT appendUTF16_UTF16
 _TEXT	SEGMENT
 len$ = 32
@@ -3731,7 +3731,7 @@ $LN1@appendUTF1:
 appendUTF16_UTF16 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT appendUTF16_8
 _TEXT	SEGMENT
 len$ = 32
@@ -3889,7 +3889,7 @@ $LN1@appendUTF1:
 appendUTF16_8 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT append8
 _TEXT	SEGMENT
 len$ = 32
@@ -4009,7 +4009,7 @@ $LN1@append8:
 append8	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT setUTF16_UTF16
 _TEXT	SEGMENT
 len$ = 32
@@ -4168,7 +4168,7 @@ $LN1@setUTF16_U:
 setUTF16_UTF16 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT setUTF16_8
 _TEXT	SEGMENT
 len$ = 32
@@ -4314,7 +4314,7 @@ $LN1@setUTF16_8:
 setUTF16_8 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT set8
 _TEXT	SEGMENT
 len$ = 32
@@ -4424,7 +4424,7 @@ $LN1@set8:
 set8	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT closeFactory
 _TEXT	SEGMENT
 factory$ = 48
@@ -4466,7 +4466,7 @@ closeFactory PROC					; COMDAT
 closeFactory ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT printableUTF16
 _TEXT	SEGMENT
 string$ = 32
@@ -4708,7 +4708,7 @@ $LN3@printableU:
 printableUTF16 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT printable8
 _TEXT	SEGMENT
 string$ = 32
@@ -4913,7 +4913,7 @@ $LN3@printable8:
 printable8 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT destroy
 _TEXT	SEGMENT
 strIndex$ = 32
@@ -5033,7 +5033,7 @@ $LN5@destroy:
 destroy	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT newStrUTF16_UTF16
 _TEXT	SEGMENT
 in$ = 32
@@ -5116,7 +5116,7 @@ $LN3@newStrUTF1:
 newStrUTF16_UTF16 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT newStrUTF16_8
 _TEXT	SEGMENT
 factory$ = 48
@@ -5148,7 +5148,7 @@ newStrUTF16_8 PROC					; COMDAT
 newStrUTF16_8 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT newStr8
 _TEXT	SEGMENT
 factory$ = 48
@@ -5180,7 +5180,7 @@ newStr8	PROC						; COMDAT
 newStr8	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT newPtrUTF16_UTF16
 _TEXT	SEGMENT
 string$ = 32
@@ -5287,7 +5287,7 @@ $LN1@newPtrUTF1:
 newPtrUTF16_UTF16 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT newPtrUTF16_8
 _TEXT	SEGMENT
 string$ = 32
@@ -5446,7 +5446,7 @@ $LN1@newPtrUTF1:
 newPtrUTF16_8 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT newPtr8
 _TEXT	SEGMENT
 string$ = 32
@@ -5548,7 +5548,7 @@ $LN1@newPtr8:
 newPtr8	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT newSizeUTF16
 _TEXT	SEGMENT
 string$ = 32
@@ -5638,7 +5638,7 @@ $LN1@newSizeUTF:
 newSizeUTF16 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT newSize8
 _TEXT	SEGMENT
 string$ = 32
@@ -5727,7 +5727,7 @@ $LN1@newSize8:
 newSize8 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT newRawUTF16
 _TEXT	SEGMENT
 string$ = 48
@@ -5822,7 +5822,7 @@ $LN1@newRawUTF1:
 newRawUTF16 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT newRaw8
 _TEXT	SEGMENT
 string$ = 48
@@ -5917,7 +5917,7 @@ $LN1@newRaw8:
 newRaw8	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c
+; File C:\SPO_labs\C\src\antlr3string.c
 ;	COMDAT antlr3StringFactoryNew
 _TEXT	SEGMENT
 factory$ = 32

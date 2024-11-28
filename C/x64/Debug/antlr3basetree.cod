@@ -281,7 +281,7 @@ $unwind$__local_stdio_printf_options DD 010201H
 	DD	07002H
 xdata	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3basetree.c
+; File C:\SPO_labs\C\src\antlr3basetree.c
 ;	COMDAT toStringTree
 _TEXT	SEGMENT
 string$ = 32
@@ -500,7 +500,7 @@ $LN1@toStringTr:
 toStringTree ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3basetree.c
+; File C:\SPO_labs\C\src\antlr3basetree.c
 ;	COMDAT dupTree
 _TEXT	SEGMENT
 newTree$ = 32
@@ -622,7 +622,7 @@ $LN5@dupTree:
 dupTree	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3basetree.c
+; File C:\SPO_labs\C\src\antlr3basetree.c
 ;	COMDAT deleteChild
 _TEXT	SEGMENT
 tree$ = 48
@@ -670,7 +670,7 @@ $LN1@deleteChil:
 deleteChild ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3basetree.c
+; File C:\SPO_labs\C\src\antlr3basetree.c
 ;	COMDAT setChild
 _TEXT	SEGMENT
 tree$ = 64
@@ -724,7 +724,7 @@ $LN2@setChild:
 setChild ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3basetree.c
+; File C:\SPO_labs\C\src\antlr3basetree.c
 ;	COMDAT freshenPACIndexes
 _TEXT	SEGMENT
 count$ = 32
@@ -810,7 +810,7 @@ $LN3@freshenPAC:
 freshenPACIndexes ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3basetree.c
+; File C:\SPO_labs\C\src\antlr3basetree.c
 ;	COMDAT freshenPACIndexesAll
 _TEXT	SEGMENT
 tree$ = 48
@@ -839,7 +839,7 @@ freshenPACIndexesAll PROC				; COMDAT
 freshenPACIndexesAll ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3basetree.c
+; File C:\SPO_labs\C\src\antlr3basetree.c
 ;	COMDAT replaceChildren
 _TEXT	SEGMENT
 replacingHowMany$ = 48
@@ -1424,7 +1424,7 @@ $LN26@replaceChi:
 replaceChildren ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3basetree.c
+; File C:\SPO_labs\C\src\antlr3basetree.c
 ;	COMDAT addChildren
 _TEXT	SEGMENT
 i$ = 32
@@ -1493,7 +1493,7 @@ $LN3@addChildre:
 addChildren ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3basetree.c
+; File C:\SPO_labs\C\src\antlr3basetree.c
 ;	COMDAT addChild
 _TEXT	SEGMENT
 n$ = 32
@@ -1790,7 +1790,7 @@ $LN1@addChild:
 addChild ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3basetree.c
+; File C:\SPO_labs\C\src\antlr3basetree.c
 ;	COMDAT getFirstChildWithType
 _TEXT	SEGMENT
 i$ = 32
@@ -1891,7 +1891,7 @@ $LN1@getFirstCh:
 getFirstChildWithType ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3basetree.c
+; File C:\SPO_labs\C\src\antlr3basetree.c
 ;	COMDAT getLine
 _TEXT	SEGMENT
 tree$ = 16
@@ -1913,7 +1913,7 @@ getLine	PROC						; COMDAT
 getLine	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3basetree.c
+; File C:\SPO_labs\C\src\antlr3basetree.c
 ;	COMDAT getCharPositionInLine
 _TEXT	SEGMENT
 tree$ = 16
@@ -1935,7 +1935,7 @@ getCharPositionInLine PROC				; COMDAT
 getCharPositionInLine ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3basetree.c
+; File C:\SPO_labs\C\src\antlr3basetree.c
 ;	COMDAT getChildCount
 _TEXT	SEGMENT
 tree$ = 48
@@ -1986,7 +1986,7 @@ $LN1@getChildCo:
 getChildCount ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3basetree.c
+; File C:\SPO_labs\C\src\antlr3basetree.c
 ;	COMDAT getChild
 _TEXT	SEGMENT
 tree$ = 48
@@ -2043,7 +2043,7 @@ $LN1@getChild:
 getChild ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3basetree.c
+; File C:\SPO_labs\C\src\antlr3basetree.c
 ;	COMDAT antlr3BaseTreeNew
 _TEXT	SEGMENT
 tree$ = 16

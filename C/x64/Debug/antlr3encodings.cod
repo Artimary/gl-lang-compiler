@@ -28,7 +28,7 @@ $unwind$antlr3c8toAntlrc DD 010501H
 	DD	07005H
 xdata	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3encodings.c
+; File C:\SPO_labs\C\src\antlr3encodings.c
 ;	COMDAT antlr3c8toAntlrc
 _TEXT	SEGMENT
 inc$ = 16

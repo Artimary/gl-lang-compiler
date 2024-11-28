@@ -63,7 +63,7 @@ $unwind$antlr3dfaspecialTransition DD 011501H
 	DD	07015H
 xdata	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3cyclicdfa.c
+; File C:\SPO_labs\C\src\antlr3cyclicdfa.c
 ;	COMDAT noViableAlt
 _TEXT	SEGMENT
 rec$ = 48
@@ -155,7 +155,7 @@ $LN3@noViableAl:
 noViableAlt ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3cyclicdfa.c
+; File C:\SPO_labs\C\src\antlr3cyclicdfa.c
 ;	COMDAT antlr3dfapredict
 _TEXT	SEGMENT
 mark$ = 48
@@ -557,7 +557,7 @@ $LN1@antlr3dfap:
 antlr3dfapredict ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3cyclicdfa.c
+; File C:\SPO_labs\C\src\antlr3cyclicdfa.c
 ;	COMDAT antlr3dfaspecialStateTransition
 _TEXT	SEGMENT
 ctx$ = 16
@@ -587,7 +587,7 @@ $LN3:
 antlr3dfaspecialStateTransition ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3cyclicdfa.c
+; File C:\SPO_labs\C\src\antlr3cyclicdfa.c
 ;	COMDAT antlr3dfaspecialTransition
 _TEXT	SEGMENT
 ctx$ = 16

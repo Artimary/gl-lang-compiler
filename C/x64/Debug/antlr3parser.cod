@@ -100,7 +100,7 @@ $unwind$antlr3ParserNewStreamDbg DD 021801H
 	DD	070145218H
 xdata	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3parser.c
+; File C:\SPO_labs\C\src\antlr3parser.c
 ;	COMDAT freeParser
 _TEXT	SEGMENT
 tv93 = 32
@@ -201,7 +201,7 @@ $LN2@freeParser:
 freeParser ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3parser.c
+; File C:\SPO_labs\C\src\antlr3parser.c
 ;	COMDAT getTokenStream
 _TEXT	SEGMENT
 parser$ = 16
@@ -224,7 +224,7 @@ getTokenStream PROC					; COMDAT
 getTokenStream ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3parser.c
+; File C:\SPO_labs\C\src\antlr3parser.c
 ;	COMDAT setTokenStream
 _TEXT	SEGMENT
 parser$ = 48
@@ -262,7 +262,7 @@ setTokenStream PROC					; COMDAT
 setTokenStream ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3parser.c
+; File C:\SPO_labs\C\src\antlr3parser.c
 ;	COMDAT setDebugListener
 _TEXT	SEGMENT
 parser$ = 48
@@ -323,7 +323,7 @@ $LN2@setDebugLi:
 setDebugListener ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3parser.c
+; File C:\SPO_labs\C\src\antlr3parser.c
 ;	COMDAT antlr3ParserNew
 _TEXT	SEGMENT
 parser$ = 32
@@ -464,7 +464,7 @@ $LN1@antlr3Pars:
 antlr3ParserNew ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3parser.c
+; File C:\SPO_labs\C\src\antlr3parser.c
 ;	COMDAT antlr3ParserNewStream
 _TEXT	SEGMENT
 parser$ = 32
@@ -531,7 +531,7 @@ $LN1@antlr3Pars:
 antlr3ParserNewStream ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3parser.c
+; File C:\SPO_labs\C\src\antlr3parser.c
 ;	COMDAT antlr3ParserNewStreamDbg
 _TEXT	SEGMENT
 parser$ = 32

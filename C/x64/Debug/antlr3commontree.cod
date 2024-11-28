@@ -285,7 +285,7 @@ $unwind$antlr3CommonTreeNew DD 020601H
 	DD	070025206H
 xdata	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontree.c
+; File C:\SPO_labs\C\src\antlr3commontree.c
 ;	COMDAT factoryClose
 _TEXT	SEGMENT
 poolCount$ = 32
@@ -409,7 +409,7 @@ $LN3@factoryClo:
 factoryClose ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontree.c
+; File C:\SPO_labs\C\src\antlr3commontree.c
 ;	COMDAT newFromToken
 _TEXT	SEGMENT
 newTree$ = 32
@@ -473,7 +473,7 @@ $LN1@newFromTok:
 newFromToken ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontree.c
+; File C:\SPO_labs\C\src\antlr3commontree.c
 ;	COMDAT newFromTree
 _TEXT	SEGMENT
 newTree$ = 32
@@ -545,7 +545,7 @@ $LN1@newFromTre:
 newFromTree ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontree.c
+; File C:\SPO_labs\C\src\antlr3commontree.c
 ;	COMDAT newPoolTree
 _TEXT	SEGMENT
 tree$ = 32
@@ -716,7 +716,7 @@ $LN1@newPoolTre:
 newPoolTree ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontree.c
+; File C:\SPO_labs\C\src\antlr3commontree.c
 ;	COMDAT newPool
 _TEXT	SEGMENT
 newPools$ = 32
@@ -859,7 +859,7 @@ $LN1@newPool:
 newPool	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontree.c
+; File C:\SPO_labs\C\src\antlr3commontree.c
 ;	COMDAT reuse
 _TEXT	SEGMENT
 cTree$ = 32
@@ -938,7 +938,7 @@ $LN2@reuse:
 reuse	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontree.c
+; File C:\SPO_labs\C\src\antlr3commontree.c
 ;	COMDAT createChildrenList
 _TEXT	SEGMENT
 tv74 = 32
@@ -978,7 +978,7 @@ createChildrenList PROC					; COMDAT
 createChildrenList ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontree.c
+; File C:\SPO_labs\C\src\antlr3commontree.c
 ;	COMDAT getChildIndex
 _TEXT	SEGMENT
 tree$ = 16
@@ -1002,7 +1002,7 @@ getChildIndex PROC					; COMDAT
 getChildIndex ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontree.c
+; File C:\SPO_labs\C\src\antlr3commontree.c
 ;	COMDAT setChildIndex
 _TEXT	SEGMENT
 tree$ = 16
@@ -1029,7 +1029,7 @@ setChildIndex PROC					; COMDAT
 setChildIndex ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontree.c
+; File C:\SPO_labs\C\src\antlr3commontree.c
 ;	COMDAT setParent
 _TEXT	SEGMENT
 tv68 = 0
@@ -1070,7 +1070,7 @@ $LN4@setParent:
 setParent ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontree.c
+; File C:\SPO_labs\C\src\antlr3commontree.c
 ;	COMDAT getParent
 _TEXT	SEGMENT
 tree$ = 16
@@ -1109,7 +1109,7 @@ $LN1@getParent:
 getParent ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontree.c
+; File C:\SPO_labs\C\src\antlr3commontree.c
 ;	COMDAT toString
 _TEXT	SEGMENT
 nilNode$1 = 32
@@ -1179,7 +1179,7 @@ $LN1@toString:
 toString ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontree.c
+; File C:\SPO_labs\C\src\antlr3commontree.c
 ;	COMDAT getCharPositionInLine
 _TEXT	SEGMENT
 token$ = 32
@@ -1270,7 +1270,7 @@ $LN1@getCharPos:
 getCharPositionInLine ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontree.c
+; File C:\SPO_labs\C\src\antlr3commontree.c
 ;	COMDAT getLine
 _TEXT	SEGMENT
 cTree$ = 32
@@ -1369,7 +1369,7 @@ $LN1@getLine:
 getLine	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontree.c
+; File C:\SPO_labs\C\src\antlr3commontree.c
 ;	COMDAT getText
 _TEXT	SEGMENT
 tree$ = 48
@@ -1396,7 +1396,7 @@ getText	PROC						; COMDAT
 getText	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontree.c
+; File C:\SPO_labs\C\src\antlr3commontree.c
 ;	COMDAT getType
 _TEXT	SEGMENT
 theTree$ = 32
@@ -1457,7 +1457,7 @@ $LN1@getType:
 getType	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontree.c
+; File C:\SPO_labs\C\src\antlr3commontree.c
 ;	COMDAT isNilNode
 _TEXT	SEGMENT
 tree$ = 16
@@ -1504,7 +1504,7 @@ $LN1@isNilNode:
 isNilNode ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontree.c
+; File C:\SPO_labs\C\src\antlr3commontree.c
 ;	COMDAT dupNode
 _TEXT	SEGMENT
 theOld$ = 32
@@ -1549,7 +1549,7 @@ dupNode	PROC						; COMDAT
 dupNode	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontree.c
+; File C:\SPO_labs\C\src\antlr3commontree.c
 ;	COMDAT getToken
 _TEXT	SEGMENT
 tree$ = 16
@@ -1579,7 +1579,7 @@ getToken PROC						; COMDAT
 getToken ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontree.c
+; File C:\SPO_labs\C\src\antlr3commontree.c
 ;	COMDAT antlr3SetCTAPI
 _TEXT	SEGMENT
 tree$ = 48
@@ -1794,7 +1794,7 @@ $LN3:
 antlr3SetCTAPI ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontree.c
+; File C:\SPO_labs\C\src\antlr3commontree.c
 ;	COMDAT antlr3ArboretumNew
 _TEXT	SEGMENT
 factory$ = 32
@@ -1978,7 +1978,7 @@ $LN1@antlr3Arbo:
 antlr3ArboretumNew ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontree.c
+; File C:\SPO_labs\C\src\antlr3commontree.c
 ;	COMDAT antlr3CommonTreeNewFromToken
 _TEXT	SEGMENT
 newTree$ = 32
@@ -2036,7 +2036,7 @@ $LN1@antlr3Comm:
 antlr3CommonTreeNewFromToken ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontree.c
+; File C:\SPO_labs\C\src\antlr3commontree.c
 ;	COMDAT antlr3CommonTreeNew
 _TEXT	SEGMENT
 tree$ = 32

@@ -375,7 +375,7 @@ $unwind$antlr3CommonTokenNew DD 020901H
 	DD	070055209H
 xdata	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT newPoolToken
 _TEXT	SEGMENT
 token$ = 32
@@ -553,7 +553,7 @@ $LN1@newPoolTok:
 newPoolToken ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT newPool
 _TEXT	SEGMENT
 newPools$1 = 32
@@ -720,7 +720,7 @@ $LN1@newPool:
 newPool	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT factoryReset
 _TEXT	SEGMENT
 factory$ = 48
@@ -755,7 +755,7 @@ factoryReset PROC					; COMDAT
 factoryReset ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT setInputStream
 _TEXT	SEGMENT
 factory$ = 16
@@ -817,7 +817,7 @@ $LN3@setInputSt:
 setInputStream ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT newToken
 _TEXT	SEGMENT
 token$ = 32
@@ -882,7 +882,7 @@ $LN1@newToken:
 newToken ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT factoryClose
 _TEXT	SEGMENT
 pool$ = 32
@@ -1084,7 +1084,7 @@ $LN3@factoryClo:
 factoryClose ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT toString
 _TEXT	SEGMENT
 text$ = 32
@@ -1352,7 +1352,7 @@ $LN1@toString:
 toString ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT setStopIndex
 _TEXT	SEGMENT
 token$ = 16
@@ -1378,7 +1378,7 @@ setStopIndex PROC					; COMDAT
 setStopIndex ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT getStopIndex
 _TEXT	SEGMENT
 token$ = 16
@@ -1401,7 +1401,7 @@ getStopIndex PROC					; COMDAT
 getStopIndex ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT setStartIndex
 _TEXT	SEGMENT
 token$ = 16
@@ -1427,7 +1427,7 @@ setStartIndex PROC					; COMDAT
 setStartIndex ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT getStartIndex
 _TEXT	SEGMENT
 tv69 = 0
@@ -1465,7 +1465,7 @@ $LN4@getStartIn:
 getStartIndex ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT setTokenIndex
 _TEXT	SEGMENT
 token$ = 16
@@ -1491,7 +1491,7 @@ setTokenIndex PROC					; COMDAT
 setTokenIndex ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT getTokenIndex
 _TEXT	SEGMENT
 token$ = 16
@@ -1514,7 +1514,7 @@ getTokenIndex PROC					; COMDAT
 getTokenIndex ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT setChannel
 _TEXT	SEGMENT
 token$ = 16
@@ -1540,7 +1540,7 @@ setChannel PROC						; COMDAT
 setChannel ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT getChannel
 _TEXT	SEGMENT
 token$ = 16
@@ -1563,7 +1563,7 @@ getChannel PROC						; COMDAT
 getChannel ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT setCharPositionInLine
 _TEXT	SEGMENT
 token$ = 16
@@ -1589,7 +1589,7 @@ setCharPositionInLine PROC				; COMDAT
 setCharPositionInLine ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT getCharPositionInLine
 _TEXT	SEGMENT
 token$ = 16
@@ -1612,7 +1612,7 @@ getCharPositionInLine PROC				; COMDAT
 getCharPositionInLine ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT setLine
 _TEXT	SEGMENT
 token$ = 16
@@ -1638,7 +1638,7 @@ setLine	PROC						; COMDAT
 setLine	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT getLine
 _TEXT	SEGMENT
 token$ = 16
@@ -1661,7 +1661,7 @@ getLine	PROC						; COMDAT
 getLine	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT setType
 _TEXT	SEGMENT
 token$ = 16
@@ -1687,7 +1687,7 @@ setType	PROC						; COMDAT
 setType	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT getType
 _TEXT	SEGMENT
 token$ = 16
@@ -1710,7 +1710,7 @@ getType	PROC						; COMDAT
 getType	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT setText8
 _TEXT	SEGMENT
 tv66 = 32
@@ -1804,7 +1804,7 @@ $LN1@setText8:
 setText8 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT setText
 _TEXT	SEGMENT
 token$ = 16
@@ -1843,7 +1843,7 @@ setText	PROC						; COMDAT
 setText	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT getText
 _TEXT	SEGMENT
 tv65 = 32
@@ -2054,7 +2054,7 @@ $LN1@getText:
 getText	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT antlr3SetTokenAPI
 _TEXT	SEGMENT
 token$ = 16
@@ -2226,7 +2226,7 @@ $LN3:
 antlr3SetTokenAPI ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT antlr3TokenFactoryNew
 _TEXT	SEGMENT
 factory$ = 32
@@ -2370,7 +2370,7 @@ $LN1@antlr3Toke:
 antlr3TokenFactoryNew ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c
+; File C:\SPO_labs\C\src\antlr3commontoken.c
 ;	COMDAT antlr3CommonTokenNew
 _TEXT	SEGMENT
 token$ = 32

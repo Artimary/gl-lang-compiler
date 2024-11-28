@@ -126,7 +126,7 @@ $unwind$antlr3MTNExceptionNew DD 020a01H
 	DD	07006320aH
 xdata	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3treeparser.c
+; File C:\SPO_labs\C\src\antlr3treeparser.c
 ;	COMDAT getMissingSymbol
 _TEXT	SEGMENT
 tns$ = 32
@@ -316,7 +316,7 @@ $LN3@getMissing:
 getMissingSymbol ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3treeparser.c
+; File C:\SPO_labs\C\src\antlr3treeparser.c
 ;	COMDAT getCurrentInputSymbol
 _TEXT	SEGMENT
 tns$ = 32
@@ -362,7 +362,7 @@ getCurrentInputSymbol PROC				; COMDAT
 getCurrentInputSymbol ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3treeparser.c
+; File C:\SPO_labs\C\src\antlr3treeparser.c
 ;	COMDAT freeParser
 _TEXT	SEGMENT
 tv93 = 32
@@ -463,7 +463,7 @@ $LN2@freeParser:
 freeParser ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3treeparser.c
+; File C:\SPO_labs\C\src\antlr3treeparser.c
 ;	COMDAT getTreeNodeStream
 _TEXT	SEGMENT
 parser$ = 16
@@ -486,7 +486,7 @@ getTreeNodeStream PROC					; COMDAT
 getTreeNodeStream ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3treeparser.c
+; File C:\SPO_labs\C\src\antlr3treeparser.c
 ;	COMDAT setTreeNodeStream
 _TEXT	SEGMENT
 parser$ = 48
@@ -533,7 +533,7 @@ setTreeNodeStream PROC					; COMDAT
 setTreeNodeStream ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3treeparser.c
+; File C:\SPO_labs\C\src\antlr3treeparser.c
 ;	COMDAT mismatch
 _TEXT	SEGMENT
 recognizer$ = 48
@@ -574,7 +574,7 @@ mismatch PROC						; COMDAT
 mismatch ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3treeparser.c
+; File C:\SPO_labs\C\src\antlr3treeparser.c
 ;	COMDAT antlr3TreeParserNewStream
 _TEXT	SEGMENT
 parser$ = 32
@@ -755,7 +755,7 @@ $LN1@antlr3Tree:
 antlr3TreeParserNewStream ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3treeparser.c
+; File C:\SPO_labs\C\src\antlr3treeparser.c
 ;	COMDAT antlr3MTNExceptionNew
 _TEXT	SEGMENT
 recognizer$ = 48

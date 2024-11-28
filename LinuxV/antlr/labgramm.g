@@ -6,7 +6,7 @@ options {
     memoize=true;
     output=AST;
     k=2;
-    //ASTLabelType=pANTLR3_BASE_TREE;
+    ASTLabelType=pANTLR3_BASE_TREE;
 }
 
 tokens{
@@ -17,6 +17,10 @@ tokens{
 	ArgDef;
 	Identifier;
 	Array;
+	Array_Size;
+	Dimensions;
+	Builtin_Type;
+	Custom_Type;
 	Body;
 	VarDeclaration;
 	Init_suffix;
@@ -49,48 +53,55 @@ funcDefi :	blockStatement | ';'
 	 ;
 
 funcSignature 
-	:	typeRef? identifier '(' init_declarator_list? ')' -> ^(FuncSignature ^(TypeRef typeRef)? ^(Identifier identifier) init_declarator_list?)
+	:	typeRef? identifier '(' init_declarator_list? ')' -> ^(FuncSignature typeRef? ^(Identifier identifier) init_declarator_list?)
 	;
 	
 init_declarator_list
 	:	argDef (',' argDef)* -> ^(Init_List argDef*)
 	;
 	
-argDef	:	typeRef? (identifier | array) -> ^(ArgDef ^(TypeRef typeRef)? ^(Identifier identifier array))
+argDef	:	typeRef? identifier -> ^(ArgDef typeRef? ^(Identifier identifier))
 	;
 
-typeRef	:	typeRefer;
-
-typeRefer	
-	:	arrayList | custom | builtin 
+typeRef	: baseType arrayList* -> ^(TypeRef baseType arrayList*)
 	;
 
-custom 	:	identifier;
+baseType
+	: builtin -> ^(Builtin_Type builtin)
+	| custom 
+	;
+	
+/*typeRefer	
+	:	array | custom | builtin 
+	;*/
+
+custom 	:	identifier  -> ^(Custom_Type identifier)
+	;
 
 identifier
 	:	 ID;
 	
-arrayList
+/*arrayList
   :  (array (array)*) -> ^(ArrayList array)
+  ;*/
+arrayList
+  :  (array (array)*) 
   ;
 
-
-array 	:	 builtin '[' (',')* ']' -> ^(Array builtin)
-	|	 custom '[' (',')* ']' -> ^(Array custom)
-	|	 '[' (',')* ']' -> ^(Array)
+array 	:	 '[' size+=(',')* ']' -> ^(Array ^($size)*) 
 ;
 
-arrayl	: ;
+//arrayl	: array -> ^(Array array);
 
 statement 
-	:	conditionStatement
-	|	assignmentStatement
-	|	blockStatement
-	|	whileStatement
-	|	doStatement
-	|	breakStatement
-	|	varStatement
-	|	returnStatement
+	:	conditionStatement 
+	|	assignmentStatement 
+	|	blockStatement 
+	|	whileStatement 
+	|	doStatement 
+	|	breakStatement 
+	|	varStatement 
+	|	returnStatement 
 	|	expressionStatement 
 	;
 
@@ -117,7 +128,7 @@ conditionStatement: 'if' '(' expr ')' statement (options {k=1; backtrack=false;}
 elseStatement	:	('else' statement) -> ^(ElseStatement statement)
 	;
 	
-varStatement	: typeRef listid? ';' -> ^(VarDeclaration ^(TypeRef typeRef)? listid?)
+varStatement	: typeRef listid? ';' -> ^(VarDeclaration typeRef? listid?)
 	;
 
 returnStatement
@@ -129,7 +140,7 @@ assignmentStatement
     ;
    
 
-listid	:	(identifier | indexer) ('=' expr)? ((',' (identifier | indexer) ('=' expr)?)*)? -> ^(ListID ^(Identifier identifier)? indexer ^(Expression expr)? (^(Identifier identifier indexer) ^(Expression expr)?)*)
+listid	:	(identifier | indexer) ('=' expr)? (',' (identifier | indexer) ('=' expr)?)* -> ^(ListID ^(Identifier identifier) indexer ^(Expression expr)? (^(Identifier identifier) indexer ^(Expression expr)?)*)
 	;
 
 place	: identifier -> ^(Identifier identifier)

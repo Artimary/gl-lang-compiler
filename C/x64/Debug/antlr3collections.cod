@@ -1018,7 +1018,7 @@ $unwind$antlr3IntTrieNew DD 020901H
 	DD	070055209H
 xdata	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT DFS
 _TEXT	SEGMENT
 edges$ = 32
@@ -1361,7 +1361,7 @@ $LN1@DFS:
 DFS	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT freeIntNode
 _TEXT	SEGMENT
 thisEntry$ = 32
@@ -1516,7 +1516,7 @@ $LN3@freeIntNod:
 freeIntNode ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3VectorResize
 _TEXT	SEGMENT
 newSize$ = 32
@@ -1691,7 +1691,7 @@ $LN1@antlr3Vect:
 antlr3VectorResize ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3EnumNextEntry
 _TEXT	SEGMENT
 bucket$ = 0
@@ -1835,7 +1835,7 @@ $LN1@antlr3Enum:
 antlr3EnumNextEntry ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT freeTopo
 _TEXT	SEGMENT
 i$ = 32
@@ -2013,7 +2013,7 @@ $LN9@freeTopo:
 freeTopo ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT sortVector
 _TEXT	SEGMENT
 i$ = 32
@@ -2288,7 +2288,7 @@ $LN1@sortVector:
 sortVector ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT sortToArray
 _TEXT	SEGMENT
 v$ = 32
@@ -2502,7 +2502,7 @@ $LN1@sortToArra:
 sortToArray ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT addEdge
 _TEXT	SEGMENT
 i$ = 32
@@ -2782,7 +2782,7 @@ $LN1@addEdge:
 addEdge	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT intTrieFree
 _TEXT	SEGMENT
 trie$ = 48
@@ -2821,7 +2821,7 @@ intTrieFree PROC					; COMDAT
 intTrieFree ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT intTrieAdd
 _TEXT	SEGMENT
 thisNode$ = 32
@@ -3709,7 +3709,7 @@ $LN1@intTrieAdd:
 intTrieAdd ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT intTrieDel
 _TEXT	SEGMENT
 p$ = 0
@@ -3745,7 +3745,7 @@ intTrieDel PROC						; COMDAT
 intTrieDel ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT intTrieGet
 _TEXT	SEGMENT
 thisNode$ = 0
@@ -3916,7 +3916,7 @@ $LN1@intTrieGet:
 intTrieGet ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT returnVector
 _TEXT	SEGMENT
 factory$ = 48
@@ -3968,7 +3968,7 @@ returnVector PROC					; COMDAT
 returnVector ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT newVector
 _TEXT	SEGMENT
 vector$ = 32
@@ -4130,7 +4130,7 @@ $LN1@newVector:
 newVector ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT closeVectorFactory
 _TEXT	SEGMENT
 pool$ = 32
@@ -4485,7 +4485,7 @@ $LN9@closeVecto:
 closeVectorFactory ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT newPool
 _TEXT	SEGMENT
 newPools$ = 32
@@ -4628,7 +4628,7 @@ $LN1@newPool:
 newPool	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3VectorSwap
 _TEXT	SEGMENT
 tempEntry$ = 0
@@ -4758,7 +4758,7 @@ $LN1@antlr3Vect:
 antlr3VectorSwap ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3VectorSize
 _TEXT	SEGMENT
 vector$ = 16
@@ -4781,7 +4781,7 @@ antlr3VectorSize PROC					; COMDAT
 antlr3VectorSize ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3VectorSet
 _TEXT	SEGMENT
 vector$ = 48
@@ -4926,7 +4926,7 @@ $LN1@antlr3Vect:
 antlr3VectorSet ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3VectorAdd
 _TEXT	SEGMENT
 vector$ = 48
@@ -5023,7 +5023,7 @@ $LN1@antlr3Vect:
 antlr3VectorAdd ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3VectorClear
 _TEXT	SEGMENT
 entry$ = 32
@@ -5126,7 +5126,7 @@ $LN3@antlr3Vect:
 antlr3VectorClear ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antrl3VectorRemove
 _TEXT	SEGMENT
 element$ = 32
@@ -5267,7 +5267,7 @@ $LN1@antrl3Vect:
 antrl3VectorRemove ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3VectorGet
 _TEXT	SEGMENT
 vector$ = 16
@@ -5322,7 +5322,7 @@ $LN1@antlr3Vect:
 antlr3VectorGet ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3VectorDel
 _TEXT	SEGMENT
 tv144 = 32
@@ -5470,7 +5470,7 @@ $LN1@antlr3Vect:
 antlr3VectorDel ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3VectorFree
 _TEXT	SEGMENT
 entry$ = 32
@@ -5611,7 +5611,7 @@ $LN6@antlr3Vect:
 antlr3VectorFree ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3StackPeek
 _TEXT	SEGMENT
 stack$ = 16
@@ -5634,7 +5634,7 @@ antlr3StackPeek PROC					; COMDAT
 antlr3StackPeek ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3StackSize
 _TEXT	SEGMENT
 stack$ = 16
@@ -5658,7 +5658,7 @@ antlr3StackSize PROC					; COMDAT
 antlr3StackSize ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3StackPush
 _TEXT	SEGMENT
 stack$ = 48
@@ -5699,7 +5699,7 @@ antlr3StackPush PROC					; COMDAT
 antlr3StackPush ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3StackGet
 _TEXT	SEGMENT
 stack$ = 48
@@ -5731,7 +5731,7 @@ antlr3StackGet PROC					; COMDAT
 antlr3StackGet ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3StackPop
 _TEXT	SEGMENT
 tv86 = 32
@@ -5801,7 +5801,7 @@ antlr3StackPop PROC					; COMDAT
 antlr3StackPop ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3StackFree
 _TEXT	SEGMENT
 stack$ = 48
@@ -5852,7 +5852,7 @@ antlr3StackFree PROC					; COMDAT
 antlr3StackFree ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3ListSize
 _TEXT	SEGMENT
 list$ = 48
@@ -5880,7 +5880,7 @@ antlr3ListSize PROC					; COMDAT
 antlr3ListSize ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3ListRemove
 _TEXT	SEGMENT
 entry$ = 32
@@ -5943,7 +5943,7 @@ $LN1@antlr3List:
 antlr3ListRemove ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3ListAdd
 _TEXT	SEGMENT
 key$ = 32
@@ -5990,7 +5990,7 @@ antlr3ListAdd PROC					; COMDAT
 antlr3ListAdd ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3ListPut
 _TEXT	SEGMENT
 list$ = 48
@@ -6027,7 +6027,7 @@ antlr3ListPut PROC					; COMDAT
 antlr3ListPut ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3ListGet
 _TEXT	SEGMENT
 list$ = 48
@@ -6058,7 +6058,7 @@ antlr3ListGet PROC					; COMDAT
 antlr3ListGet ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3ListDelete
 _TEXT	SEGMENT
 list$ = 48
@@ -6090,7 +6090,7 @@ antlr3ListDelete PROC					; COMDAT
 antlr3ListDelete ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3ListFree
 _TEXT	SEGMENT
 list$ = 48
@@ -6130,7 +6130,7 @@ antlr3ListFree PROC					; COMDAT
 antlr3ListFree ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3EnumFree
 _TEXT	SEGMENT
 en$ = 48
@@ -6159,7 +6159,7 @@ antlr3EnumFree PROC					; COMDAT
 antlr3EnumFree ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3EnumNext
 _TEXT	SEGMENT
 en$ = 48
@@ -6238,7 +6238,7 @@ $LN1@antlr3Enum:
 antlr3EnumNext ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3HashSize
 _TEXT	SEGMENT
 table$ = 16
@@ -6261,7 +6261,7 @@ antlr3HashSize PROC					; COMDAT
 antlr3HashSize ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3HashFree
 _TEXT	SEGMENT
 bucket$ = 32
@@ -6467,7 +6467,7 @@ $LN7@antlr3Hash:
 antlr3HashFree ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3HashPutI
 _TEXT	SEGMENT
 hash$ = 32
@@ -6672,7 +6672,7 @@ $LN1@antlr3Hash:
 antlr3HashPutI ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3HashRemoveI
 _TEXT	SEGMENT
 hash$ = 0
@@ -6827,7 +6827,7 @@ $LN1@antlr3Hash:
 antlr3HashRemoveI ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3HashGetI
 _TEXT	SEGMENT
 hash$ = 0
@@ -6938,7 +6938,7 @@ $LN1@antlr3Hash:
 antlr3HashGetI ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3HashDeleteI
 _TEXT	SEGMENT
 entry$ = 32
@@ -7009,7 +7009,7 @@ $LN2@antlr3Hash:
 antlr3HashDeleteI ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3HashPut
 _TEXT	SEGMENT
 hash$ = 32
@@ -7242,7 +7242,7 @@ $LN1@antlr3Hash:
 antlr3HashPut ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3HashRemove
 _TEXT	SEGMENT
 hash$ = 32
@@ -7428,7 +7428,7 @@ $LN1@antlr3Hash:
 antlr3HashRemove ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3HashGet
 _TEXT	SEGMENT
 hash$ = 32
@@ -7543,7 +7543,7 @@ $LN1@antlr3Hash:
 antlr3HashGet ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3HashDelete
 _TEXT	SEGMENT
 entry$ = 32
@@ -7614,7 +7614,7 @@ $LN2@antlr3Hash:
 antlr3HashDelete ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3TopoNew
 _TEXT	SEGMENT
 topo$ = 32
@@ -7738,7 +7738,7 @@ $LN1@antlr3Topo:
 antlr3TopoNew ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3SetVectorApi
 _TEXT	SEGMENT
 initialSize$ = 32
@@ -7946,7 +7946,7 @@ $LN1@antlr3SetV:
 antlr3SetVectorApi ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3StackNew
 _TEXT	SEGMENT
 stack$ = 32
@@ -8076,7 +8076,7 @@ $LN1@antlr3Stac:
 antlr3StackNew ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3VectorNew
 _TEXT	SEGMENT
 vector$ = 32
@@ -8142,7 +8142,7 @@ $LN1@antlr3Vect:
 antlr3VectorNew ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3VectorFactoryNew
 _TEXT	SEGMENT
 factory$ = 32
@@ -8273,7 +8273,7 @@ $LN1@antlr3Vect:
 antlr3VectorFactoryNew ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3ListNew
 _TEXT	SEGMENT
 list$ = 32
@@ -8404,7 +8404,7 @@ $LN1@antlr3List:
 antlr3ListNew ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3EnumNew
 _TEXT	SEGMENT
 en$ = 32
@@ -8525,7 +8525,7 @@ $LN1@antlr3Enum:
 antlr3EnumNew ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3Hash
 _TEXT	SEGMENT
 hash$ = 0
@@ -8634,7 +8634,7 @@ $LN3@antlr3Hash:
 antlr3Hash ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3HashTableNew
 _TEXT	SEGMENT
 table$ = 32
@@ -8868,7 +8868,7 @@ $LN1@antlr3Hash:
 antlr3HashTableNew ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c
+; File C:\SPO_labs\C\src\antlr3collections.c
 ;	COMDAT antlr3IntTrieNew
 _TEXT	SEGMENT
 trie$ = 32

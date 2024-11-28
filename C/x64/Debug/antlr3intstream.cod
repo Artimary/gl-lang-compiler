@@ -41,7 +41,7 @@ $unwind$antlr3IntStreamNew DD 020601H
 	DD	070025206H
 xdata	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3intstream.c
+; File C:\SPO_labs\C\src\antlr3intstream.c
 ;	COMDAT freeStream
 _TEXT	SEGMENT
 stream$ = 48
@@ -68,7 +68,7 @@ freeStream PROC						; COMDAT
 freeStream ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3intstream.c
+; File C:\SPO_labs\C\src\antlr3intstream.c
 ;	COMDAT antlr3IntStreamNew
 _TEXT	SEGMENT
 stream$ = 32

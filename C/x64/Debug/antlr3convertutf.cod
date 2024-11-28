@@ -383,7 +383,7 @@ $unwind$ConvertUTF8toUTF16 DD 021901H
 	DD	070159219H
 xdata	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3convertutf.c
+; File C:\SPO_labs\C\src\antlr3convertutf.c
 ;	COMDAT isLegalUTF8
 _TEXT	SEGMENT
 a$ = 0
@@ -599,7 +599,7 @@ $LN1@isLegalUTF:
 isLegalUTF8 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3convertutf.c
+; File C:\SPO_labs\C\src\antlr3convertutf.c
 ;	COMDAT isLegalUTF8Sequence
 _TEXT	SEGMENT
 length$ = 32
@@ -656,7 +656,7 @@ $LN1@isLegalUTF:
 isLegalUTF8Sequence ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3convertutf.c
+; File C:\SPO_labs\C\src\antlr3convertutf.c
 ;	COMDAT ConvertUTF32toUTF16
 _TEXT	SEGMENT
 result$ = 0
@@ -920,7 +920,7 @@ $LN3@ConvertUTF:
 ConvertUTF32toUTF16 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3convertutf.c
+; File C:\SPO_labs\C\src\antlr3convertutf.c
 ;	COMDAT ConvertUTF16toUTF32
 _TEXT	SEGMENT
 result$ = 0
@@ -1187,7 +1187,7 @@ $LN3@ConvertUTF:
 ConvertUTF16toUTF32 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3convertutf.c
+; File C:\SPO_labs\C\src\antlr3convertutf.c
 ;	COMDAT ConvertUTF32toUTF8
 _TEXT	SEGMENT
 result$ = 0
@@ -1518,7 +1518,7 @@ $LN3@ConvertUTF:
 ConvertUTF32toUTF8 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3convertutf.c
+; File C:\SPO_labs\C\src\antlr3convertutf.c
 ;	COMDAT ConvertUTF8toUTF32
 _TEXT	SEGMENT
 result$ = 32
@@ -1906,7 +1906,7 @@ $LN22@ConvertUTF:
 ConvertUTF8toUTF32 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3convertutf.c
+; File C:\SPO_labs\C\src\antlr3convertutf.c
 ;	COMDAT ConvertUTF16toUTF8
 _TEXT	SEGMENT
 result$ = 0
@@ -2339,7 +2339,7 @@ $LN3@ConvertUTF:
 ConvertUTF16toUTF8 ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3convertutf.c
+; File C:\SPO_labs\C\src\antlr3convertutf.c
 ;	COMDAT ConvertUTF8toUTF16
 _TEXT	SEGMENT
 result$ = 32

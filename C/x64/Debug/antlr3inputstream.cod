@@ -1084,7 +1084,7 @@ $unwind$antlr38BitSetupStream DD 020a01H
 	DD	07006320aH
 xdata	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3EBCDICLA
 _TEXT	SEGMENT
 input$ = 0
@@ -1157,7 +1157,7 @@ $LN1@antlr3EBCD:
 antlr3EBCDICLA ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3UTF8LA
 _TEXT	SEGMENT
 input$ = 0
@@ -1555,7 +1555,7 @@ $LN25@antlr3UTF8:
 antlr3UTF8LA ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3UTF8Consume
 _TEXT	SEGMENT
 input$ = 0
@@ -1849,7 +1849,7 @@ $LN14@antlr3UTF8:
 antlr3UTF8Consume ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3UTF32Substr
 _TEXT	SEGMENT
 tv75 = 32
@@ -1894,7 +1894,7 @@ antlr3UTF32Substr PROC					; COMDAT
 antlr3UTF32Substr ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3UTF32Seek
 _TEXT	SEGMENT
 input$ = 32
@@ -1983,7 +1983,7 @@ $LN5@antlr3UTF3:
 antlr3UTF32Seek ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3UTF32Index
 _TEXT	SEGMENT
 input$ = 0
@@ -2018,7 +2018,7 @@ antlr3UTF32Index PROC					; COMDAT
 antlr3UTF32Index ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3UTF32LABE
 _TEXT	SEGMENT
 input$ = 0
@@ -2111,7 +2111,7 @@ $LN1@antlr3UTF3:
 antlr3UTF32LABE ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3UTF32LALE
 _TEXT	SEGMENT
 input$ = 0
@@ -2204,7 +2204,7 @@ $LN1@antlr3UTF3:
 antlr3UTF32LALE ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3UTF32LA
 _TEXT	SEGMENT
 input$ = 0
@@ -2272,7 +2272,7 @@ $LN1@antlr3UTF3:
 antlr3UTF32LA ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3UTF32Consume
 _TEXT	SEGMENT
 input$ = 0
@@ -2376,7 +2376,7 @@ $LN2@antlr3UTF3:
 antlr3UTF32Consume ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3UTF16Substr
 _TEXT	SEGMENT
 tv75 = 32
@@ -2421,7 +2421,7 @@ antlr3UTF16Substr PROC					; COMDAT
 antlr3UTF16Substr ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3UTF16Seek
 _TEXT	SEGMENT
 input$ = 32
@@ -2510,7 +2510,7 @@ $LN5@antlr3UTF1:
 antlr3UTF16Seek ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3UTF16Index
 _TEXT	SEGMENT
 input$ = 0
@@ -2545,7 +2545,7 @@ antlr3UTF16Index PROC					; COMDAT
 antlr3UTF16Index ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3UTF16LABE
 _TEXT	SEGMENT
 input$ = 0
@@ -2954,7 +2954,7 @@ $LN1@antlr3UTF1:
 antlr3UTF16LABE ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3UTF16ConsumeBE
 _TEXT	SEGMENT
 input$ = 0
@@ -3160,7 +3160,7 @@ $LN2@antlr3UTF1:
 antlr3UTF16ConsumeBE ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3UTF16LALE
 _TEXT	SEGMENT
 input$ = 0
@@ -3568,7 +3568,7 @@ $LN1@antlr3UTF1:
 antlr3UTF16LALE ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3UTF16ConsumeLE
 _TEXT	SEGMENT
 input$ = 0
@@ -3772,7 +3772,7 @@ $LN2@antlr3UTF1:
 antlr3UTF16ConsumeLE ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3UTF16LA
 _TEXT	SEGMENT
 input$ = 0
@@ -4147,7 +4147,7 @@ $LN1@antlr3UTF1:
 antlr3UTF16LA ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3UTF16Consume
 _TEXT	SEGMENT
 input$ = 0
@@ -4343,7 +4343,7 @@ $LN2@antlr3UTF1:
 antlr3UTF16Consume ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr38BitSetUcaseLA
 _TEXT	SEGMENT
 input$ = 16
@@ -4399,7 +4399,7 @@ $LN3@antlr38Bit:
 antlr38BitSetUcaseLA ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr38BitSetNewLineChar
 _TEXT	SEGMENT
 input$ = 16
@@ -4426,7 +4426,7 @@ antlr38BitSetNewLineChar PROC				; COMDAT
 antlr38BitSetNewLineChar ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr38BitSetCharPosition
 _TEXT	SEGMENT
 input$ = 16
@@ -4452,7 +4452,7 @@ antlr38BitSetCharPosition PROC				; COMDAT
 antlr38BitSetCharPosition ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr38BitSetLine
 _TEXT	SEGMENT
 input$ = 16
@@ -4478,7 +4478,7 @@ antlr38BitSetLine PROC					; COMDAT
 antlr38BitSetLine ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr38BitGetCharPosition
 _TEXT	SEGMENT
 input$ = 16
@@ -4501,7 +4501,7 @@ antlr38BitGetCharPosition PROC				; COMDAT
 antlr38BitGetCharPosition ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr38BitGetLineBuf
 _TEXT	SEGMENT
 input$ = 16
@@ -4524,7 +4524,7 @@ antlr38BitGetLineBuf PROC				; COMDAT
 antlr38BitGetLineBuf ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr38BitGetLine
 _TEXT	SEGMENT
 input$ = 16
@@ -4547,7 +4547,7 @@ antlr38BitGetLine PROC					; COMDAT
 antlr38BitGetLine ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr38BitSubstr
 _TEXT	SEGMENT
 tv74 = 32
@@ -4589,7 +4589,7 @@ antlr38BitSubstr PROC					; COMDAT
 antlr38BitSubstr ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr38BitSize
 _TEXT	SEGMENT
 input$ = 16
@@ -4612,7 +4612,7 @@ antlr38BitSize PROC					; COMDAT
 antlr38BitSize ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr38BitLT
 _TEXT	SEGMENT
 input$ = 48
@@ -4649,7 +4649,7 @@ antlr38BitLT PROC					; COMDAT
 antlr38BitLT ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr38BitReuse
 _TEXT	SEGMENT
 tv76 = 32
@@ -4781,7 +4781,7 @@ $LN3@antlr38Bit:
 antlr38BitReuse ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3InputReset
 _TEXT	SEGMENT
 input$ = 48
@@ -4872,7 +4872,7 @@ $LN3@antlr3Inpu:
 antlr3InputReset ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3InputClose
 _TEXT	SEGMENT
 input$ = 48
@@ -4989,7 +4989,7 @@ $LN4@antlr3Inpu:
 antlr3InputClose ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr38BitGetSourceName
 _TEXT	SEGMENT
 is$ = 16
@@ -5012,7 +5012,7 @@ antlr38BitGetSourceName PROC				; COMDAT
 antlr38BitGetSourceName ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr38BitSeek
 _TEXT	SEGMENT
 count$ = 32
@@ -5108,7 +5108,7 @@ $LN5@antlr38Bit:
 antlr38BitSeek ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr38BitRelease
 _TEXT	SEGMENT
 input$ = 0
@@ -5150,7 +5150,7 @@ antlr38BitRelease PROC					; COMDAT
 antlr38BitRelease ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr38BitRewindLast
 _TEXT	SEGMENT
 is$ = 48
@@ -5179,7 +5179,7 @@ antlr38BitRewindLast PROC				; COMDAT
 antlr38BitRewindLast ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr38BitRewind
 _TEXT	SEGMENT
 state$ = 32
@@ -5297,7 +5297,7 @@ $LN1@antlr38Bit:
 antlr38BitRewind ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr38BitMark
 _TEXT	SEGMENT
 state$ = 32
@@ -5478,7 +5478,7 @@ $LN1@antlr38Bit:
 antlr38BitMark ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr38BitIndex
 _TEXT	SEGMENT
 input$ = 0
@@ -5513,7 +5513,7 @@ antlr38BitIndex PROC					; COMDAT
 antlr38BitIndex ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr38BitLA_ucase
 _TEXT	SEGMENT
 input$ = 32
@@ -5584,7 +5584,7 @@ $LN1@antlr38Bit:
 antlr38BitLA_ucase ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr38BitLA
 _TEXT	SEGMENT
 input$ = 0
@@ -5652,7 +5652,7 @@ $LN1@antlr38Bit:
 antlr38BitLA ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr38BitConsume
 _TEXT	SEGMENT
 input$ = 0
@@ -5754,7 +5754,7 @@ $LN2@antlr38Bit:
 antlr38BitConsume ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3GenericSetupStream
 _TEXT	SEGMENT
 input$ = 48
@@ -6024,7 +6024,7 @@ $LN3:
 antlr3GenericSetupStream ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3EBCDICSetupStream
 _TEXT	SEGMENT
 input$ = 48
@@ -6073,7 +6073,7 @@ $LN3:
 antlr3EBCDICSetupStream ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3UTF8SetupStream
 _TEXT	SEGMENT
 input$ = 48
@@ -6132,7 +6132,7 @@ $LN3:
 antlr3UTF8SetupStream ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3UTF32SetupStream
 _TEXT	SEGMENT
 tv76 = 32
@@ -6323,7 +6323,7 @@ $LN2@antlr3UTF3:
 antlr3UTF32SetupStream ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr3UTF16SetupStream
 _TEXT	SEGMENT
 tv74 = 32
@@ -6541,7 +6541,7 @@ $LN2@antlr3UTF1:
 antlr3UTF16SetupStream ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c
+; File C:\SPO_labs\C\src\antlr3inputstream.c
 ;	COMDAT antlr38BitSetupStream
 _TEXT	SEGMENT
 input$ = 48

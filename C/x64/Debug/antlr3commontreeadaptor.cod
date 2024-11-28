@@ -303,7 +303,7 @@ $unwind$ANTLR3_TREE_ADAPTORNew DD 020a01H
 	DD	07006520aH
 xdata	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c
+; File C:\SPO_labs\C\src\antlr3commontreeadaptor.c
 ;	COMDAT ctaFree
 _TEXT	SEGMENT
 cta$ = 32
@@ -374,7 +374,7 @@ ctaFree	PROC						; COMDAT
 ctaFree	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c
+; File C:\SPO_labs\C\src\antlr3commontreeadaptor.c
 ;	COMDAT getTokenStopIndex
 _TEXT	SEGMENT
 adaptor$ = 16
@@ -400,7 +400,7 @@ getTokenStopIndex PROC					; COMDAT
 getTokenStopIndex ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c
+; File C:\SPO_labs\C\src\antlr3commontreeadaptor.c
 ;	COMDAT getTokenStartIndex
 _TEXT	SEGMENT
 adaptor$ = 16
@@ -426,7 +426,7 @@ getTokenStartIndex PROC					; COMDAT
 getTokenStartIndex ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c
+; File C:\SPO_labs\C\src\antlr3commontreeadaptor.c
 ;	COMDAT dbgSetTokenBoundaries
 _TEXT	SEGMENT
 tv74 = 32
@@ -503,7 +503,7 @@ $LN2@dbgSetToke:
 dbgSetTokenBoundaries ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c
+; File C:\SPO_labs\C\src\antlr3commontreeadaptor.c
 ;	COMDAT setTokenBoundaries
 _TEXT	SEGMENT
 start$ = 32
@@ -632,7 +632,7 @@ $LN1@setTokenBo:
 setTokenBoundaries ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c
+; File C:\SPO_labs\C\src\antlr3commontreeadaptor.c
 ;	COMDAT errorNode
 _TEXT	SEGMENT
 adaptor$ = 48
@@ -675,7 +675,7 @@ errorNode PROC						; COMDAT
 errorNode ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c
+; File C:\SPO_labs\C\src\antlr3commontreeadaptor.c
 ;	COMDAT deleteChild
 _TEXT	SEGMENT
 adaptor$ = 48
@@ -707,7 +707,7 @@ deleteChild PROC					; COMDAT
 deleteChild ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c
+; File C:\SPO_labs\C\src\antlr3commontreeadaptor.c
 ;	COMDAT setChild
 _TEXT	SEGMENT
 adaptor$ = 48
@@ -743,7 +743,7 @@ setChild PROC						; COMDAT
 setChild ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c
+; File C:\SPO_labs\C\src\antlr3commontreeadaptor.c
 ;	COMDAT getParent
 _TEXT	SEGMENT
 adaptor$ = 48
@@ -772,7 +772,7 @@ getParent PROC						; COMDAT
 getParent ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c
+; File C:\SPO_labs\C\src\antlr3commontreeadaptor.c
 ;	COMDAT setParent
 _TEXT	SEGMENT
 adaptor$ = 48
@@ -805,7 +805,7 @@ setParent PROC						; COMDAT
 setParent ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c
+; File C:\SPO_labs\C\src\antlr3commontreeadaptor.c
 ;	COMDAT getChildIndex
 _TEXT	SEGMENT
 adaptor$ = 48
@@ -834,7 +834,7 @@ getChildIndex PROC					; COMDAT
 getChildIndex ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c
+; File C:\SPO_labs\C\src\antlr3commontreeadaptor.c
 ;	COMDAT setChildIndex
 _TEXT	SEGMENT
 adaptor$ = 48
@@ -866,7 +866,7 @@ setChildIndex PROC					; COMDAT
 setChildIndex ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c
+; File C:\SPO_labs\C\src\antlr3commontreeadaptor.c
 ;	COMDAT setDebugEventListener
 _TEXT	SEGMENT
 adaptor$ = 48
@@ -916,7 +916,7 @@ setDebugEventListener PROC				; COMDAT
 setDebugEventListener ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c
+; File C:\SPO_labs\C\src\antlr3commontreeadaptor.c
 ;	COMDAT replaceChildren
 _TEXT	SEGMENT
 adaptor$ = 48
@@ -962,7 +962,7 @@ $LN2@replaceChi:
 replaceChildren ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c
+; File C:\SPO_labs\C\src\antlr3commontreeadaptor.c
 ;	COMDAT getChildCount
 _TEXT	SEGMENT
 adaptor$ = 48
@@ -991,7 +991,7 @@ getChildCount PROC					; COMDAT
 getChildCount ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c
+; File C:\SPO_labs\C\src\antlr3commontreeadaptor.c
 ;	COMDAT getChild
 _TEXT	SEGMENT
 adaptor$ = 48
@@ -1022,7 +1022,7 @@ getChild PROC						; COMDAT
 getChild ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c
+; File C:\SPO_labs\C\src\antlr3commontreeadaptor.c
 ;	COMDAT getType
 _TEXT	SEGMENT
 adaptor$ = 48
@@ -1051,7 +1051,7 @@ getType	PROC						; COMDAT
 getType	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c
+; File C:\SPO_labs\C\src\antlr3commontreeadaptor.c
 ;	COMDAT getText
 _TEXT	SEGMENT
 adaptor$ = 48
@@ -1080,7 +1080,7 @@ getText	PROC						; COMDAT
 getText	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c
+; File C:\SPO_labs\C\src\antlr3commontreeadaptor.c
 ;	COMDAT createTokenFromToken
 _TEXT	SEGMENT
 newToken$ = 32
@@ -1265,7 +1265,7 @@ $LN2@createToke:
 createTokenFromToken ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c
+; File C:\SPO_labs\C\src\antlr3commontreeadaptor.c
 ;	COMDAT createToken
 _TEXT	SEGMENT
 newToken$ = 32
@@ -1352,7 +1352,7 @@ $LN2@createToke:
 createToken ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c
+; File C:\SPO_labs\C\src\antlr3commontreeadaptor.c
 ;	COMDAT dbgCreate
 _TEXT	SEGMENT
 ct$ = 32
@@ -1399,7 +1399,7 @@ dbgCreate PROC						; COMDAT
 dbgCreate ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c
+; File C:\SPO_labs\C\src\antlr3commontreeadaptor.c
 ;	COMDAT create
 _TEXT	SEGMENT
 ct$ = 32
@@ -1451,7 +1451,7 @@ create	PROC						; COMDAT
 create	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c
+; File C:\SPO_labs\C\src\antlr3commontreeadaptor.c
 ;	COMDAT dupNode
 _TEXT	SEGMENT
 tv68 = 32
@@ -1490,7 +1490,7 @@ $LN4@dupNode:
 dupNode	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c
+; File C:\SPO_labs\C\src\antlr3commontreeadaptor.c
 ;	COMDAT ANTLR3_TREE_ADAPTORDebugNew
 _TEXT	SEGMENT
 ta$ = 32
@@ -1565,7 +1565,7 @@ $LN2@ANTLR3_TRE:
 ANTLR3_TREE_ADAPTORDebugNew ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c
+; File C:\SPO_labs\C\src\antlr3commontreeadaptor.c
 ;	COMDAT ANTLR3_TREE_ADAPTORNew
 _TEXT	SEGMENT
 cta$ = 32

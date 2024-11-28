@@ -458,7 +458,7 @@ $unwind$__local_stdio_printf_options DD 010201H
 	DD	07002H
 xdata	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT antlr3RewriteRuleElementStreamNewAEV
 _TEXT	SEGMENT
 stream$ = 32
@@ -562,7 +562,7 @@ $LN1@antlr3Rewr:
 antlr3RewriteRuleElementStreamNewAEV ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT antlr3RewriteRuleElementStreamNewAEE
 _TEXT	SEGMENT
 stream$ = 32
@@ -642,7 +642,7 @@ $LN1@antlr3Rewr:
 antlr3RewriteRuleElementStreamNewAEE ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT antlr3RewriteRuleElementStreamNewAE
 _TEXT	SEGMENT
 stream$ = 32
@@ -903,7 +903,7 @@ $LN1@antlr3Rewr:
 antlr3RewriteRuleElementStreamNewAE ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT freeNodeRS
 _TEXT	SEGMENT
 tree$ = 32
@@ -1136,7 +1136,7 @@ $LN6@freeNodeRS:
 freeNodeRS ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT expungeRS
 _TEXT	SEGMENT
 stream$ = 48
@@ -1187,7 +1187,7 @@ $LN2@expungeRS:
 expungeRS ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT freeRS
 _TEXT	SEGMENT
 factory$1 = 32
@@ -1327,7 +1327,7 @@ $LN3@freeRS:
 freeRS	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT getDescription
 _TEXT	SEGMENT
 stream$ = 16
@@ -1367,7 +1367,7 @@ $LN2@getDescrip:
 getDescription ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT size
 _TEXT	SEGMENT
 n$ = 0
@@ -1440,7 +1440,7 @@ $LN1@size:
 size	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT nextNodeToken
 _TEXT	SEGMENT
 tv73 = 32
@@ -1476,7 +1476,7 @@ nextNodeToken PROC					; COMDAT
 nextNodeToken ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT nextNodeNode
 _TEXT	SEGMENT
 stream$ = 48
@@ -1502,7 +1502,7 @@ nextNodeNode PROC					; COMDAT
 nextNodeNode ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT nextNode
 _TEXT	SEGMENT
 n$ = 32
@@ -1581,7 +1581,7 @@ $LN1@nextNode:
 nextNode ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT hasNext
 _TEXT	SEGMENT
 stream$ = 48
@@ -1645,7 +1645,7 @@ $LN1@hasNext:
 hasNext	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT toTreeNode
 _TEXT	SEGMENT
 stream$ = 48
@@ -1677,7 +1677,7 @@ toTreeNode PROC						; COMDAT
 toTreeNode ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT toTree
 _TEXT	SEGMENT
 stream$ = 16
@@ -1701,7 +1701,7 @@ toTree	PROC						; COMDAT
 toTree	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT dupTreeNode
 _TEXT	SEGMENT
 stream$ = 48
@@ -1737,7 +1737,7 @@ dupTreeNode PROC					; COMDAT
 dupTreeNode ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT dupTree
 _TEXT	SEGMENT
 stream$ = 48
@@ -1769,7 +1769,7 @@ dupTree	PROC						; COMDAT
 dupTree	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT dupTok
 _TEXT	SEGMENT
 stream$ = 48
@@ -1805,7 +1805,7 @@ dupTok	PROC						; COMDAT
 dupTok	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT _next
 _TEXT	SEGMENT
 n$ = 32
@@ -1958,7 +1958,7 @@ $LN1@next:
 _next	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT nextToken
 _TEXT	SEGMENT
 stream$ = 48
@@ -1984,7 +1984,7 @@ nextToken PROC						; COMDAT
 nextToken ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT nextTree
 _TEXT	SEGMENT
 n$ = 32
@@ -2067,7 +2067,7 @@ $LN1@nextTree:
 nextTree ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT next
 _TEXT	SEGMENT
 s$ = 32
@@ -2137,7 +2137,7 @@ $LN1@next:
 next	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT add
 _TEXT	SEGMENT
 factory$1 = 32
@@ -2303,7 +2303,7 @@ $LN1@add:
 add	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT reset
 _TEXT	SEGMENT
 stream$ = 16
@@ -2332,7 +2332,7 @@ reset	PROC						; COMDAT
 reset	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT antlr3RewriteRuleSubtreeStreamNewAEV
 _TEXT	SEGMENT
 stream$ = 32
@@ -2420,7 +2420,7 @@ $LN1@antlr3Rewr:
 antlr3RewriteRuleSubtreeStreamNewAEV ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT antlr3RewriteRuleSubtreeStreamNewAEE
 _TEXT	SEGMENT
 stream$ = 32
@@ -2508,7 +2508,7 @@ $LN1@antlr3Rewr:
 antlr3RewriteRuleSubtreeStreamNewAEE ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT antlr3RewriteRuleSubtreeStreamNewAE
 _TEXT	SEGMENT
 stream$ = 32
@@ -2593,7 +2593,7 @@ $LN1@antlr3Rewr:
 antlr3RewriteRuleSubtreeStreamNewAE ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT antlr3RewriteRuleNODEStreamNewAEV
 _TEXT	SEGMENT
 stream$ = 32
@@ -2672,7 +2672,7 @@ $LN3:
 antlr3RewriteRuleNODEStreamNewAEV ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT antlr3RewriteRuleNODEStreamNewAEE
 _TEXT	SEGMENT
 stream$ = 32
@@ -2751,7 +2751,7 @@ $LN3:
 antlr3RewriteRuleNODEStreamNewAEE ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT antlr3RewriteRuleNODEStreamNewAE
 _TEXT	SEGMENT
 stream$ = 32
@@ -2843,7 +2843,7 @@ $LN1@antlr3Rewr:
 antlr3RewriteRuleNODEStreamNewAE ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT antlr3RewriteRuleTOKENStreamNewAEV
 _TEXT	SEGMENT
 stream$ = 32
@@ -2909,7 +2909,7 @@ $LN3:
 antlr3RewriteRuleTOKENStreamNewAEV ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT antlr3RewriteRuleTOKENStreamNewAEE
 _TEXT	SEGMENT
 stream$ = 32
@@ -2975,7 +2975,7 @@ $LN3:
 antlr3RewriteRuleTOKENStreamNewAEE ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c
+; File C:\SPO_labs\C\src\antlr3rewritestreams.c
 ;	COMDAT antlr3RewriteRuleTOKENStreamNewAE
 _TEXT	SEGMENT
 stream$ = 32

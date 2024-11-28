@@ -87,12 +87,12 @@
     <RemoteReBuildCommandLine>make rebuild</RemoteReBuildCommandLine>
     <RemoteCleanCommandLine>make clean</RemoteCleanCommandLine>
     <NMakeIncludeSearchPath>C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\include;C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\x64\Debug;C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\x64\DebugDLL;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
-    <RemoteBuildOutputs>/home/user/projects/LinuxV/LinuxV/app</RemoteBuildOutputs>
+    <RemoteBuildOutputs>/home/user/projects/LinuxV/app</RemoteBuildOutputs>
     <ProjectPublicIncludePath>
     </ProjectPublicIncludePath>
     <NMakeForcedIncludes>
     </NMakeForcedIncludes>
-    <RemoteDeployDir>$(RemoteRootDir)/$(ProjectName)</RemoteDeployDir>
+    <RemoteDeployDir>$(ProjectName)</RemoteDeployDir>
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="antlr\labgrammLexer.c" />
@@ -106,38 +106,9 @@
     <None Include="makefile" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\C\include\antlr3.h" />
-    <ClInclude Include="..\C\include\antlr3baserecognizer.h" />
-    <ClInclude Include="..\C\include\antlr3basetree.h" />
-    <ClInclude Include="..\C\include\antlr3basetreeadaptor.h" />
-    <ClInclude Include="..\C\include\antlr3bitset.h" />
-    <ClInclude Include="..\C\include\antlr3collections.h" />
-    <ClInclude Include="..\C\include\antlr3commontoken.h" />
-    <ClInclude Include="..\C\include\antlr3commontree.h" />
-    <ClInclude Include="..\C\include\antlr3commontreeadaptor.h" />
-    <ClInclude Include="..\C\include\antlr3commontreenodestream.h" />
-    <ClInclude Include="..\C\include\antlr3convertutf.h" />
-    <ClInclude Include="..\C\include\antlr3cyclicdfa.h" />
-    <ClInclude Include="..\C\include\antlr3debugeventlistener.h" />
-    <ClInclude Include="..\C\include\antlr3defs.h" />
-    <ClInclude Include="..\C\include\antlr3encodings.h" />
-    <ClInclude Include="..\C\include\antlr3errors.h" />
-    <ClInclude Include="..\C\include\antlr3exception.h" />
-    <ClInclude Include="..\C\include\antlr3filestream.h" />
-    <ClInclude Include="..\C\include\antlr3input.h" />
-    <ClInclude Include="..\C\include\antlr3interfaces.h" />
-    <ClInclude Include="..\C\include\antlr3intstream.h" />
-    <ClInclude Include="..\C\include\antlr3lexer.h" />
-    <ClInclude Include="..\C\include\antlr3memory.h" />
-    <ClInclude Include="..\C\include\antlr3parser.h" />
-    <ClInclude Include="..\C\include\antlr3parsetree.h" />
-    <ClInclude Include="..\C\include\antlr3recognizersharedstate.h" />
-    <ClInclude Include="..\C\include\antlr3rewritestreams.h" />
-    <ClInclude Include="..\C\include\antlr3string.h" />
-    <ClInclude Include="..\C\include\antlr3tokenstream.h" />
-    <ClInclude Include="..\C\include\antlr3treeparser.h" />
     <ClInclude Include="antlr\labgrammLexer.h" />
     <ClInclude Include="antlr\labgrammParser.h" />
+    <ClInclude Include="define.h" />
     <ClInclude Include="treeStructure.h" />
   </ItemGroup>
   <ItemGroup>

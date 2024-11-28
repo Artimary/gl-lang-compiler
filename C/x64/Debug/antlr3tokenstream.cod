@@ -534,7 +534,7 @@ $unwind$antlr3CommonTokenStreamSourceNew DD 020e01H
 	DD	0700a520eH
 xdata	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT consumeInitialHiddenTokens
 _TEXT	SEGMENT
 first$ = 32
@@ -620,7 +620,7 @@ $LN3@consumeIni:
 consumeInitialHiddenTokens ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT antlr3TokenStreamNew
 _TEXT	SEGMENT
 stream$ = 32
@@ -683,7 +683,7 @@ $LN1@antlr3Toke:
 antlr3TokenStreamNew ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT LB
 _TEXT	SEGMENT
 i$ = 32
@@ -828,7 +828,7 @@ $LN1@LB:
 LB	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT skipOffTokenChannelsReverse
 _TEXT	SEGMENT
 tok$ = 0
@@ -910,7 +910,7 @@ $LN1@skipOffTok:
 skipOffTokenChannelsReverse ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT skipOffTokenChannels
 _TEXT	SEGMENT
 n$ = 0
@@ -1004,7 +1004,7 @@ $LN1@skipOffTok:
 skipOffTokenChannels ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT fillBuffer
 _TEXT	SEGMENT
 index$ = 32
@@ -1299,7 +1299,7 @@ $LN3@fillBuffer:
 fillBuffer ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT antlr3CTSFree
 _TEXT	SEGMENT
 tv143 = 32
@@ -1458,7 +1458,7 @@ $LN6@antlr3CTSF:
 antlr3CTSFree ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT antlr3TokenStreamFree
 _TEXT	SEGMENT
 stream$ = 48
@@ -1485,7 +1485,7 @@ antlr3TokenStreamFree PROC				; COMDAT
 antlr3TokenStreamFree ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT getSourceName
 _TEXT	SEGMENT
 is$ = 16
@@ -1516,7 +1516,7 @@ getSourceName PROC					; COMDAT
 getSourceName ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT dbgSeek
 _TEXT	SEGMENT
 is$ = 48
@@ -1547,7 +1547,7 @@ dbgSeek	PROC						; COMDAT
 dbgSeek	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT seek
 _TEXT	SEGMENT
 cts$ = 0
@@ -1593,7 +1593,7 @@ seek	PROC						; COMDAT
 seek	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT dbgRewindLast
 _TEXT	SEGMENT
 ts$ = 32
@@ -1642,7 +1642,7 @@ dbgRewindLast PROC					; COMDAT
 dbgRewindLast ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT rewindLast
 _TEXT	SEGMENT
 is$ = 48
@@ -1671,7 +1671,7 @@ rewindLast PROC						; COMDAT
 rewindLast ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT dbgRewindStream
 _TEXT	SEGMENT
 ts$ = 32
@@ -1723,7 +1723,7 @@ dbgRewindStream PROC					; COMDAT
 dbgRewindStream ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT rewindStream
 _TEXT	SEGMENT
 is$ = 48
@@ -1754,7 +1754,7 @@ rewindStream PROC					; COMDAT
 rewindStream ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT tindex
 _TEXT	SEGMENT
 cts$ = 0
@@ -1797,7 +1797,7 @@ tindex	PROC						; COMDAT
 tindex	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT size
 _TEXT	SEGMENT
 cts$ = 0
@@ -1864,7 +1864,7 @@ $LN1@size:
 size	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT release
 _TEXT	SEGMENT
 is$ = 16
@@ -1885,7 +1885,7 @@ release	PROC						; COMDAT
 release	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT dbgMark
 _TEXT	SEGMENT
 ts$ = 32
@@ -1940,7 +1940,7 @@ dbgMark	PROC						; COMDAT
 dbgMark	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT mark
 _TEXT	SEGMENT
 is$ = 48
@@ -1973,7 +1973,7 @@ mark	PROC						; COMDAT
 mark	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT dbgLA
 _TEXT	SEGMENT
 ts$ = 32
@@ -2044,7 +2044,7 @@ $LN2@dbgLA:
 dbgLA	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT _LA
 _TEXT	SEGMENT
 ts$ = 32
@@ -2116,7 +2116,7 @@ $LN1@LA:
 _LA	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT dbgConsume
 _TEXT	SEGMENT
 ts$ = 32
@@ -2266,7 +2266,7 @@ $LN6@dbgConsume:
 dbgConsume ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT consume
 _TEXT	SEGMENT
 cts$ = 32
@@ -2333,7 +2333,7 @@ $LN2@consume:
 consume	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT setDebugListener
 _TEXT	SEGMENT
 ts$ = 16
@@ -2426,7 +2426,7 @@ setDebugListener PROC					; COMDAT
 setDebugListener ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT toStringTT
 _TEXT	SEGMENT
 tv69 = 32
@@ -2494,7 +2494,7 @@ $LN1@toStringTT:
 toStringTT ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT toStringSS
 _TEXT	SEGMENT
 string$ = 32
@@ -2670,7 +2670,7 @@ $LN1@toStringSS:
 toStringSS ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT toString
 _TEXT	SEGMENT
 cts$ = 32
@@ -2729,7 +2729,7 @@ $LN2@toString:
 toString ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT setTokenSource
 _TEXT	SEGMENT
 ts$ = 16
@@ -2755,7 +2755,7 @@ setTokenSource PROC					; COMDAT
 setTokenSource ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT getTokenSource
 _TEXT	SEGMENT
 ts$ = 16
@@ -2778,7 +2778,7 @@ getTokenSource PROC					; COMDAT
 getTokenSource ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT get
 _TEXT	SEGMENT
 cts$ = 32
@@ -2820,7 +2820,7 @@ get	PROC						; COMDAT
 get	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT dbgTokLT
 _TEXT	SEGMENT
 ts$ = 48
@@ -2865,7 +2865,7 @@ $LN2@dbgTokLT:
 dbgTokLT ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT tokLT
 _TEXT	SEGMENT
 i$ = 32
@@ -3105,7 +3105,7 @@ $LN1@tokLT:
 tokLT	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT reset
 _TEXT	SEGMENT
 cts$ = 48
@@ -3238,7 +3238,7 @@ $LN5@reset:
 reset	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT getTokensType
 _TEXT	SEGMENT
 bitSet$ = 32
@@ -3298,7 +3298,7 @@ getTokensType PROC					; COMDAT
 getTokensType ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT getTokensList
 _TEXT	SEGMENT
 bitSet$ = 32
@@ -3360,7 +3360,7 @@ getTokensList PROC					; COMDAT
 getTokensList ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT getTokensSet
 _TEXT	SEGMENT
 filteredList$ = 32
@@ -3599,7 +3599,7 @@ $LN1@getTokensS:
 getTokensSet ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT getTokenRange
 _TEXT	SEGMENT
 tokenStream$ = 48
@@ -3632,7 +3632,7 @@ getTokenRange PROC					; COMDAT
 getTokenRange ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT getTokens
 _TEXT	SEGMENT
 tokenStream$ = 48
@@ -3673,7 +3673,7 @@ $LN2@getTokens:
 getTokens ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT discardOffChannel
 _TEXT	SEGMENT
 tokenStream$ = 16
@@ -3699,7 +3699,7 @@ discardOffChannel PROC					; COMDAT
 discardOffChannel ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT discardTokenType
 _TEXT	SEGMENT
 tv71 = 32
@@ -3760,7 +3760,7 @@ $LN2@discardTok:
 discardTokenType ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT setTokenTypeChannel
 _TEXT	SEGMENT
 tv71 = 32
@@ -3823,7 +3823,7 @@ $LN2@setTokenTy:
 setTokenTypeChannel ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT fillBufferExt
 _TEXT	SEGMENT
 tokenStream$ = 48
@@ -3850,7 +3850,7 @@ $LN3:
 fillBufferExt ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT antlr3CommonTokenDebugStreamSourceNew
 _TEXT	SEGMENT
 stream$ = 32
@@ -3975,7 +3975,7 @@ $LN3:
 antlr3CommonTokenDebugStreamSourceNew ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT antlr3CommonTokenStreamNew
 _TEXT	SEGMENT
 stream$ = 32
@@ -4317,7 +4317,7 @@ $LN1@antlr3Comm:
 antlr3CommonTokenStreamNew ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c
+; File C:\SPO_labs\C\src\antlr3tokenstream.c
 ;	COMDAT antlr3CommonTokenStreamSourceNew
 _TEXT	SEGMENT
 stream$ = 32

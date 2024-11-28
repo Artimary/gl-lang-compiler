@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ap-ip\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ITMO\\SPO_labs\\",
+  "WorkspaceRootPath": "C:\\SPO_labs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3341B6B7-AA0D-469D-B451-FE46CDF0D862}|LinuxV\\LinuxV.vcxproj|C:\\Users\\ap-ip\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ITMO\\SPO_labs\\LinuxV\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3341B6B7-AA0D-469D-B451-FE46CDF0D862}|LinuxV\\LinuxV.vcxproj|solutionrelative:LinuxV\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F4BFB07B-4232-442A-BF9A-C37F35556AE8}|WinV\\WinV.vcxproj|C:\\SPO_labs\\LinuxV\\treeStructure.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F4BFB07B-4232-442A-BF9A-C37F35556AE8}|WinV\\WinV.vcxproj|solutionrelative:LinuxV\\treeStructure.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3341B6B7-AA0D-469D-B451-FE46CDF0D862}|LinuxV\\LinuxV.vcxproj|C:\\Users\\ap-ip\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ITMO\\SPO_labs\\LinuxV\\makefile||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{F4BFB07B-4232-442A-BF9A-C37F35556AE8}|WinV\\WinV.vcxproj|C:\\SPO_labs\\LinuxV\\define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F4BFB07B-4232-442A-BF9A-C37F35556AE8}|WinV\\WinV.vcxproj|solutionrelative:LinuxV\\define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BFB07B-4232-442A-BF9A-C37F35556AE8}|WinV\\WinV.vcxproj|C:\\SPO_labs\\WinV\\example.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F4BFB07B-4232-442A-BF9A-C37F35556AE8}|WinV\\WinV.vcxproj|solutionrelative:WinV\\example.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BFB07B-4232-442A-BF9A-C37F35556AE8}|WinV\\WinV.vcxproj|C:\\SPO_labs\\LinuxV\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F4BFB07B-4232-442A-BF9A-C37F35556AE8}|WinV\\WinV.vcxproj|solutionrelative:LinuxV\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BFB07B-4232-442A-BF9A-C37F35556AE8}|WinV\\WinV.vcxproj|C:\\SPO_labs\\LinuxV\\treeStructure.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F4BFB07B-4232-442A-BF9A-C37F35556AE8}|WinV\\WinV.vcxproj|solutionrelative:LinuxV\\treeStructure.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3341B6B7-AA0D-469D-B451-FE46CDF0D862}|LinuxV\\LinuxV.vcxproj|C:\\SPO_labs\\LinuxV\\makefile||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{3341B6B7-AA0D-469D-B451-FE46CDF0D862}|LinuxV\\LinuxV.vcxproj|solutionrelative:LinuxV\\makefile||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3341B6B7-AA0D-469D-B451-FE46CDF0D862}|LinuxV\\LinuxV.vcxproj|C:\\Users\\ap-ip\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ITMO\\SPO_labs\\LinuxV\\treeStructure.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3341B6B7-AA0D-469D-B451-FE46CDF0D862}|LinuxV\\LinuxV.vcxproj|solutionrelative:LinuxV\\treeStructure.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3341B6B7-AA0D-469D-B451-FE46CDF0D862}|LinuxV\\LinuxV.vcxproj|C:\\Users\\ap-ip\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ITMO\\SPO_labs\\LinuxV\\antlr\\labgrammParser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3341B6B7-AA0D-469D-B451-FE46CDF0D862}|LinuxV\\LinuxV.vcxproj|solutionrelative:LinuxV\\antlr\\labgrammParser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3341B6B7-AA0D-469D-B451-FE46CDF0D862}|LinuxV\\LinuxV.vcxproj|C:\\Users\\ap-ip\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ITMO\\SPO_labs\\LinuxV\\antlr\\labgrammLexer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3341B6B7-AA0D-469D-B451-FE46CDF0D862}|LinuxV\\LinuxV.vcxproj|solutionrelative:LinuxV\\antlr\\labgrammLexer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3341B6B7-AA0D-469D-B451-FE46CDF0D862}|LinuxV\\LinuxV.vcxproj|C:\\Users\\ap-ip\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ITMO\\SPO_labs\\LinuxV\\treeStructure.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3341B6B7-AA0D-469D-B451-FE46CDF0D862}|LinuxV\\LinuxV.vcxproj|solutionrelative:LinuxV\\treeStructure.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,85 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "labgrammParser.h",
-              "DocumentMoniker": "C:\\Users\\ap-ip\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ITMO\\SPO_labs\\LinuxV\\antlr\\labgrammParser.h",
-              "RelativeDocumentMoniker": "LinuxV\\antlr\\labgrammParser.h",
-              "ToolTip": "C:\\Users\\ap-ip\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ITMO\\SPO_labs\\LinuxV\\antlr\\labgrammParser.h",
-              "RelativeToolTip": "LinuxV\\antlr\\labgrammParser.h",
-              "ViewState": "AgIAAOUAAAAAAAAAAAAowPkAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-12T16:16:39.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "labgrammLexer.h",
-              "DocumentMoniker": "C:\\Users\\ap-ip\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ITMO\\SPO_labs\\LinuxV\\antlr\\labgrammLexer.h",
-              "RelativeDocumentMoniker": "LinuxV\\antlr\\labgrammLexer.h",
-              "ToolTip": "C:\\Users\\ap-ip\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ITMO\\SPO_labs\\LinuxV\\antlr\\labgrammLexer.h",
-              "RelativeToolTip": "LinuxV\\antlr\\labgrammLexer.h",
-              "ViewState": "AgIAAOcAAAAAAAAAAAAAAOwAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-12T16:16:27.31Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "treeStructure.h",
-              "DocumentMoniker": "C:\\Users\\ap-ip\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ITMO\\SPO_labs\\LinuxV\\treeStructure.h",
-              "RelativeDocumentMoniker": "LinuxV\\treeStructure.h",
-              "ToolTip": "C:\\Users\\ap-ip\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ITMO\\SPO_labs\\LinuxV\\treeStructure.h",
-              "RelativeToolTip": "LinuxV\\treeStructure.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-12T14:45:51.622Z",
-              "EditorCaption": ""
+              "Title": "example.txt",
+              "DocumentMoniker": "C:\\SPO_labs\\WinV\\example.txt",
+              "RelativeDocumentMoniker": "WinV\\example.txt",
+              "ToolTip": "C:\\SPO_labs\\WinV\\example.txt",
+              "RelativeToolTip": "WinV\\example.txt",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-28T11:45:16.996Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "makefile",
-              "DocumentMoniker": "C:\\Users\\ap-ip\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ITMO\\SPO_labs\\LinuxV\\makefile",
-              "RelativeDocumentMoniker": "LinuxV\\makefile",
-              "ToolTip": "C:\\Users\\ap-ip\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ITMO\\SPO_labs\\LinuxV\\makefile",
-              "RelativeToolTip": "LinuxV\\makefile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-12T12:01:53.323Z",
-              "EditorCaption": ""
+              "Title": "define.h",
+              "DocumentMoniker": "C:\\SPO_labs\\LinuxV\\define.h",
+              "RelativeDocumentMoniker": "LinuxV\\define.h",
+              "ToolTip": "C:\\SPO_labs\\LinuxV\\define.h",
+              "RelativeToolTip": "LinuxV\\define.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-28T10:31:20.347Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "treeStructure.c",
-              "DocumentMoniker": "C:\\Users\\ap-ip\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ITMO\\SPO_labs\\LinuxV\\treeStructure.c",
+              "DocumentMoniker": "C:\\SPO_labs\\LinuxV\\treeStructure.c",
               "RelativeDocumentMoniker": "LinuxV\\treeStructure.c",
-              "ToolTip": "C:\\Users\\ap-ip\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ITMO\\SPO_labs\\LinuxV\\treeStructure.c",
+              "ToolTip": "C:\\SPO_labs\\LinuxV\\treeStructure.c",
               "RelativeToolTip": "LinuxV\\treeStructure.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAtwKUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-11-12T12:30:20.634Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
+              "Title": "makefile",
+              "DocumentMoniker": "C:\\SPO_labs\\LinuxV\\makefile",
+              "RelativeDocumentMoniker": "LinuxV\\makefile",
+              "ToolTip": "C:\\SPO_labs\\LinuxV\\makefile",
+              "RelativeToolTip": "LinuxV\\makefile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-12T12:01:53.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "treeStructure.h",
+              "DocumentMoniker": "C:\\SPO_labs\\LinuxV\\treeStructure.h",
+              "RelativeDocumentMoniker": "LinuxV\\treeStructure.h",
+              "ToolTip": "C:\\SPO_labs\\LinuxV\\treeStructure.h",
+              "RelativeToolTip": "LinuxV\\treeStructure.h",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-12T14:45:51.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "main.c",
-              "DocumentMoniker": "C:\\Users\\ap-ip\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ITMO\\SPO_labs\\LinuxV\\main.c",
+              "DocumentMoniker": "C:\\SPO_labs\\LinuxV\\main.c",
               "RelativeDocumentMoniker": "LinuxV\\main.c",
-              "ToolTip": "C:\\Users\\ap-ip\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\ITMO\\SPO_labs\\LinuxV\\main.c",
+              "ToolTip": "C:\\SPO_labs\\LinuxV\\main.c",
               "RelativeToolTip": "LinuxV\\main.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwDMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-12T12:01:51.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T12:01:51.993Z"
             }
           ]
         }

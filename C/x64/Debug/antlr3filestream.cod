@@ -181,7 +181,7 @@ $unwind$antlr3FileStreamNew DD 020e01H
 	DD	0700a520eH
 xdata	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3filestream.c
+; File C:\SPO_labs\C\src\antlr3filestream.c
 ;	COMDAT antlr3CreateStringStream
 _TEXT	SEGMENT
 input$ = 32
@@ -277,7 +277,7 @@ $LN1@antlr3Crea:
 antlr3CreateStringStream ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3filestream.c
+; File C:\SPO_labs\C\src\antlr3filestream.c
 ;	COMDAT antlr3CreateFileStream
 _TEXT	SEGMENT
 input$ = 32
@@ -394,7 +394,7 @@ $LN1@antlr3Crea:
 antlr3CreateFileStream ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3filestream.c
+; File C:\SPO_labs\C\src\antlr3filestream.c
 ;	COMDAT setupInputStream
 _TEXT	SEGMENT
 isBigEndian$ = 32
@@ -960,7 +960,7 @@ $LN26@setupInput:
 setupInputStream ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3filestream.c
+; File C:\SPO_labs\C\src\antlr3filestream.c
 ;	COMDAT antlr3Fread
 _TEXT	SEGMENT
 fdsc$ = 48
@@ -996,7 +996,7 @@ $LN3:
 antlr3Fread ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3filestream.c
+; File C:\SPO_labs\C\src\antlr3filestream.c
 ;	COMDAT antlr3read8Bit
 _TEXT	SEGMENT
 infile$ = 32
@@ -1126,7 +1126,7 @@ $LN1@antlr3read:
 antlr3read8Bit ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3filestream.c
+; File C:\SPO_labs\C\src\antlr3filestream.c
 ;	COMDAT antlr3Fsize
 _TEXT	SEGMENT
 statbuf$ = 40
@@ -1185,7 +1185,7 @@ $LN3:
 antlr3Fsize ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3filestream.c
+; File C:\SPO_labs\C\src\antlr3filestream.c
 ;	COMDAT antlr3Fclose
 _TEXT	SEGMENT
 fd$ = 48
@@ -1213,7 +1213,7 @@ $LN3:
 antlr3Fclose ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3filestream.c
+; File C:\SPO_labs\C\src\antlr3filestream.c
 ;	COMDAT antlr3Fopen
 _TEXT	SEGMENT
 filename$ = 48
@@ -1243,7 +1243,7 @@ $LN3:
 antlr3Fopen ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3filestream.c
+; File C:\SPO_labs\C\src\antlr3filestream.c
 ;	COMDAT antlr3StringStreamNew
 _TEXT	SEGMENT
 input$ = 32
@@ -1355,7 +1355,7 @@ $LN1@antlr3Stri:
 antlr3StringStreamNew ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3filestream.c
+; File C:\SPO_labs\C\src\antlr3filestream.c
 ;	COMDAT antlr3FileStreamNew
 _TEXT	SEGMENT
 input$ = 32

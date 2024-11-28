@@ -126,7 +126,7 @@ $unwind$__local_stdio_printf_options DD 010201H
 	DD	07002H
 xdata	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3exception.c
+; File C:\SPO_labs\C\src\antlr3exception.c
 ;	COMDAT antlr3ExceptionFree
 _TEXT	SEGMENT
 next$ = 32
@@ -234,7 +234,7 @@ $LN3@antlr3Exce:
 antlr3ExceptionFree ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3exception.c
+; File C:\SPO_labs\C\src\antlr3exception.c
 ;	COMDAT antlr3ExceptionPrint
 _TEXT	SEGMENT
 ex$ = 48
@@ -326,7 +326,7 @@ $LN3@antlr3Exce:
 antlr3ExceptionPrint ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3exception.c
+; File C:\SPO_labs\C\src\antlr3exception.c
 ;	COMDAT antlr3ExceptionNew
 _TEXT	SEGMENT
 ex$ = 32

@@ -434,7 +434,7 @@ $unwind$antlr3CommonTreeNodeStreamNewTree DD 020e01H
 	DD	0700a520eH
 xdata	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT LB
 _TEXT	SEGMENT
 tv84 = 32
@@ -520,7 +520,7 @@ $LN1@LB:
 LB	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT antlr3CommonTreeNodeStreamFree
 _TEXT	SEGMENT
 tv135 = 32
@@ -676,7 +676,7 @@ $LN4@antlr3Comm:
 antlr3CommonTreeNodeStreamFree ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT antlr3TreeNodeStreamFree
 _TEXT	SEGMENT
 stream$ = 48
@@ -703,7 +703,7 @@ antlr3TreeNodeStreamFree PROC				; COMDAT
 antlr3TreeNodeStreamFree ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT fillBufferRoot
 _TEXT	SEGMENT
 ctns$ = 48
@@ -740,7 +740,7 @@ fillBufferRoot PROC					; COMDAT
 fillBufferRoot ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT fillBuffer
 _TEXT	SEGMENT
 nilNode$ = 32
@@ -907,7 +907,7 @@ $LN7@fillBuffer:
 fillBuffer ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT size
 _TEXT	SEGMENT
 tns$ = 32
@@ -973,7 +973,7 @@ $LN2@size:
 size	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT seek
 _TEXT	SEGMENT
 tns$ = 0
@@ -1020,7 +1020,7 @@ seek	PROC						; COMDAT
 seek	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT rewindLast
 _TEXT	SEGMENT
 is$ = 48
@@ -1049,7 +1049,7 @@ rewindLast PROC						; COMDAT
 rewindLast ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT rewindMark
 _TEXT	SEGMENT
 is$ = 48
@@ -1079,7 +1079,7 @@ rewindMark PROC						; COMDAT
 rewindMark ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT release
 _TEXT	SEGMENT
 is$ = 16
@@ -1099,7 +1099,7 @@ release	PROC						; COMDAT
 release	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT mark
 _TEXT	SEGMENT
 tns$ = 32
@@ -1183,7 +1183,7 @@ $LN2@mark:
 mark	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT _LA
 _TEXT	SEGMENT
 tns$ = 32
@@ -1253,7 +1253,7 @@ $LN1@LA:
 _LA	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT tindex
 _TEXT	SEGMENT
 tns$ = 0
@@ -1297,7 +1297,7 @@ tindex	PROC						; COMDAT
 tindex	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT consume
 _TEXT	SEGMENT
 tns$ = 32
@@ -1361,7 +1361,7 @@ $LN2@consume:
 consume	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT replaceChildren
 _TEXT	SEGMENT
 adaptor$1 = 48
@@ -1429,7 +1429,7 @@ $LN2@replaceChi:
 replaceChildren ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT toStringWork
 _TEXT	SEGMENT
 n$ = 32
@@ -1667,7 +1667,7 @@ $LN1@toStringWo:
 toStringWork ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT toStringSS
 _TEXT	SEGMENT
 buf$ = 32
@@ -1723,7 +1723,7 @@ toStringSS PROC						; COMDAT
 toStringSS ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT toString
 _TEXT	SEGMENT
 tns$ = 48
@@ -1755,7 +1755,7 @@ toString PROC						; COMDAT
 toString ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT setUniqueNavigationNodes
 _TEXT	SEGMENT
 tns$ = 16
@@ -1783,7 +1783,7 @@ setUniqueNavigationNodes PROC				; COMDAT
 setUniqueNavigationNodes ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT get
 _TEXT	SEGMENT
 tv77 = 32
@@ -1841,7 +1841,7 @@ $LN2@get:
 get	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT _LT
 _TEXT	SEGMENT
 tv131 = 32
@@ -1973,7 +1973,7 @@ $LN1@LT:
 _LT	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT getTreeSource
 _TEXT	SEGMENT
 tns$ = 16
@@ -1998,7 +1998,7 @@ getTreeSource PROC					; COMDAT
 getTreeSource ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT getTreeAdaptor
 _TEXT	SEGMENT
 tns$ = 16
@@ -2023,7 +2023,7 @@ getTreeAdaptor PROC					; COMDAT
 getTreeAdaptor ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT getLookaheadSize
 _TEXT	SEGMENT
 tv75 = 0
@@ -2079,7 +2079,7 @@ $LN4@getLookahe:
 getLookaheadSize ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT pop
 _TEXT	SEGMENT
 retVal$ = 32
@@ -2132,7 +2132,7 @@ pop	PROC						; COMDAT
 pop	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT push
 _TEXT	SEGMENT
 tv83 = 32
@@ -2188,7 +2188,7 @@ push	PROC						; COMDAT
 push	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT reset
 _TEXT	SEGMENT
 ctns$ = 48
@@ -2277,7 +2277,7 @@ $LN3@reset:
 reset	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT newUpNode
 _TEXT	SEGMENT
 uNode$ = 32
@@ -2333,7 +2333,7 @@ newUpNode PROC						; COMDAT
 newUpNode ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT newDownNode
 _TEXT	SEGMENT
 dNode$ = 32
@@ -2389,7 +2389,7 @@ newDownNode PROC					; COMDAT
 newDownNode ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT hasUniqueNavigationNodes
 _TEXT	SEGMENT
 ctns$ = 16
@@ -2413,7 +2413,7 @@ hasUniqueNavigationNodes PROC				; COMDAT
 hasUniqueNavigationNodes ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT addNavigationNode
 _TEXT	SEGMENT
 node$ = 32
@@ -2545,7 +2545,7 @@ $LN3@addNavigat:
 addNavigationNode ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT antlr3TreeNodeStreamNew
 _TEXT	SEGMENT
 stream$ = 32
@@ -2615,7 +2615,7 @@ $LN1@antlr3Tree:
 antlr3TreeNodeStreamNew ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT antlr3CommonTreeNodeStreamNewStream
 _TEXT	SEGMENT
 stream$ = 32
@@ -3205,7 +3205,7 @@ $LN1@antlr3Comm:
 antlr3CommonTreeNodeStreamNewStream ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT antlr3CommonTreeNodeStreamNew
 _TEXT	SEGMENT
 stream$ = 32
@@ -3878,7 +3878,7 @@ $LN1@antlr3Comm:
 antlr3CommonTreeNodeStreamNew ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c
+; File C:\SPO_labs\C\src\antlr3commontreenodestream.c
 ;	COMDAT antlr3CommonTreeNodeStreamNewTree
 _TEXT	SEGMENT
 stream$ = 32

@@ -318,7 +318,7 @@ $unwind$antlr3BitsetNew DD 020901H
 	DD	070055209H
 xdata	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3bitset.c
+; File C:\SPO_labs\C\src\antlr3bitset.c
 ;	COMDAT antlr3BitsetFree
 _TEXT	SEGMENT
 bitset$ = 48
@@ -369,7 +369,7 @@ $LN2@antlr3Bits:
 antlr3BitsetFree ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3bitset.c
+; File C:\SPO_labs\C\src\antlr3bitset.c
 ;	COMDAT wordNumber
 _TEXT	SEGMENT
 bit$ = 16
@@ -392,7 +392,7 @@ wordNumber PROC						; COMDAT
 wordNumber ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3bitset.c
+; File C:\SPO_labs\C\src\antlr3bitset.c
 ;	COMDAT numWordsToHold
 _TEXT	SEGMENT
 bit$ = 16
@@ -416,7 +416,7 @@ numWordsToHold PROC					; COMDAT
 numWordsToHold ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3bitset.c
+; File C:\SPO_labs\C\src\antlr3bitset.c
 ;	COMDAT bitMask
 _TEXT	SEGMENT
 tv69 = 0
@@ -447,7 +447,7 @@ bitMask	PROC						; COMDAT
 bitMask	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3bitset.c
+; File C:\SPO_labs\C\src\antlr3bitset.c
 ;	COMDAT grow
 _TEXT	SEGMENT
 newBits$ = 32
@@ -533,7 +533,7 @@ $LN2@grow:
 grow	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3bitset.c
+; File C:\SPO_labs\C\src\antlr3bitset.c
 ;	COMDAT growToInclude
 _TEXT	SEGMENT
 bl$ = 32
@@ -606,7 +606,7 @@ $LN3@growToIncl:
 growToInclude ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3bitset.c
+; File C:\SPO_labs\C\src\antlr3bitset.c
 ;	COMDAT antlr3BitsetToIntList
 _TEXT	SEGMENT
 numInts$ = 32
@@ -743,7 +743,7 @@ $LN1@antlr3Bits:
 antlr3BitsetToIntList ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3bitset.c
+; File C:\SPO_labs\C\src\antlr3bitset.c
 ;	COMDAT antlr3BitsetIsNil
 _TEXT	SEGMENT
 i$ = 0
@@ -809,7 +809,7 @@ $LN1@antlr3Bits:
 antlr3BitsetIsNil ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3bitset.c
+; File C:\SPO_labs\C\src\antlr3bitset.c
 ;	COMDAT antlr3BitsetRemove
 _TEXT	SEGMENT
 wordNo$ = 32
@@ -873,7 +873,7 @@ $LN2@antlr3Bits:
 antlr3BitsetRemove ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3bitset.c
+; File C:\SPO_labs\C\src\antlr3bitset.c
 ;	COMDAT antlr3BitsetNumBits
 _TEXT	SEGMENT
 bitset$ = 16
@@ -897,7 +897,7 @@ antlr3BitsetNumBits PROC				; COMDAT
 antlr3BitsetNumBits ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3bitset.c
+; File C:\SPO_labs\C\src\antlr3bitset.c
 ;	COMDAT antlr3BitsetMember
 _TEXT	SEGMENT
 wordNo$ = 32
@@ -984,7 +984,7 @@ $LN1@antlr3Bits:
 antlr3BitsetMember ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3bitset.c
+; File C:\SPO_labs\C\src\antlr3bitset.c
 ;	COMDAT antlr3BitsetEquals
 _TEXT	SEGMENT
 minimum$ = 0
@@ -1213,7 +1213,7 @@ $LN1@antlr3Bits:
 antlr3BitsetEquals ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3bitset.c
+; File C:\SPO_labs\C\src\antlr3bitset.c
 ;	COMDAT antlr3BitsetAdd
 _TEXT	SEGMENT
 word$ = 32
@@ -1285,7 +1285,7 @@ $LN2@antlr3Bits:
 antlr3BitsetAdd ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3bitset.c
+; File C:\SPO_labs\C\src\antlr3bitset.c
 ;	COMDAT antlr3BitsetSize
 _TEXT	SEGMENT
 degree$ = 0
@@ -1406,7 +1406,7 @@ $LN3@antlr3Bits:
 antlr3BitsetSize ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3bitset.c
+; File C:\SPO_labs\C\src\antlr3bitset.c
 ;	COMDAT antlr3BitsetORInPlace
 _TEXT	SEGMENT
 minimum$ = 32
@@ -1548,7 +1548,7 @@ $LN1@antlr3Bits:
 antlr3BitsetORInPlace ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3bitset.c
+; File C:\SPO_labs\C\src\antlr3bitset.c
 ;	COMDAT antlr3BitsetOR
 _TEXT	SEGMENT
 bitset$ = 32
@@ -1627,7 +1627,7 @@ $LN1@antlr3Bits:
 antlr3BitsetOR ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3bitset.c
+; File C:\SPO_labs\C\src\antlr3bitset.c
 ;	COMDAT antlr3BitsetClone
 _TEXT	SEGMENT
 bitset$ = 32
@@ -1698,7 +1698,7 @@ $LN1@antlr3Bits:
 antlr3BitsetClone ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3bitset.c
+; File C:\SPO_labs\C\src\antlr3bitset.c
 ;	COMDAT antlr3BitsetSetAPI
 _TEXT	SEGMENT
 bitset$ = 16
@@ -1809,7 +1809,7 @@ $LN3:
 antlr3BitsetSetAPI ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3bitset.c
+; File C:\SPO_labs\C\src\antlr3bitset.c
 ;	COMDAT antlr3BitsetLoad
 _TEXT	SEGMENT
 bitset$ = 32
@@ -1941,7 +1941,7 @@ $LN1@antlr3Bits:
 antlr3BitsetLoad ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3bitset.c
+; File C:\SPO_labs\C\src\antlr3bitset.c
 ;	COMDAT antlr3BitsetCopy
 _TEXT	SEGMENT
 bitset$ = 32
@@ -2075,7 +2075,7 @@ $LN1@antlr3Bits:
 antlr3BitsetCopy ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3bitset.c
+; File C:\SPO_labs\C\src\antlr3bitset.c
 ;	COMDAT antlr3BitsetList
 _TEXT	SEGMENT
 bitSet$ = 32
@@ -2172,7 +2172,7 @@ $LN3@antlr3Bits:
 antlr3BitsetList ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3bitset.c
+; File C:\SPO_labs\C\src\antlr3bitset.c
 ;	COMDAT antlr3BitsetOf
 _TEXT	SEGMENT
 bitset$ = 32
@@ -2290,7 +2290,7 @@ $LN1@antlr3Bits:
 antlr3BitsetOf ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3bitset.c
+; File C:\SPO_labs\C\src\antlr3bitset.c
 ;	COMDAT antlr3BitsetNew
 _TEXT	SEGMENT
 bitset$ = 32

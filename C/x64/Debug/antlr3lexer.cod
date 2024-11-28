@@ -436,7 +436,7 @@ $unwind$__local_stdio_printf_options DD 010201H
 	DD	07002H
 xdata	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c
+; File C:\SPO_labs\C\src\antlr3lexer.c
 ;	COMDAT nextTokenStr
 _TEXT	SEGMENT
 lexer$ = 32
@@ -779,7 +779,7 @@ $LN1@nextTokenS:
 nextTokenStr ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c
+; File C:\SPO_labs\C\src\antlr3lexer.c
 ;	COMDAT freeLexer
 _TEXT	SEGMENT
 tv161 = 32
@@ -938,7 +938,7 @@ $LN6@freeLexer:
 freeLexer ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c
+; File C:\SPO_labs\C\src\antlr3lexer.c
 ;	COMDAT reset
 _TEXT	SEGMENT
 lexer$ = 32
@@ -1059,7 +1059,7 @@ $LN2@reset:
 reset	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c
+; File C:\SPO_labs\C\src\antlr3lexer.c
 ;	COMDAT getMissingSymbol
 _TEXT	SEGMENT
 recognizer$ = 16
@@ -1088,7 +1088,7 @@ getMissingSymbol PROC					; COMDAT
 getMissingSymbol ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c
+; File C:\SPO_labs\C\src\antlr3lexer.c
 ;	COMDAT getCurrentInputSymbol
 _TEXT	SEGMENT
 recognizer$ = 16
@@ -1112,7 +1112,7 @@ getCurrentInputSymbol PROC				; COMDAT
 getCurrentInputSymbol ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c
+; File C:\SPO_labs\C\src\antlr3lexer.c
 ;	COMDAT reportError
 _TEXT	SEGMENT
 rec$ = 48
@@ -1155,7 +1155,7 @@ reportError PROC					; COMDAT
 reportError ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c
+; File C:\SPO_labs\C\src\antlr3lexer.c
 ;	COMDAT displayRecognitionError
 _TEXT	SEGMENT
 lexer$ = 48
@@ -1550,7 +1550,7 @@ $LN5@displayRec:
 displayRecognitionError ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c
+; File C:\SPO_labs\C\src\antlr3lexer.c
 ;	COMDAT nextToken
 _TEXT	SEGMENT
 tok$ = 32
@@ -1692,7 +1692,7 @@ $LN3@nextToken:
 nextToken ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c
+; File C:\SPO_labs\C\src\antlr3lexer.c
 ;	COMDAT getText
 _TEXT	SEGMENT
 tv88 = 32
@@ -1767,7 +1767,7 @@ $LN1@getText:
 getText	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c
+; File C:\SPO_labs\C\src\antlr3lexer.c
 ;	COMDAT getCharPositionInLine
 _TEXT	SEGMENT
 lexer$ = 16
@@ -1791,7 +1791,7 @@ getCharPositionInLine PROC				; COMDAT
 getCharPositionInLine ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c
+; File C:\SPO_labs\C\src\antlr3lexer.c
 ;	COMDAT getCharIndex
 _TEXT	SEGMENT
 tv71 = 32
@@ -1824,7 +1824,7 @@ getCharIndex PROC					; COMDAT
 getCharIndex ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c
+; File C:\SPO_labs\C\src\antlr3lexer.c
 ;	COMDAT getLine
 _TEXT	SEGMENT
 lexer$ = 48
@@ -1853,7 +1853,7 @@ getLine	PROC						; COMDAT
 getLine	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c
+; File C:\SPO_labs\C\src\antlr3lexer.c
 ;	COMDAT recover
 _TEXT	SEGMENT
 tv70 = 32
@@ -1887,7 +1887,7 @@ recover	PROC						; COMDAT
 recover	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c
+; File C:\SPO_labs\C\src\antlr3lexer.c
 ;	COMDAT matchAny
 _TEXT	SEGMENT
 tv70 = 32
@@ -1921,7 +1921,7 @@ matchAny PROC						; COMDAT
 matchAny ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c
+; File C:\SPO_labs\C\src\antlr3lexer.c
 ;	COMDAT matchRange
 _TEXT	SEGMENT
 c$ = 32
@@ -2060,7 +2060,7 @@ $LN1@matchRange:
 matchRange ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c
+; File C:\SPO_labs\C\src\antlr3lexer.c
 ;	COMDAT matchc
 _TEXT	SEGMENT
 tv137 = 32
@@ -2183,7 +2183,7 @@ $LN1@matchc:
 matchc	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c
+; File C:\SPO_labs\C\src\antlr3lexer.c
 ;	COMDAT matchs
 _TEXT	SEGMENT
 tv144 = 32
@@ -2332,7 +2332,7 @@ $LN1@matchs:
 matchs	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c
+; File C:\SPO_labs\C\src\antlr3lexer.c
 ;	COMDAT emit
 _TEXT	SEGMENT
 token$ = 32
@@ -2552,7 +2552,7 @@ $LN1@emit:
 emit	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c
+; File C:\SPO_labs\C\src\antlr3lexer.c
 ;	COMDAT emitNew
 _TEXT	SEGMENT
 lexer$ = 16
@@ -2580,7 +2580,7 @@ emitNew	PROC						; COMDAT
 emitNew	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c
+; File C:\SPO_labs\C\src\antlr3lexer.c
 ;	COMDAT popCharStream
 _TEXT	SEGMENT
 input$ = 32
@@ -2694,7 +2694,7 @@ $LN2@popCharStr:
 popCharStream ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c
+; File C:\SPO_labs\C\src\antlr3lexer.c
 ;	COMDAT pushCharStream
 _TEXT	SEGMENT
 tv134 = 32
@@ -2812,7 +2812,7 @@ $LN1@pushCharSt:
 pushCharStream ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c
+; File C:\SPO_labs\C\src\antlr3lexer.c
 ;	COMDAT setCharStream
 _TEXT	SEGMENT
 tv173 = 32
@@ -3006,7 +3006,7 @@ $LN4@setCharStr:
 setCharStream ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c
+; File C:\SPO_labs\C\src\antlr3lexer.c
 ;	COMDAT mTokens
 _TEXT	SEGMENT
 lexer$ = 48
@@ -3046,7 +3046,7 @@ $LN2@mTokens:
 mTokens	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c
+; File C:\SPO_labs\C\src\antlr3lexer.c
 ;	COMDAT antlr3LexerNew
 _TEXT	SEGMENT
 lexer$ = 32
@@ -3543,7 +3543,7 @@ $LN1@antlr3Lexe:
 antlr3LexerNew ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c
+; File C:\SPO_labs\C\src\antlr3lexer.c
 ;	COMDAT antlr3LexerNewStream
 _TEXT	SEGMENT
 lexer$ = 32

@@ -797,7 +797,7 @@ $unwind$__local_stdio_printf_options DD 010201H
 	DD	07002H
 xdata	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT freeIntTrie
 _TEXT	SEGMENT
 trie$ = 48
@@ -824,7 +824,7 @@ freeIntTrie PROC					; COMDAT
 freeIntTrie ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT getNumberOfSyntaxErrors
 _TEXT	SEGMENT
 recognizer$ = 16
@@ -848,7 +848,7 @@ getNumberOfSyntaxErrors PROC				; COMDAT
 getNumberOfSyntaxErrors ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT getMissingSymbol
 _TEXT	SEGMENT
 ts$ = 32
@@ -1117,7 +1117,7 @@ $LN1@getMissing:
 getMissingSymbol ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT getCurrentInputSymbol
 _TEXT	SEGMENT
 recognizer$ = 48
@@ -1148,7 +1148,7 @@ getCurrentInputSymbol PROC				; COMDAT
 getCurrentInputSymbol ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT freeBR
 _TEXT	SEGMENT
 thisE$ = 32
@@ -1321,7 +1321,7 @@ $LN2@freeBR:
 freeBR	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT reset
 _TEXT	SEGMENT
 thisE$ = 32
@@ -1494,7 +1494,7 @@ $LN5@reset:
 reset	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT synpred
 _TEXT	SEGMENT
 start$ = 32
@@ -1711,7 +1711,7 @@ $LN1@synpred:
 synpred	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT memoize
 _TEXT	SEGMENT
 ruleList$ = 48
@@ -1960,7 +1960,7 @@ $LN1@memoize:
 memoize	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT alreadyParsedRule
 _TEXT	SEGMENT
 stopIndex$ = 32
@@ -2199,7 +2199,7 @@ $LN1@alreadyPar:
 alreadyParsedRule ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT getRuleMemoization
 _TEXT	SEGMENT
 ruleList$ = 48
@@ -2375,7 +2375,7 @@ $LN1@getRuleMem:
 getRuleMemoization ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT toStrings
 _TEXT	SEGMENT
 recognizer$ = 16
@@ -2399,7 +2399,7 @@ toStrings PROC						; COMDAT
 toStrings ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT getRuleInvocationStackNamed
 _TEXT	SEGMENT
 recognizer$ = 16
@@ -2423,7 +2423,7 @@ getRuleInvocationStackNamed PROC			; COMDAT
 getRuleInvocationStackNamed ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT getRuleInvocationStack
 _TEXT	SEGMENT
 recognizer$ = 16
@@ -2445,7 +2445,7 @@ getRuleInvocationStack PROC				; COMDAT
 getRuleInvocationStack ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT consumeUntilSet
 _TEXT	SEGMENT
 ttype$ = 32
@@ -2614,7 +2614,7 @@ $LN1@consumeUnt:
 consumeUntilSet ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT consumeUntil
 _TEXT	SEGMENT
 ttype$ = 32
@@ -2779,7 +2779,7 @@ $LN1@consumeUnt:
 consumeUntil ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT recoverFromMismatchedElement
 _TEXT	SEGMENT
 viableToksFollowingRule$ = 32
@@ -3066,7 +3066,7 @@ $LN1@recoverFro:
 recoverFromMismatchedElement ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT recoverFromMismatchedSet
 _TEXT	SEGMENT
 parser$ = 48
@@ -3278,7 +3278,7 @@ $LN1@recoverFro:
 recoverFromMismatchedSet ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT recoverFromMismatchedToken
 _TEXT	SEGMENT
 parser$ = 48
@@ -3679,7 +3679,7 @@ $LN1@recoverFro:
 recoverFromMismatchedToken ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT recover
 _TEXT	SEGMENT
 followSet$ = 32
@@ -3908,7 +3908,7 @@ $LN1@recover:
 recover	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT displayRecognitionError
 _TEXT	SEGMENT
 parser$ = 32
@@ -5021,7 +5021,7 @@ $LN49@displayRec:
 displayRecognitionError ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT combineFollows
 _TEXT	SEGMENT
 followSet$ = 32
@@ -5221,7 +5221,7 @@ $LN10@combineFol:
 combineFollows ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT computeCSRuleFollow
 _TEXT	SEGMENT
 recognizer$ = 48
@@ -5249,7 +5249,7 @@ computeCSRuleFollow PROC				; COMDAT
 computeCSRuleFollow ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT reportError
 _TEXT	SEGMENT
 tv129 = 32
@@ -5350,7 +5350,7 @@ $LN1@reportErro:
 reportError ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT mismatchIsMissingToken
 _TEXT	SEGMENT
 retcode$ = 32
@@ -5578,7 +5578,7 @@ $LN1@mismatchIs:
 mismatchIsMissingToken ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT mismatchIsUnwantedToken
 _TEXT	SEGMENT
 nextt$ = 32
@@ -5658,7 +5658,7 @@ $LN1@mismatchIs:
 mismatchIsUnwantedToken ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT mismatch
 _TEXT	SEGMENT
 parser$ = 32
@@ -5869,7 +5869,7 @@ $LN1@mismatch:
 mismatch ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT matchAny
 _TEXT	SEGMENT
 parser$ = 32
@@ -6008,7 +6008,7 @@ $LN1@matchAny:
 matchAny ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT match
 _TEXT	SEGMENT
 parser$ = 32
@@ -6228,7 +6228,7 @@ $LN1@match:
 match	ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT endBacktrack
 _TEXT	SEGMENT
 recognizer$ = 48
@@ -6274,7 +6274,7 @@ $LN2@endBacktra:
 endBacktrack ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT beginBacktrack
 _TEXT	SEGMENT
 recognizer$ = 48
@@ -6316,7 +6316,7 @@ $LN2@beginBackt:
 beginBacktrack ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT endResync
 _TEXT	SEGMENT
 recognizer$ = 48
@@ -6355,7 +6355,7 @@ $LN2@endResync:
 endResync ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT computeErrorRecoverySet
 _TEXT	SEGMENT
 recognizer$ = 48
@@ -6383,7 +6383,7 @@ computeErrorRecoverySet PROC				; COMDAT
 computeErrorRecoverySet ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT beginResync
 _TEXT	SEGMENT
 recognizer$ = 48
@@ -6422,7 +6422,7 @@ $LN2@beginResyn:
 beginResync ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT antlr3MTExceptionNew
 _TEXT	SEGMENT
 recognizer$ = 48
@@ -6472,7 +6472,7 @@ $LN3:
 antlr3MTExceptionNew ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT antlr3RecognitionExceptionNew
 _TEXT	SEGMENT
 ex$ = 32
@@ -7032,7 +7032,7 @@ $LN1@antlr3Reco:
 antlr3RecognitionExceptionNew ENDP
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c
+; File C:\SPO_labs\C\src\antlr3baserecognizer.c
 ;	COMDAT antlr3BaseRecognizerNew
 _TEXT	SEGMENT
 recognizer$ = 32
