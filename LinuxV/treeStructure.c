@@ -22,7 +22,7 @@ void printTree(AstNode* tree, int depth) {
     for (int i = 0; i < depth; i++) {
         printf("    ");
     }
-    
+
     //if (tree->childrenCount < 0) tree->childrenCount = 0;
 
     printf("%s\n", tree->nodeName);
@@ -31,9 +31,9 @@ void printTree(AstNode* tree, int depth) {
         for (int i = tree->childrenCount; i > 0; i--)
             printTree((AstNode*)tree->children[i - 1], depth + 1);
     }
-    else{
-    for (int i = 0; i < tree->childrenCount; i++)
-        printTree((AstNode*)tree->children[i], depth + 1);
+    else {
+        for (int i = 0; i < tree->childrenCount; i++)
+            printTree((AstNode*)tree->children[i], depth + 1);
     }
 }
 
@@ -46,13 +46,13 @@ AstNode* convertToMyTree(pANTLR3_BASE_TREE antlrTree) {
     int count = antlrTree->getChildCount(antlrTree);
     AstNode* result = malloc(sizeof(AstNode));
     assert(result);
-    
+
     //Сортировка под TypeRef
     if (strcmp(currentNode, "TypeRef") == 0) {
         pANTLR3_BASE_TREE basic_antlr_type = (pANTLR3_BASE_TREE)antlrTree->getChild(antlrTree, 0);
         pANTLR3_BASE_TREE basic_typeref_value = (pANTLR3_BASE_TREE)basic_antlr_type->getChild(basic_antlr_type, 0);
-        
-        
+
+
         AstNode* tpref = malloc(sizeof(AstNode));
         assert(tpref);
         result->nodeName = strdup(basic_typeref_value->toString(basic_typeref_value)->chars);
@@ -74,7 +74,7 @@ AstNode* convertToMyTree(pANTLR3_BASE_TREE antlrTree) {
         tpref->children[0] = tmp;
 
         result = tpref;
-        
+
         result->childrenCount = 1;
 
         //Случай Array
@@ -101,7 +101,7 @@ AstNode* convertToMyTree(pANTLR3_BASE_TREE antlrTree) {
                 char* buf = malloc(21);
                 assert(buf);
                 buf[20] = '\0';
-               
+
                 sprintf(buf, "%d", dim);
 
                 tmp->children[1]->nodeName = buf;
@@ -118,7 +118,7 @@ AstNode* convertToMyTree(pANTLR3_BASE_TREE antlrTree) {
 
         return result;
     }
-    
+
     //AstNode* node = malloc(sizeof(AstNode));
     //assert(node);
     result->childrenCount = antlrTree->getChildCount(antlrTree);;
@@ -140,10 +140,10 @@ AstNode* convertToMyTree(pANTLR3_BASE_TREE antlrTree) {
     }
 
     return result;
-    
+
 };
 
-void error_list(int* size, errorInfo* newValue) {
+static void error_list(int* size, errorInfo* newValue) {
     errorInfo** err = (errorInfo**)realloc(errors, (*size + 1) * sizeof(errorInfo*));
     if (err != NULL) {
         errors = err;
@@ -187,21 +187,21 @@ void freeAST(AstNode* tree) {
     free(tree);
 }
 
-treeStruct* treeGeneration(char *inputPath) {
+treeStruct* treeGeneration(char* inputPath) {
     plabgrammLexer lxr;
     treeStruct* treeAST = malloc(sizeof(treeStruct));
     assert(treeAST);
-    printf("%s\n",inputPath);
+    printf("%s\n", inputPath);
     FILE* inputFile = fopen(inputPath, "r+");
     if (inputFile == NULL) {
-        fprintf(stderr,"ERROR: unable to open input file \n");
+        fprintf(stderr, "ERROR: unable to open input file \n");
         fclose(inputFile);
         return treeAST;
     }
 
     pANTLR3_INPUT_STREAM input = antlr3FileStreamNew((pANTLR3_UINT8)inputPath, ANTLR3_ENC_8BIT);
     if (input == NULL) {
-        fprintf(stderr,"ERROR: Could not open input stream.\n");
+        fprintf(stderr, "ERROR: Could not open input stream.\n");
         fclose(inputFile);
         return treeAST;
     }
@@ -209,7 +209,7 @@ treeStruct* treeGeneration(char *inputPath) {
     lxr = labgrammLexerNew(input);
     pANTLR3_COMMON_TOKEN_STREAM tokenStream = antlr3CommonTokenStreamSourceNew(ANTLR3_SIZE_HINT, TOKENSOURCE(lxr));
     if (tokenStream == NULL) {
-        fprintf(stderr,"ERROR: unable to create token stream. \n");
+        fprintf(stderr, "ERROR: unable to create token stream. \n");
         fclose(inputFile);
         lxr->free(lxr);
         input->close(input);
@@ -218,7 +218,7 @@ treeStruct* treeGeneration(char *inputPath) {
 
     plabgrammParser psr = labgrammParserNew(tokenStream);
     if (psr == NULL) {
-        fprintf(stderr,"ERROR: unable to generate parser. \n");
+        fprintf(stderr, "ERROR: unable to generate parser. \n");
         fclose(inputFile);
         tokenStream->free(tokenStream);
         lxr->free(lxr);
@@ -226,23 +226,31 @@ treeStruct* treeGeneration(char *inputPath) {
         return treeAST;
     }
 
+
     psr->pParser->rec->reportError = myReportError; //Ошибки при парсинге
-    lxr->pLexer->rec->reportError = myReportError; //Ошибки лексики
-    
+    //lxr->pLexer->rec->reportError = myReportError; //Ошибки лексики
+
     labgrammParser_source_return langAST = psr->source(psr);
     pANTLR3_BASE_TREE tree = langAST.tree;
-    
+
     //Переопределяем дерево в своей структуре
     treeAST->tree = convertToMyTree(tree);
-    
+
     treeAST->errors = errors;
     treeAST->erCount = errorCount;
-    
+
+    if (treeAST->erCount != 0) {
+        for (int i = 0; i < treeAST->erCount; i++) {
+            fprintf(stderr, "ERROR: %s %s in input file %s\n", treeAST->errors[i]->message, treeAST->errors[i]->typeERR, treeAST->errors[i]->source);
+        }
+    }
+    else printf("No errors found!\n");
+
     psr->free(psr);
     tokenStream->free(tokenStream);
     lxr->free(lxr);
     input->close(input);
     fclose(inputFile);
-    
-    return treeAST;
+
+    return (treeAST);
 };

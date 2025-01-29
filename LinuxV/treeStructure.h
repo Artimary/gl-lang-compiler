@@ -26,6 +26,6 @@ typedef struct treeStruct{
 
 char* replace_char(char* str, char find, char replace);
 void printTree(AstNode* tree, int depth);
-void freeErrors(errorInfo* errors, int erCount);
+void freeErrors(errorInfo** errors, int erCount);
 void freeAST(AstNode* tree);
 treeStruct* treeGeneration(char* inputPath);

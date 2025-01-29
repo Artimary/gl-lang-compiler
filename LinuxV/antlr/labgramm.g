@@ -29,6 +29,7 @@ tokens{
 	Expression;
 	LoopStatement;
 	ConditionStatement;
+	BreakStatement;
 	Condition;
 	ReturnStatement;
 	ElseStatement;
@@ -109,10 +110,10 @@ expressionStatement
 	: expr ';'!
 	;
 
-breakStatement	: 'break' ';'
+breakStatement	: 'break' ';' -> ^(BreakStatement)
 	;
 
-doStatement	: 'do' blockStatement 'while' '(' expr ')' statement -> ^(RepeatStatement blockStatement ^(Expression expr))
+doStatement	: 'do' blockStatement 'while' '(' expr ')' ';'  -> ^(RepeatStatement blockStatement ^(Expression expr))
 	;
 
 whileStatement	: 'while' '(' expr ')' statement  -> ^(LoopStatement ^(Expression expr) statement)
@@ -128,7 +129,7 @@ conditionStatement: 'if' '(' expr ')' statement (options {k=1; backtrack=false;}
 elseStatement	:	('else' statement) -> ^(ElseStatement statement)
 	;
 	
-varStatement	: typeRef listid? ';' -> ^(VarDeclaration typeRef? listid?)
+varStatement	: typeRef listid? ';' -> ^(VarDeclaration ^(Expression typeRef? listid?))
 	;
 
 returnStatement
@@ -136,9 +137,12 @@ returnStatement
   ;
   
 assignmentStatement
-    : (identifier | indexer) '=' expr ';' -> ^(AssignmentOP ^(Identifier identifier)? indexer expr)
+    : (identifier | indexer) (ASSIGNMENT_OPERATOR | Equal) expr ';' -> ^(AssignmentOP  ^(Expression ^(ASSIGNMENT_OPERATOR ^(Equal ^(Identifier identifier)? indexer expr))))
     ;
-   
+
+Equal
+	:'='
+	;
 
 listid	:	(identifier | indexer) ('=' expr)? (',' (identifier | indexer) ('=' expr)?)* -> ^(ListID ^(Identifier identifier) indexer ^(Expression expr)? (^(Identifier identifier) indexer ^(Expression expr)?)*)
 	;
@@ -154,7 +158,7 @@ indexer_list
 	;
 
 
-call	: identifier '(' call_list ')' -> ^(Call ^(Identifier identifier) ^(Init_List call_list)*)
+call	: identifier '(' call_list?')' -> ^(Call ^(Expression ^(Identifier identifier) ^(Init_List call_list)?))
 	;
 
 call_list
@@ -167,7 +171,7 @@ braces	: '(' expr ')'
 expr  : assignmentExpression | braces | call | indexer ;
 
 assignmentExpression
-  : logicalOrExpr (ASSIGNMENT_OPERATOR^ assignmentExpression)? 
+  : logicalOrExpr (ASSIGNMENT_OPERATOR^ assignmentExpression)?
   ;
 
 
@@ -204,7 +208,7 @@ multiplicativeExpr
   
 unaryExpr
   : ('!'|'~')^ unaryExpr
-  | (ADDITIVE_UNARY_OPERATOR^)? primaryExpr;
+  | (ADDITIVE_UNARY_OPERATOR^)? primaryExpr (ADDITIVE_UNARY_OPERATOR^)?;
 
 primaryExpr
   : primitive initialization_suffix?
@@ -269,8 +273,9 @@ INT :	'0'..'9'+
     ;
 
 ASSIGNMENT_OPERATOR
-  : ('+'|'-'|'*'|'/'|'%'|'<<'|'>>'|'&'|'^'|'|')? '=';
+  : (('+'|'-'|'*'|'/'|'%'|'<<'|'>>'|'&'|'^'|'|')? '=');
   
+    
 RELATIONAL_OPERATOR
   : ('<'|'>'|'<='|'>=');
 

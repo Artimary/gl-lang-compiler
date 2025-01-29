@@ -27,6 +27,12 @@
     <ClCompile Include="..\LinuxV\antlr\labgrammParser.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\LinuxV\cfg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LinuxV\OpTree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\LinuxV\treeStructure.h">
@@ -39,6 +45,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\LinuxV\define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LinuxV\cfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LinuxV\model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LinuxV\OpTree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

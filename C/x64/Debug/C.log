@@ -3,10 +3,10 @@
   antlr3basetreeadaptor.c
   antlr3bitset.c
   antlr3collections.c
-C:\SPO_labs\C\src\antlr3collections.c(1932,50): warning C4100: 'key': unreferenced formal parameter
   antlr3commontoken.c
   antlr3commontree.c
   antlr3commontreeadaptor.c
+C:\SPO_labs\C\src\antlr3collections.c(1932,50): warning C4100: 'key': unreferenced formal parameter
   antlr3commontreenodestream.c
   antlr3convertutf.c
   antlr3cyclicdfa.c

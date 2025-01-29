@@ -21,13 +21,18 @@
   <ItemGroup>
     <ClCompile Include="..\LinuxV\antlr\labgrammLexer.c" />
     <ClCompile Include="..\LinuxV\antlr\labgrammParser.c" />
+    <ClCompile Include="..\LinuxV\cfg.c" />
     <ClCompile Include="..\LinuxV\main.c" />
+    <ClCompile Include="..\LinuxV\OpTree.c" />
     <ClCompile Include="..\LinuxV\treeStructure.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\LinuxV\antlr\labgrammLexer.h" />
     <ClInclude Include="..\LinuxV\antlr\labgrammParser.h" />
+    <ClInclude Include="..\LinuxV\cfg.h" />
     <ClInclude Include="..\LinuxV\define.h" />
+    <ClInclude Include="..\LinuxV\model.h" />
+    <ClInclude Include="..\LinuxV\OpTree.h" />
     <ClInclude Include="..\LinuxV\treeStructure.h" />
   </ItemGroup>
   <ItemGroup>
