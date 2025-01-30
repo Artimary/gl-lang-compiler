@@ -97,8 +97,10 @@
   <ItemGroup>
     <ClCompile Include="antlr\labgrammLexer.c" />
     <ClCompile Include="antlr\labgrammParser.c" />
+    <ClCompile Include="callGraph.c" />
     <ClCompile Include="cfg.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="model.c" />
     <ClCompile Include="OpTree.c" />
     <ClCompile Include="treeStructure.c" />
   </ItemGroup>
@@ -110,6 +112,7 @@
   <ItemGroup>
     <ClInclude Include="antlr\labgrammLexer.h" />
     <ClInclude Include="antlr\labgrammParser.h" />
+    <ClInclude Include="callGraph.h" />
     <ClInclude Include="cfg.h" />
     <ClInclude Include="define.h" />
     <ClInclude Include="model.h" />

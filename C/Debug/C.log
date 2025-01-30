@@ -1,0 +1,49 @@
+﻿  antlr3baserecognizer.c
+  antlr3basetree.c
+  antlr3basetreeadaptor.c
+  antlr3bitset.c
+  antlr3collections.c
+  antlr3commontoken.c
+  antlr3commontree.c
+  antlr3commontreeadaptor.c
+  antlr3commontreenodestream.c
+  antlr3convertutf.c
+  antlr3cyclicdfa.c
+  antlr3debughandlers.c
+  antlr3encodings.c
+  antlr3exception.c
+  antlr3filestream.c
+  antlr3inputstream.c
+  antlr3intstream.c
+  antlr3lexer.c
+  antlr3parser.c
+  antlr3rewritestreams.c
+  Generating Code...
+  Compiling...
+  antlr3string.c
+  antlr3tokenstream.c
+  antlr3treeparser.c
+  Generating Code...
+C:\SPO_labs\C\src\antlr3baserecognizer.c(9,13): error C1083: Cannot open include file: 'antlr3baserecognizer.h': No such file or directory
+C:\SPO_labs\C\src\antlr3basetree.c(1,13): error C1083: Cannot open include file: 'antlr3basetree.h': No such file or directory
+C:\SPO_labs\C\src\antlr3basetreeadaptor.c(36,13): error C1083: Cannot open include file: 'antlr3basetreeadaptor.h': No such file or directory
+C:\SPO_labs\C\src\antlr3bitset.c(36,13): error C1083: Cannot open include file: 'antlr3bitset.h': No such file or directory
+C:\SPO_labs\C\src\antlr3collections.c(38,13): error C1083: Cannot open include file: 'antlr3.h': No such file or directory
+C:\SPO_labs\C\src\antlr3commontoken.c(36,13): error C1083: Cannot open include file: 'antlr3.h': No such file or directory
+C:\SPO_labs\C\src\antlr3commontree.c(38,13): error C1083: Cannot open include file: 'antlr3commontree.h': No such file or directory
+C:\SPO_labs\C\src\antlr3commontreeadaptor.c(39,13): error C1083: Cannot open include file: 'antlr3commontreeadaptor.h': No such file or directory
+C:\SPO_labs\C\src\antlr3commontreenodestream.c(35,13): error C1083: Cannot open include file: 'antlr3commontreenodestream.h': No such file or directory
+C:\SPO_labs\C\src\antlr3convertutf.c(42,10): error C1083: Cannot open include file: 'antlr3convertutf.h': No such file or directory
+C:\SPO_labs\C\src\antlr3cyclicdfa.c(45,13): error C1083: Cannot open include file: 'antlr3defs.h': No such file or directory
+C:\SPO_labs\C\src\antlr3debughandlers.c(36,13): error C1083: Cannot open include file: 'antlr3.h': No such file or directory
+C:\SPO_labs\C\src\antlr3encodings.c(39,13): error C1083: Cannot open include file: 'antlr3.h': No such file or directory
+C:\SPO_labs\C\src\antlr3exception.c(35,13): error C1083: Cannot open include file: 'antlr3exception.h': No such file or directory
+C:\SPO_labs\C\src\antlr3filestream.c(47,13): error C1083: Cannot open include file: 'antlr3.h': No such file or directory
+C:\SPO_labs\C\src\antlr3inputstream.c(34,13): error C1083: Cannot open include file: 'antlr3input.h': No such file or directory
+C:\SPO_labs\C\src\antlr3intstream.c(36,13): error C1083: Cannot open include file: 'antlr3intstream.h': No such file or directory
+C:\SPO_labs\C\src\antlr3lexer.c(40,13): error C1083: Cannot open include file: 'antlr3lexer.h': No such file or directory
+C:\SPO_labs\C\src\antlr3parser.c(34,13): error C1083: Cannot open include file: 'antlr3parser.h': No such file or directory
+C:\SPO_labs\C\src\antlr3rewritestreams.c(36,13): error C1083: Cannot open include file: 'antlr3rewritestreams.h': No such file or directory
+C:\SPO_labs\C\src\antlr3string.c(34,13): error C1083: Cannot open include file: 'antlr3string.h': No such file or directory
+C:\SPO_labs\C\src\antlr3tokenstream.c(34,13): error C1083: Cannot open include file: 'antlr3tokenstream.h': No such file or directory
+C:\SPO_labs\C\src\antlr3treeparser.c(34,13): error C1083: Cannot open include file: 'antlr3treeparser.h': No such file or directory

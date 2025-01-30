@@ -1,16 +1,8 @@
-﻿  OpTree.c
-C:\SPO_labs\LinuxV\cfg.h(37,45): warning C4115: 'ProgramUnit': named type definition in parentheses
-  (compiling source file '../LinuxV/OpTree.c')
-  
-  cfg.c
-C:\SPO_labs\LinuxV\cfg.h(37,45): warning C4115: 'ProgramUnit': named type definition in parentheses
-  (compiling source file '../LinuxV/cfg.c')
-  
-  main.c
-C:\SPO_labs\LinuxV\cfg.h(37,45): warning C4115: 'ProgramUnit': named type definition in parentheses
-  (compiling source file '../LinuxV/main.c')
-  
-C:\SPO_labs\LinuxV\main.c(139,5): warning C4013: 'drawCFG' undefined; assuming extern returning int
-  Generating Code...
-     Creating library C:\SPO_labs\x64\Debug\WinV.lib and object C:\SPO_labs\x64\Debug\WinV.exp
+﻿  cfg.c
+C:\SPO_labs\LinuxV\cfg.c(93,28): warning C4047: 'function': 'CallGraph *' differs in levels of indirection from 'CallGraph **'
+C:\SPO_labs\LinuxV\cfg.c(93,28): warning C4024: 'addFunctionToGraph': different types for formal and actual parameter 1
+C:\SPO_labs\LinuxV\cfg.c(94,28): warning C4047: 'function': 'CallGraph *' differs in levels of indirection from 'CallGraph **'
+C:\SPO_labs\LinuxV\cfg.c(94,28): warning C4024: 'addFunctionToGraph': different types for formal and actual parameter 1
+C:\SPO_labs\LinuxV\cfg.c(96,21): warning C4047: 'function': 'CallGraph *' differs in levels of indirection from 'CallGraph **'
+C:\SPO_labs\LinuxV\cfg.c(96,21): warning C4024: 'addCallEdge': different types for formal and actual parameter 1
   WinV.vcxproj -> C:\SPO_labs\x64\Debug\WinV.exe

@@ -1,0 +1,2 @@
+﻿  Validating sources
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Application Type\Linux\1.0\Linux.Makefile.Targets(206,5): error : Could not connect to the remote system. Please verify your connection settings, and that your machine is on the network and reachable.

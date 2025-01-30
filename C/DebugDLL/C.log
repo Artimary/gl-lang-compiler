@@ -1,0 +1,28 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1392,5): warning MSB8012: TargetPath(C:\SPO_labs\C\DebugDLL\C.dll) does not match the Linker's OutputFile property value (C:\SPO_labs\C\DebugDLL\antlr3cd.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1394,5): warning MSB8012: TargetName(C) does not match the Linker's OutputFile property value (antlr3cd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  Microsoft (R) Incremental Linker Version 14.42.34436.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  "/OUT:DebugDLL\antlr3cd.dll" "/VERSION:3.1.1" /NOLOGO Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST "/MANIFESTUAC:level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG "/PDB:DebugDLL\C.pdb" /TLBID:1 /DYNAMICBASE:NO "/IMPLIB:C:\SPO_labs\C\DebugDLL\C_dll.lib" /MACHINE:X86 /SAFESEH /DLL DebugDLL\antlr3baserecognizer.obj 
+  DebugDLL\antlr3basetree.obj 
+  DebugDLL\antlr3basetreeadaptor.obj 
+  DebugDLL\antlr3bitset.obj 
+  DebugDLL\antlr3collections.obj 
+  DebugDLL\antlr3commontoken.obj 
+  DebugDLL\antlr3commontree.obj 
+  DebugDLL\antlr3commontreeadaptor.obj 
+  DebugDLL\antlr3commontreenodestream.obj 
+  DebugDLL\antlr3convertutf.obj 
+  DebugDLL\antlr3cyclicdfa.obj 
+  DebugDLL\antlr3debughandlers.obj 
+  DebugDLL\antlr3encodings.obj 
+  DebugDLL\antlr3exception.obj 
+  DebugDLL\antlr3filestream.obj 
+  DebugDLL\antlr3inputstream.obj 
+  DebugDLL\antlr3intstream.obj 
+  DebugDLL\antlr3lexer.obj 
+  DebugDLL\antlr3parser.obj 
+  DebugDLL\antlr3rewritestreams.obj 
+  DebugDLL\antlr3string.obj 
+  DebugDLL\antlr3tokenstream.obj 
+  DebugDLL\antlr3treeparser.obj 
+LINK : fatal error LNK1117: syntax error in option 'VERSION:3.1.1'

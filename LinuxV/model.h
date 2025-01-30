@@ -1,6 +1,6 @@
-// model.h
 #pragma once
 #include "cfg.h"
+#include "callGraph.h" 
 
 typedef struct TypeRefN TypeRefN;
 typedef struct FuncSignatureArg FuncSignatureArg;
@@ -27,15 +27,16 @@ struct FuncSignatureN {
 struct FuncDefN {
     char* name;
     FuncSignatureN* signature;
-    CfgNode* cfg;
+    struct CfgInstance* cfg;
 };
 
 struct ProgramUnit {
     FuncDefN* funcs;
     int funcsCount;
-    InputFile* inputFiles;  // Коллекция анализируемых файлов
-    int inputFilesCount;    // Количество файлов
-    char* sourceFileName;   // Имя исходного файла
+    struct CallGraph* callGraph;
+    InputFile* inputFiles;
+    int inputFilesCount;
+    char* sourceFileName;
     struct {
         int errors_count;
         char** error_messages;
@@ -47,19 +48,12 @@ struct InputFile {
     AstNode* ast;
 };
 
-// Функция для создания модуля программы
+void writeTreeAsDot(AstNode* node, FILE* file, int* nodeCounter);
 ProgramUnit* createModule(char* sourceFileName);
-
-// Функция для добавления функции в модуль
+void processFuncDef(AstNode* funcDefNode, ProgramUnit* programUnit);
 void addFunctionToModule(ProgramUnit* module, FuncDefN* func);
-
-// Функция для добавления ошибки в модуль
-void addErrorToModule(ProgramUnit* module, char* errorMessage);
-
-// Функция для добавления файла в коллекцию анализируемых файлов
 void addInputFileToModule(ProgramUnit* module, char* fileName, AstNode* ast);
-
-// Функция для освобождения памяти, выделенной под модуль
+void addErrorToModule(ProgramUnit* module, char* errorMessage);
 void freeProgramUnit(ProgramUnit* programUnit);
 
 extern InputFile* InputFiles;

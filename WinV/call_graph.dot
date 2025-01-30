@@ -1,0 +1,14 @@
+digraph CallGraph {
+  node [shape=circle, style=filled, fillcolor=lightblue];
+  "main";
+  "printf";
+  "x";
+  "y";
+  "z";
+  "count_digits";
+  "main" -> "count_digits";
+  "main" -> "z";
+  "main" -> "y";
+  "main" -> "x";
+  "main" -> "printf";
+}

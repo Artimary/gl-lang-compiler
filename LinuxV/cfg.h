@@ -1,32 +1,35 @@
 #pragma once
 #include "treeStructure.h"
 #include "OpTree.h"
+#include "model.h"
+
+typedef struct ProgramUnit ProgramUnit;
 
 typedef struct CfgNode CfgNode;
 typedef struct CfgInstance CfgInstance;
 typedef struct CfgContext CfgContext;
 
-
 struct CfgNode {
     int id;
     char* nodeName;
     OpNode* optree;
-    CfgNode* nextNode; // Следующий узел
-    CfgNode* condNode; // Узел условия (для if, while, for)
-    CfgInstance* nodes;
+    CfgNode* nextNode;
+    CfgNode* condNode;
 };
 
 struct CfgInstance {
-    CfgNode** nodes;       // Массив узлов CFG
-    int count;             // Текущее количество узлов
-    int capacity;          // Вместимость массива узлов
+    CfgNode** nodes;
+    int count;
+    int capacity;
 };
 
 struct CfgContext {
-    CfgInstance* cfg;            // Текущий экземпляр CFG
-    CfgNode** loopAfterStack;    // Стек узлов для выхода из циклов (после тела)
+    CfgInstance* cfg;
+    ProgramUnit* programUnit;
+    char* currentFunction;
+    CfgNode** loopAfterStack;
     int loopAfterStackSize;
-    CfgNode** loopCurrentStack;  // Стек текущих циклов
+    CfgNode** loopCurrentStack;
     int loopCurrentStackSize;
     CfgNode* currentNode;
 };

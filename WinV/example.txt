@@ -1,4 +1,4 @@
-/*int main(int argc, char[] argv)
+int main(int argc, char[] argv)
 {
     printf("1");
  
@@ -40,8 +40,10 @@
         do
         {
             printf("8");
-            if (9)
+            if (9) {
                 printf("break\n");
+                break;
+            }
         } while(10);
  
         printf("11");
@@ -75,7 +77,7 @@
     while (i < 10) 
     {
         if (a > b)
-             i += 2;
+             i -= 2;
         else if (2 * 3)
             printf("break\n");
         else
@@ -113,9 +115,9 @@
  
     printf("Hello!\n");
     
-    
+    count_digits(5);
 }
-*/
+
 
 int count_digits(int num) {
     int count;

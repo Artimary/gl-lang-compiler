@@ -39,6 +39,8 @@ tokens{
 	Braces;
 	Indexer;
 	AssignmentOP;
+	Ident;
+	Int;
 }
 
 
@@ -80,7 +82,7 @@ custom 	:	identifier  -> ^(Custom_Type identifier)
 	;
 
 identifier
-	:	 ID;
+	:	 ID -> ^(ID);
 	
 /*arrayList
   :  (array (array)*) -> ^(ArrayList array)
@@ -158,7 +160,7 @@ indexer_list
 	;
 
 
-call	: identifier '(' call_list?')' -> ^(Call ^(Expression ^(Identifier identifier) ^(Init_List call_list)?))
+call	: identifier '(' call_list?')' -> ^(Call ^(Expression identifier ^(Init_List call_list)?))
 	;
 
 call_list
@@ -265,7 +267,7 @@ BUILTINTYPE
   | 'float'
   | 'double';
 
-ID  :	('a'..'z'|'A'..'Z'|'_') ('a'..'z'|'A'..'Z'|'0'..'9'|'_')* // идентификатор
+ID  :	('a'..'z'|'A'..'Z'|'_') ('a'..'z'|'A'..'Z'|'0'..'9'|'_')* // идентификатор 
     ;
 
 fragment
@@ -327,4 +329,3 @@ fragment
 UNICODE_ESC
     :   '\\' 'u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT
     ;
-

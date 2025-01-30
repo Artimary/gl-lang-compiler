@@ -33,6 +33,12 @@
     <ClCompile Include="..\LinuxV\OpTree.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\LinuxV\model.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LinuxV\callGraph.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\LinuxV\treeStructure.h">
@@ -54,6 +60,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\LinuxV\OpTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LinuxV\callGraph.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

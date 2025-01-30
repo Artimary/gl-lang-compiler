@@ -1,6 +1,7 @@
 #include "cfg.h"
 #include "treeStructure.h"
 #include "model.h"
+#include "callGraph.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -36,17 +37,17 @@ CfgNode* handleIfStatement(AstNode* node, CfgContext* ctx) {
     CfgNode* elseNode = node->childrenCount > 2 ? createCfgNode(ctx, "Else") : NULL;
     CfgNode* mergeNode = createCfgNode(ctx, "Merge");
 
-    // Связываем узлы
+    AstNode* condExpr = node->children[0];
+    ifNode->optree = buildOpTree(condExpr);
+
     ifNode->condNode = thenNode;
     ifNode->nextNode = elseNode ? elseNode : mergeNode;
 
-    // Обработка then блока
     CfgNode* prevCurrent = ctx->currentNode;
     ctx->currentNode = thenNode;
     collectCfg(node->children[1], ctx);
     CfgNode* thenLast = ctx->currentNode;
 
-    // Обработка else блока
     CfgNode* elseLast = NULL;
     if (elseNode) {
         ctx->currentNode = elseNode;
@@ -54,18 +55,11 @@ CfgNode* handleIfStatement(AstNode* node, CfgContext* ctx) {
         elseLast = ctx->currentNode;
     }
 
-    // Восстанавливаем контекст и связываем узлы
     ctx->currentNode = prevCurrent;
 
-    // Связывание веток с mergeNode
-    if (thenLast && thenLast->nextNode == NULL) {
-        thenLast->nextNode = mergeNode;
-    }
-    if (elseNode && elseLast && elseLast->nextNode == NULL) {
-        elseLast->nextNode = mergeNode;
-    }
+    if (thenLast) thenLast->nextNode = mergeNode;
+    if (elseLast) elseLast->nextNode = mergeNode;
 
-    // Устанавливаем mergeNode как следующий узел после if
     if (ctx->currentNode) {
         ctx->currentNode->nextNode = ifNode;
     }
@@ -84,20 +78,30 @@ CfgNode* handleBreakStatement(AstNode* node, CfgContext* ctx) {
         ctx->currentNode->nextNode = breakNode;
     }
     breakNode->nextNode = loopEnd;
-    ctx->currentNode = NULL; // Break прерывает поток
+    ctx->currentNode = NULL;
 
     return breakNode;
 }
 
 CfgNode* handleFunctionCall(AstNode* node, CfgContext* ctx) {
     CfgNode* callNode = createCfgNode(ctx, "Call");
-    //callNode->nodeName = strdup(node->children[0]->nodeName);
 
+    AstNode* funcNameNode = node->children[0];
+    char* callee = strdup(funcNameNode->children[0]->nodeName);
+
+    if (ctx->currentFunction && ctx->programUnit) {
+        addFunctionToGraph(&ctx->programUnit->callGraph, ctx->currentFunction);
+        addFunctionToGraph(&ctx->programUnit->callGraph, callee);
+
+        addCallEdge(&ctx->programUnit->callGraph, ctx->currentFunction, callee);
+    }
+    callNode->optree = buildOpTree(node);
     if (ctx->currentNode) {
         ctx->currentNode->nextNode = callNode;
     }
     ctx->currentNode = callNode;
 
+    free(callee);
     return callNode;
 }
 
@@ -107,24 +111,21 @@ CfgNode* handleWhileStatement(AstNode* node, CfgContext* ctx) {
     CfgNode* loopBody = createCfgNode(ctx, "LoopBody");
     CfgNode* loopEnd = createCfgNode(ctx, "LoopEnd");
 
-    // Связь entry -> cond
+    AstNode* condExpr = node->children[0];
+    loopCond->optree = buildOpTree(condExpr);
+
     if (ctx->currentNode) ctx->currentNode->nextNode = loopEntry;
     loopEntry->nextNode = loopCond;
-
-    // Настройка ветвления
     loopCond->condNode = loopBody;
     loopCond->nextNode = loopEnd;
 
-    // Сохранение контекста цикла
     ctx->loopAfterStack = realloc(ctx->loopAfterStack, sizeof(CfgNode*) * (ctx->loopAfterStackSize + 1));
     ctx->loopAfterStack[ctx->loopAfterStackSize++] = loopEnd;
 
-    // Обработка тела цикла
     CfgNode* prevCurrent = ctx->currentNode;
     ctx->currentNode = loopBody;
-    collectCfg(node->children[1], ctx); // Обрабатываем тело цикла
+    collectCfg(node->children[1], ctx);
 
-    // После обработки тела связываем последний узел с loopCond, если поток не прерван
     if (ctx->currentNode && ctx->currentNode->nextNode == NULL) {
         ctx->currentNode->nextNode = loopCond;
     }
@@ -141,31 +142,25 @@ CfgNode* handleRepeatStatement(AstNode* node, CfgContext* ctx) {
     CfgNode* loopCond = createCfgNode(ctx, "LoopCond");
     CfgNode* loopEnd = createCfgNode(ctx, "LoopEnd");
 
-    // Связь текущего узла с входом в цикл
     if (ctx->currentNode) {
         ctx->currentNode->nextNode = loopEntry;
     }
     loopEntry->nextNode = loopBody;
 
-    // Сохраняем конец цикла в стек для break
     ctx->loopAfterStack = realloc(ctx->loopAfterStack, sizeof(CfgNode*) * (ctx->loopAfterStackSize + 1));
     ctx->loopAfterStack[ctx->loopAfterStackSize++] = loopEnd;
 
-    // Обрабатываем тело цикла
     CfgNode* prevCurrent = ctx->currentNode;
     ctx->currentNode = loopBody;
-    collectCfg(node->children[0], ctx); // Первый ребенок - тело цикла
+    collectCfg(node->children[0], ctx);
 
-    // Связываем последний узел тела с условием
     if (ctx->currentNode && ctx->currentNode->nextNode == NULL) {
         ctx->currentNode->nextNode = loopCond;
     }
 
-    // Настраиваем переходы из условия
-    loopCond->condNode = loopEntry; // При истине возвращаемся в начало
-    loopCond->nextNode = loopEnd;   // При лжи выходим
+    loopCond->condNode = loopEntry;
+    loopCond->nextNode = loopEnd;
 
-    // Восстанавливаем контекст
     ctx->currentNode = loopEnd;
     ctx->loopAfterStackSize--;
 
@@ -174,9 +169,11 @@ CfgNode* handleRepeatStatement(AstNode* node, CfgContext* ctx) {
 
 CfgNode* handleReturnStatement(AstNode* node, CfgContext* ctx) {
     CfgNode* retNode = createCfgNode(ctx, "Return");
-    if (ctx->currentNode)
+    if (ctx->currentNode) {
         ctx->currentNode->nextNode = retNode;
-    ctx->currentNode = NULL; // Прерываем поток после Return
+    }
+    retNode->nextNode = NULL;
+    ctx->currentNode = NULL;
     return retNode;
 }
 
@@ -206,16 +203,25 @@ CfgNode* collectCfg(AstNode* node, CfgContext* ctx) {
         CfgNode* repeatNode = handleRepeatStatement(node, ctx);
         return repeatNode;
     }
-
-    // Обработка других узлов
-    if (strstr(node->nodeName, "Statement") != 0 ||
-        strcmp(node->nodeName, "VarDeclaration") == 0 ||
-        strcmp(node->nodeName, "AssignmentOP") == 0) {
+    else if (strcmp(node->nodeName, "VarDeclaration") == 0) {
         CfgNode* cfgNode = createCfgNode(ctx, node->nodeName);
         if (ctx->currentNode) {
             ctx->currentNode->nextNode = cfgNode;
         }
         ctx->currentNode = cfgNode;
+        return cfgNode;
+    }
+    else if (strcmp(node->nodeName, "AssignmentOP") == 0) {
+        CfgNode* cfgNode = createCfgNode(ctx, "AssignmentOP");
+
+        if (node->childrenCount > 0) {
+            AstNode* assignmentExpr = node->children[0];
+            cfgNode->optree = buildOpTree(assignmentExpr);
+        }
+
+        if (ctx->currentNode) ctx->currentNode->nextNode = cfgNode;
+        ctx->currentNode = cfgNode;
+        return cfgNode;
     }
 
     for (int i = 0; i < node->childrenCount; i++) {
@@ -230,7 +236,7 @@ CfgInstance* prepareControlFlowGraph(ProgramUnit* model, AstNode* stat) {
         return NULL;
     }
 
-    printf("Preparing CFG for file: %s\n", model->sourceFileName);  // Вывод имени файла
+    printf("Preparing CFG for file: %s\n", model->sourceFileName);
 
     CfgInstance* cfg = createCfgInstance();
     CfgContext ctx = {
@@ -244,6 +250,7 @@ CfgInstance* prepareControlFlowGraph(ProgramUnit* model, AstNode* stat) {
 }
 
 void drawCFG(CfgInstance* cfg, const char* functionName) {
+    printf("[DEBUG] Drawing CFG for %s\n", functionName);
     if (!cfg || !functionName) return;
 
     char fname[256];
@@ -262,7 +269,24 @@ void drawCFG(CfgInstance* cfg, const char* functionName) {
 
     for (int i = 0; i < cfg->count; i++) {
         CfgNode* node = cfg->nodes[i];
-        fprintf(fp, "    node%d [label=\"%s\"];\n", node->id, node->nodeName);
+        fprintf(fp, "    node%d [label=\"%s", node->id, node->nodeName);
+
+        /*if (node->optree) {
+            char* expr = opTreeToString(node->optree);
+            if (expr != NULL && expr[0] != '\0') {
+                if (strchr(expr, '"') != 0) {
+                    replace_char(expr, '"', '\'');
+                }
+                fprintf(fp, "\\n%s", expr);
+                free(expr);
+            }
+            else {
+                fprintf(fp, "\\n[empty]");
+                if (expr) free(expr);
+            }
+        }*/
+
+        fprintf(fp, "\"];\n");
     }
 
     for (int i = 0; i < cfg->count; i++) {
@@ -270,22 +294,29 @@ void drawCFG(CfgInstance* cfg, const char* functionName) {
 
         if (strcmp(node->nodeName, "Break") == 0 && node->nextNode) {
             fprintf(fp, "    node%d -> node%d [label=\"break\", style=dashed];\n", node->id, node->nextNode->id);
-        }else if (node->nextNode) {
-            fprintf(fp, "    node%d -> node%d [label=\"next\"];\n", node->id, node->nextNode->id);
+        }
+        else if (node->nextNode) {
+            fprintf(fp, "    node%d -> node%d \n", node->id, node->nextNode->id);
         }
         if (node->condNode) {
-            fprintf(fp, "    node%d -> node%d [label=\"cond=true\"];\n", node->id, node->condNode->id);
+            fprintf(fp, "    node%d -> node%d [label=\"true\"];\n", node->id, node->condNode->id);
         }
-        // Исправлено условие для break
-        
     }
 
+    int* exitNodes = calloc(cfg->count, sizeof(int));
     for (int i = 0; i < cfg->count; i++) {
         CfgNode* node = cfg->nodes[i];
         if (!node->nextNode && !node->condNode) {
-            fprintf(fp, "    node%d -> end;\n", node->id);
+            exitNodes[i] = 1;
         }
     }
+
+    for (int i = 0; i < cfg->count; i++) {
+        if (exitNodes[i]) {
+            fprintf(fp, "    node%d -> end;\n", cfg->nodes[i]->id);
+        }
+    }
+    free(exitNodes);
 
     if (cfg->count > 0) {
         fprintf(fp, "    start -> node0;\n");
@@ -299,6 +330,7 @@ void freeCfg(CfgInstance* cfg) {
     if (!cfg) return;
     for (int i = 0; i < cfg->count; i++) {
         free(cfg->nodes[i]->nodeName);
+        freeOpTree(cfg->nodes[i]->optree);
         free(cfg->nodes[i]);
     }
     free(cfg->nodes);
