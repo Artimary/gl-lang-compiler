@@ -271,7 +271,7 @@ void drawCFG(CfgInstance* cfg, const char* functionName) {
         CfgNode* node = cfg->nodes[i];
         fprintf(fp, "    node%d [label=\"%s", node->id, node->nodeName);
 
-        /*if (node->optree) {
+        if (node->optree) {
             char* expr = opTreeToString(node->optree);
             if (expr != NULL && expr[0] != '\0') {
                 if (strchr(expr, '"') != 0) {
@@ -284,7 +284,7 @@ void drawCFG(CfgInstance* cfg, const char* functionName) {
                 fprintf(fp, "\\n[empty]");
                 if (expr) free(expr);
             }
-        }*/
+        }
 
         fprintf(fp, "\"];\n");
     }

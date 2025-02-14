@@ -1,30 +1,3 @@
-﻿  antlr3baserecognizer.c
-  antlr3basetree.c
-  antlr3basetreeadaptor.c
-  antlr3bitset.c
-  antlr3collections.c
-  antlr3commontoken.c
-  antlr3commontree.c
-  antlr3commontreeadaptor.c
-C:\SPO_labs\C\src\antlr3collections.c(1932,50): warning C4100: 'key': unreferenced formal parameter
-  antlr3commontreenodestream.c
-  antlr3convertutf.c
-  antlr3cyclicdfa.c
-  antlr3debughandlers.c
-  antlr3encodings.c
-  antlr3exception.c
-  antlr3filestream.c
-  antlr3inputstream.c
-  antlr3intstream.c
-  antlr3lexer.c
-  antlr3parser.c
-  antlr3rewritestreams.c
-  Generating Code...
-  Compiling...
-  antlr3string.c
-  antlr3tokenstream.c
-  antlr3treeparser.c
-  Generating Code...
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1554,5): warning MSB8012: TargetPath(C:\SPO_labs\C\x64\Debug\C.lib) does not match the Library's OutputFile property value (C:\SPO_labs\C\x64\Debug\antlr3cd.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1554,5): warning MSB8012: TargetPath(C:\SPO_labs\C\x64\Debug\C.lib) does not match the Library's OutputFile property value (C:\SPO_labs\C\x64\Debug\antlr3cd.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
 C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1556,5): warning MSB8012: TargetName(C) does not match the Library's OutputFile property value (antlr3cd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
   C.vcxproj -> C:\SPO_labs\C\x64\Debug\C.lib

@@ -1,0 +1,10 @@
+digraph CFG {
+    node [shape=box];
+    label="z";
+    labelloc=t;
+    start [shape=Mdiamond];
+    end [shape=Msquare];
+    node0 [label="Call\nCALL('x'())"];
+    node0 -> end;
+    start -> node0;
+}

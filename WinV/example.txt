@@ -118,14 +118,30 @@ int main(int argc, char[] argv)
     count_digits(5);
 }
 
+int x()
+{
+y();
+z();
+}
+
+int y()
+{
+x();
+z();
+}
+
+int z()
+{
+x();
+}
 
 int count_digits(int num) {
     int count;
-    count = 0;
+    count = b;
 
     while (num != 0) {
         if (a == 5) {
-            num /= 10;
+            num /= b;
             count++;
         }
     }

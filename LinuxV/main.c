@@ -32,7 +32,6 @@ int main(int argc, char* argv[]) {
     }
 
     drawCallGraph(&programUnit->callGraph, "call_graph.dot");
-
     freeAST(treeAST->tree);
     free(treeAST);
     freeProgramUnit(programUnit);

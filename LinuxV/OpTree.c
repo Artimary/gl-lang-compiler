@@ -98,18 +98,28 @@ OpNode* buildOpTree(AstNode* astNode) {
 
     if (strchr(nodeName, '=') && strcmp(nodeName, "!=") != 0 && strcmp(nodeName, "==") != 0) {
         if (strcmp(nodeName, "=") == 0) {
+            // Левая часть - OP_PLACE
+            OpNode* target = calloc(1, sizeof(OpNode));
+            target->kind = OP_PLACE;
+            target->payload.string = strdup(astNode->children[0]->children[0]->nodeName);
+
+            // Правая часть - обычное выражение (с READ)
+            OpNode* value = buildOpTree(astNode->children[1]);
+
             opNode->kind = OP_WRITE;
             opNode->argsCount = 2;
             opNode->args = malloc(2 * sizeof(OpNode*));
-            opNode->args[0] = buildOpTree(astNode->children[0]);
-            opNode->args[1] = buildOpTree(astNode->children[1]);
+            opNode->args[0] = target;
+            opNode->args[1] = value;
         }
         else {
             opNode->kind = OP_WRITE;
             opNode->argsCount = 2;
             opNode->args = malloc(2 * sizeof(OpNode*));
 
-            OpNode* target = buildOpTree(astNode->children[0]);
+            OpNode* target = calloc(1, sizeof(OpNode));
+            target->kind = OP_PLACE;
+            target->payload.string = strdup(astNode->children[0]->children[0]->nodeName);
 
             OpNode* operation = calloc(1, sizeof(OpNode));
 
@@ -122,7 +132,7 @@ OpNode* buildOpTree(AstNode* astNode) {
             operation->argsCount = 2;
             operation->args = malloc(2 * sizeof(OpNode*));
 
-            OpNode* target_copy = copyOpNode(target);
+            OpNode* target_copy = buildOpTree(astNode->children[0]); // OP_READ
 
             operation->args[0] = target_copy;
             operation->args[1] = buildOpTree(astNode->children[1]);
@@ -151,7 +161,12 @@ OpNode* buildOpTree(AstNode* astNode) {
         opNode->kind = OP_READ;
         opNode->argsCount = 1;
         opNode->args = malloc(sizeof(OpNode*));
-        opNode->args[0] = buildOpTree(astNode->children[0]);
+
+        // Аргумент READ - OP_PLACE с именем переменной
+        OpNode* place = calloc(1, sizeof(OpNode));
+        place->kind = OP_PLACE;
+        place->payload.string = strdup(astNode->children[0]->nodeName);
+        opNode->args[0] = place;
     }
     else if ((strcmp(nodeName, "Expression") == 0 || strcmp(nodeName, "Init_List") == 0) && astNode->childrenCount > 0) {
         return buildOpTree(astNode->children[0]);

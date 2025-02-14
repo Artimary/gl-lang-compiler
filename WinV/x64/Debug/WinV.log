@@ -1,8 +1,3 @@
-﻿  cfg.c
-C:\SPO_labs\LinuxV\cfg.c(93,28): warning C4047: 'function': 'CallGraph *' differs in levels of indirection from 'CallGraph **'
-C:\SPO_labs\LinuxV\cfg.c(93,28): warning C4024: 'addFunctionToGraph': different types for formal and actual parameter 1
-C:\SPO_labs\LinuxV\cfg.c(94,28): warning C4047: 'function': 'CallGraph *' differs in levels of indirection from 'CallGraph **'
-C:\SPO_labs\LinuxV\cfg.c(94,28): warning C4024: 'addFunctionToGraph': different types for formal and actual parameter 1
-C:\SPO_labs\LinuxV\cfg.c(96,21): warning C4047: 'function': 'CallGraph *' differs in levels of indirection from 'CallGraph **'
-C:\SPO_labs\LinuxV\cfg.c(96,21): warning C4024: 'addCallEdge': different types for formal and actual parameter 1
+﻿  OpTree.c
+C:\SPO_labs\LinuxV\OpTree.c(177,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   WinV.vcxproj -> C:\SPO_labs\x64\Debug\WinV.exe

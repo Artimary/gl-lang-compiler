@@ -6,6 +6,11 @@ digraph CallGraph {
   "y";
   "z";
   "count_digits";
+  "z" -> "x";
+  "y" -> "z";
+  "y" -> "x";
+  "x" -> "z";
+  "x" -> "y";
   "main" -> "count_digits";
   "main" -> "z";
   "main" -> "y";

@@ -5,15 +5,15 @@ digraph CFG {
     start [shape=Mdiamond];
     end [shape=Msquare];
     node0 [label="VarDeclaration"];
-    node1 [label="AssignmentOP"];
+    node1 [label="AssignmentOP\nWRITE(count, READ(b))"];
     node2 [label="LoopEntry"];
-    node3 [label="LoopCond"];
+    node3 [label="LoopCond\n(READ(num) != 0)"];
     node4 [label="LoopBody"];
     node5 [label="LoopEnd"];
-    node6 [label="If"];
+    node6 [label="If\n(READ(a) == 5)"];
     node7 [label="Then"];
     node8 [label="Merge"];
-    node9 [label="AssignmentOP"];
+    node9 [label="AssignmentOP\nWRITE(num, (READ(num) / READ(b)))"];
     node10 [label="Return"];
     node0 -> node1 
     node1 -> node2 
