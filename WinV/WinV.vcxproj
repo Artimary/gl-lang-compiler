@@ -23,6 +23,7 @@
     <ClCompile Include="..\LinuxV\antlr\labgrammParser.c" />
     <ClCompile Include="..\LinuxV\callGraph.c" />
     <ClCompile Include="..\LinuxV\cfg.c" />
+    <ClCompile Include="..\LinuxV\codegen.c" />
     <ClCompile Include="..\LinuxV\main.c" />
     <ClCompile Include="..\LinuxV\model.c" />
     <ClCompile Include="..\LinuxV\OpTree.c" />
@@ -33,6 +34,7 @@
     <ClInclude Include="..\LinuxV\antlr\labgrammParser.h" />
     <ClInclude Include="..\LinuxV\callGraph.h" />
     <ClInclude Include="..\LinuxV\cfg.h" />
+    <ClInclude Include="..\LinuxV\codegen.h" />
     <ClInclude Include="..\LinuxV\define.h" />
     <ClInclude Include="..\LinuxV\model.h" />
     <ClInclude Include="..\LinuxV\OpTree.h" />

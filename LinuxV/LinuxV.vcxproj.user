@@ -7,5 +7,6 @@
     <RemoteDebuggerCommandArguments>example.txt treeAST.dot</RemoteDebuggerCommandArguments>
     <DebuggerFlavor>LinuxDebugger</DebuggerFlavor>
     <PreLaunchCommand>example.txt treeAST.dot</PreLaunchCommand>
+    <RemoteTarget>-1547287572;127.0.0.1 (username=, port=5555, authentication=Password)</RemoteTarget>
   </PropertyGroup>
 </Project>

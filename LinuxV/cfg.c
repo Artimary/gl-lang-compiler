@@ -168,19 +168,21 @@ CfgNode* handleRepeatStatement(AstNode* node, CfgContext* ctx) {
 }
 
 CfgNode* handleReturnStatement(AstNode* node, CfgContext* ctx) {
+    //printf("ReturnStatement at line %d\n", node->lineNumber);
     CfgNode* retNode = createCfgNode(ctx, "Return");
     if (ctx->currentNode) {
         ctx->currentNode->nextNode = retNode;
     }
     retNode->nextNode = NULL;
     ctx->currentNode = NULL;
+    retNode->optree = buildOpTree(node);
     return retNode;
 }
 
 CfgNode* collectCfg(AstNode* node, CfgContext* ctx) {
     if (!node || !node->nodeName) return NULL;
 
-    printf("Processing node: %s\n", node->nodeName);
+    //printf("Processing node: %s\n", node->nodeName);
 
     if (strcmp(node->nodeName, "ConditionStatement") == 0) {
         CfgNode* ifNode = handleIfStatement(node, ctx);
@@ -211,10 +213,13 @@ CfgNode* collectCfg(AstNode* node, CfgContext* ctx) {
         ctx->currentNode = cfgNode;
         return cfgNode;
     }
-    else if (strcmp(node->nodeName, "AssignmentOP") == 0) {
+    else if (strcmp(node->nodeName, "AssignmentOP") == 0 || strcmp(node->nodeName, "++") == 0 || strcmp(node->nodeName, "--") == 0) {
         CfgNode* cfgNode = createCfgNode(ctx, "AssignmentOP");
 
-        if (node->childrenCount > 0) {
+        if (strcmp(node->nodeName, "++") == 0 || strcmp(node->nodeName, "--") == 0) {
+            cfgNode->optree = buildOpTree(node);
+        }
+        else if (node->childrenCount > 0) {
             AstNode* assignmentExpr = node->children[0];
             cfgNode->optree = buildOpTree(assignmentExpr);
         }
@@ -225,7 +230,19 @@ CfgNode* collectCfg(AstNode* node, CfgContext* ctx) {
     }
 
     for (int i = 0; i < node->childrenCount; i++) {
-        collectCfg(node->children[i], ctx);
+        if ((strcmp(node->children[i]->nodeName, "ReturnStatement") == 0) && (node->childrenCount != i+1)) {
+            // Проверяем последующие узлы после ReturnStatement
+            printf("%s\n", node->nodeName);
+            AstNode* unreachableNode = node->children[i]->children[0]->children[0];
+            if (unreachableNode->lineNumber != -1) {
+                printf("Warning: Unreachable code after 'ReturnStatement' in line %d\n", unreachableNode->lineNumber);
+            }
+            collectCfg(node->children[i], ctx);
+            break;
+        }
+        else {
+            collectCfg(node->children[i], ctx);
+        }
     }
 
     return NULL;
@@ -245,7 +262,7 @@ CfgInstance* prepareControlFlowGraph(ProgramUnit* model, AstNode* stat) {
         .loopAfterStack = NULL,
         .currentNode = NULL
     };
-    collectCfg(stat, &ctx);
+    //collectCfg(stat, &ctx);
     return cfg;
 }
 

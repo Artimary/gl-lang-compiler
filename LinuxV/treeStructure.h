@@ -10,6 +10,7 @@ typedef struct AstNode {
     struct AstNode** children;
     char* nodeName;
     int childrenCount;
+    int lineNumber;
 } AstNode;
 
 typedef struct errorInfo {

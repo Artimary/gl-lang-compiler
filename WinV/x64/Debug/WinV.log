@@ -1,3 +1,14 @@
-﻿  OpTree.c
-C:\SPO_labs\LinuxV\OpTree.c(177,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+﻿  main.c
+C:\SPO_labs\LinuxV\main.c(44,19): warning C4047: 'function': 'CallGraph *' differs in levels of indirection from 'CallGraph **'
+C:\SPO_labs\LinuxV\main.c(44,19): warning C4024: 'initCallGraph': different types for formal and actual parameter 1
+C:\SPO_labs\LinuxV\main.c(67,24): warning C4477: 'printf' : format string '%lx' requires an argument of type 'unsigned long', but variadic argument 1 has type 'uint64_t'
+      C:\SPO_labs\LinuxV\main.c(67,24):
+      consider using '%llx' in the format string
+      C:\SPO_labs\LinuxV\main.c(67,24):
+      consider using '%Ix' in the format string
+      C:\SPO_labs\LinuxV\main.c(67,24):
+      consider using '%I64x' in the format string
+  
+C:\SPO_labs\LinuxV\main.c(81,19): warning C4047: 'function': 'CallGraph *' differs in levels of indirection from 'CallGraph **'
+C:\SPO_labs\LinuxV\main.c(81,19): warning C4024: 'drawCallGraph': different types for formal and actual parameter 1
   WinV.vcxproj -> C:\SPO_labs\x64\Debug\WinV.exe

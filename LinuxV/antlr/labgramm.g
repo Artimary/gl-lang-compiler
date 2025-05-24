@@ -41,6 +41,7 @@ tokens{
 	AssignmentOP;
 	Ident;
 	Int;
+	RETURN = 'return';
 }
 
 
@@ -135,7 +136,7 @@ varStatement	: typeRef listid? ';' -> ^(VarDeclaration ^(Expression typeRef? lis
 	;
 
 returnStatement
-  : 'return' expr ';' -> ^(ReturnStatement ^(Expression expr))
+  : RETURN expr ';' -> ^(ReturnStatement ^(Expression expr))
   ;
   
 assignmentStatement

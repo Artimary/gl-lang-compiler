@@ -1,0 +1,259 @@
+digraph CFG {
+    node [shape=box];
+    label="main";
+    labelloc=t;
+    start [shape=Mdiamond];
+    end [shape=Msquare];
+    node0 [label="Call\nCALL('printf'(' 1 '))"];
+    node1 [label="LoopEntry"];
+    node2 [label="LoopCond\n1"];
+    node3 [label="LoopBody"];
+    node4 [label="LoopEnd"];
+    node5 [label="Call\nCALL('printf'(' 2 '))"];
+    node6 [label="LoopEntry"];
+    node7 [label="LoopCond\n2"];
+    node8 [label="LoopBody"];
+    node9 [label="LoopEnd"];
+    node10 [label="Call\nCALL('printf'(' 3 '))"];
+    node11 [label="If\n3"];
+    node12 [label="Then"];
+    node13 [label="Else"];
+    node14 [label="Merge"];
+    node15 [label="Call\nCALL('printf'(' break\n '))"];
+    node16 [label="Break"];
+    node17 [label="Call\nCALL('printf'(' continue\n '))"];
+    node18 [label="If\n4"];
+    node19 [label="Then"];
+    node20 [label="Else"];
+    node21 [label="Merge"];
+    node22 [label="Call\nCALL('printf'(' continue\n '))"];
+    node23 [label="Call\nCALL('printf'(' labb:\n '))"];
+    node24 [label="Call\nCALL('printf'(' 4 '))"];
+    node25 [label="Return"];
+    node26 [label="Call\nCALL('printf'(' 5 '))"];
+    node27 [label="If\n5"];
+    node28 [label="Then"];
+    node29 [label="Else"];
+    node30 [label="Merge"];
+    node31 [label="Call\nCALL('printf'(' break\n '))"];
+    node32 [label="Break"];
+    node33 [label="If\n6"];
+    node34 [label="Then"];
+    node35 [label="Else"];
+    node36 [label="Merge"];
+    node37 [label="Call\nCALL('printf'(' continue\n '))"];
+    node38 [label="Call\nCALL('printf'(' 6 '))"];
+    node39 [label="Call\nCALL('printf'(' 7 '))"];
+    node40 [label="RepeatEntry"];
+    node41 [label="LoopBody"];
+    node42 [label="LoopCond"];
+    node43 [label="LoopEnd"];
+    node44 [label="Call\nCALL('printf'(' 8 '))"];
+    node45 [label="If\n9"];
+    node46 [label="Then"];
+    node47 [label="Merge"];
+    node48 [label="Call\nCALL('printf'(' break\n '))"];
+    node49 [label="Break"];
+    node50 [label="Call\nCALL('printf'(' 11 '))"];
+    node51 [label="If\n11"];
+    node52 [label="Then"];
+    node53 [label="Else"];
+    node54 [label="Merge"];
+    node55 [label="Call\nCALL('printf'(' break\n '))"];
+    node56 [label="If\n12"];
+    node57 [label="Then"];
+    node58 [label="Else"];
+    node59 [label="Merge"];
+    node60 [label="Call\nCALL('printf'(' continue\n '))"];
+    node61 [label="Call\nCALL('printf'(' 12 '))"];
+    node62 [label="Call\nCALL('printf'(' goto labb\n '))"];
+    node63 [label="Call\nCALL('printf'(' 13 '))"];
+    node64 [label="Call\nCALL('printf'(' 14 '))"];
+    node65 [label="If\n(READ(a) > 3)"];
+    node66 [label="Then"];
+    node67 [label="Else"];
+    node68 [label="Merge"];
+    node69 [label="Call\nCALL('printf'(' 1\n '))"];
+    node70 [label="Call\nCALL('printf'(' 2\n '))"];
+    node71 [label="Call\nCALL('printf'(' goto lab\n '))"];
+    node72 [label="LoopEntry"];
+    node73 [label="LoopCond\n(READ(i) < 10)"];
+    node74 [label="LoopBody"];
+    node75 [label="LoopEnd"];
+    node76 [label="If\n(READ(a) > READ(b))"];
+    node77 [label="Then"];
+    node78 [label="Else"];
+    node79 [label="Merge"];
+    node80 [label="AssignmentOP\nWRITE(i, (READ(i) - 2))"];
+    node81 [label="If\n(2 * 3)"];
+    node82 [label="Then"];
+    node83 [label="Else"];
+    node84 [label="Merge"];
+    node85 [label="Call\nCALL('printf'(' break\n '))"];
+    node86 [label="Call\nCALL('printf'(' continue\n '))"];
+    node87 [label="If\n1"];
+    node88 [label="Then"];
+    node89 [label="Merge"];
+    node90 [label="If\n2"];
+    node91 [label="Then"];
+    node92 [label="Else"];
+    node93 [label="Merge"];
+    node94 [label="If\n3"];
+    node95 [label="Then"];
+    node96 [label="Else"];
+    node97 [label="Merge"];
+    node98 [label="Call\nCALL('x'())"];
+    node99 [label="Call\nCALL('y'())"];
+    node100 [label="Call\nCALL('z'())"];
+    node101 [label="If\n(READ(a) > 3)"];
+    node102 [label="Then"];
+    node103 [label="Else"];
+    node104 [label="Merge"];
+    node105 [label="Call\nCALL('printf'(' 1\n '))"];
+    node106 [label="Call\nCALL('printf'(' 2\n '))"];
+    node107 [label="Call\nCALL('printf'(' 22\n '))"];
+    node108 [label="Call\nCALL('printf'(' 222\n '))"];
+    node109 [label="LoopEntry"];
+    node110 [label="LoopCond\n(READ(a) < 3)"];
+    node111 [label="LoopBody"];
+    node112 [label="LoopEnd"];
+    node113 [label="Call\nCALL('printf'(' 3\n '))"];
+    node114 [label="Call\nCALL('printf'(' Hello!\n '))"];
+    node115 [label="Call\nCALL('count_digits'(5))"];
+    node0 -> node1 
+    node1 -> node2 
+    node2 -> node4 
+    node2 -> node3 [label="true"];
+    node3 -> node5 
+    node4 -> node64 
+    node5 -> node6 
+    node6 -> node7 
+    node7 -> node9 
+    node7 -> node8 [label="true"];
+    node8 -> node10 
+    node9 -> node26 
+    node10 -> node11 
+    node11 -> node13 
+    node11 -> node12 [label="true"];
+    node12 -> node15 
+    node13 -> node18 
+    node14 -> node7 
+    node15 -> node16 
+    node16 -> node9 [label="break", style=dashed];
+    node17 -> node14 
+    node18 -> node20 
+    node18 -> node19 [label="true"];
+    node19 -> node22 
+    node20 -> node23 
+    node21 -> node14 
+    node22 -> node21 
+    node23 -> node24 
+    node24 -> node25 
+    node26 -> node27 
+    node27 -> node29 
+    node27 -> node28 [label="true"];
+    node28 -> node31 
+    node29 -> node33 
+    node30 -> node39 
+    node31 -> node32 
+    node32 -> node4 [label="break", style=dashed];
+    node33 -> node35 
+    node33 -> node34 [label="true"];
+    node34 -> node37 
+    node35 -> node38 
+    node36 -> node30 
+    node37 -> node36 
+    node38 -> node36 
+    node39 -> node40 
+    node40 -> node41 
+    node41 -> node44 
+    node42 -> node43 
+    node42 -> node40 [label="true"];
+    node43 -> node50 
+    node44 -> node45 
+    node45 -> node47 
+    node45 -> node46 [label="true"];
+    node46 -> node48 
+    node47 -> node42 
+    node48 -> node49 
+    node49 -> node43 [label="break", style=dashed];
+    node50 -> node51 
+    node51 -> node53 
+    node51 -> node52 [label="true"];
+    node52 -> node55 
+    node53 -> node56 
+    node54 -> node63 
+    node55 -> node54 
+    node56 -> node58 
+    node56 -> node57 [label="true"];
+    node57 -> node60 
+    node58 -> node61 
+    node59 -> node54 
+    node60 -> node59 
+    node61 -> node62 
+    node62 -> node59 
+    node63 -> node2 
+    node64 -> node65 
+    node65 -> node67 
+    node65 -> node66 [label="true"];
+    node66 -> node69 
+    node67 -> node70 
+    node68 -> node72 
+    node69 -> node68 
+    node70 -> node71 
+    node71 -> node68 
+    node72 -> node73 
+    node73 -> node75 
+    node73 -> node74 [label="true"];
+    node74 -> node76 
+    node75 -> node87 
+    node76 -> node78 
+    node76 -> node77 [label="true"];
+    node77 -> node80 
+    node78 -> node81 
+    node79 -> node73 
+    node80 -> node79 
+    node81 -> node83 
+    node81 -> node82 [label="true"];
+    node82 -> node85 
+    node83 -> node86 
+    node84 -> node79 
+    node85 -> node84 
+    node86 -> node84 
+    node87 -> node89 
+    node87 -> node88 [label="true"];
+    node88 -> node90 
+    node89 -> node101 
+    node90 -> node92 
+    node90 -> node91 [label="true"];
+    node91 -> node94 
+    node92 -> node100 
+    node93 -> node89 
+    node94 -> node96 
+    node94 -> node95 [label="true"];
+    node95 -> node98 
+    node96 -> node99 
+    node97 -> node93 
+    node98 -> node97 
+    node99 -> node97 
+    node100 -> node93 
+    node101 -> node103 
+    node101 -> node102 [label="true"];
+    node102 -> node105 
+    node103 -> node106 
+    node104 -> node109 
+    node105 -> node104 
+    node106 -> node107 
+    node107 -> node108 
+    node108 -> node104 
+    node109 -> node110 
+    node110 -> node112 
+    node110 -> node111 [label="true"];
+    node111 -> node113 
+    node112 -> node114 
+    node113 -> node110 
+    node114 -> node115 
+    node25 -> end;
+    node115 -> end;
+    start -> node0;
+}

@@ -137,8 +137,8 @@ OpNode* buildOpTree(AstNode* astNode) {
             operation->args[0] = target_copy;
             operation->args[1] = buildOpTree(astNode->children[1]);
 
-            opNode->args[0] = target;
-            opNode->args[1] = operation;
+            //opNode->args[0] = target;
+            //opNode->args[1] = operation;
             target_copy->payload.string = strdup(target->payload.string);
 
             operation->args[0] = target_copy;
@@ -186,8 +186,11 @@ OpNode* buildOpTree(AstNode* astNode) {
         opNode->argsCount = 2;
         opNode->args = malloc(2 * sizeof(OpNode*));
 
-        OpNode* target = buildOpTree(astNode->children[0]);
+        OpNode* target = calloc(1, sizeof(OpNode));  // buildOpTree(astNode->children[0]);
         OpNode* operation = calloc(1, sizeof(OpNode));
+
+        target->kind = OP_PLACE;
+        target->payload.string = strdup(astNode->children[0]->children[0]->nodeName);
 
         operation->kind = (strcmp(nodeName, "++") == 0) ? OP_SUM : OP_SUB;
         operation->argsCount = 2;
@@ -204,6 +207,14 @@ OpNode* buildOpTree(AstNode* astNode) {
 
         opNode->args[0] = target;
         opNode->args[1] = operation;
+    }
+    else if (strcmp(nodeName, "ReturnStatement") == 0) {
+        opNode->kind = OP_RETURN;
+        if (astNode->childrenCount > 0) {
+            opNode->argsCount = 1;
+            opNode->args = malloc(sizeof(OpNode*));
+            opNode->args[0] = buildOpTree(astNode->children[0]);
+        }
     }
     else{
         if (strcmp(nodeName, "!=") == 0)        opNode->kind = OP_CMP_NEQ;

@@ -39,6 +39,9 @@
     <ClCompile Include="..\LinuxV\callGraph.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\LinuxV\codegen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\LinuxV\treeStructure.h">
@@ -63,6 +66,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\LinuxV\callGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LinuxV\codegen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

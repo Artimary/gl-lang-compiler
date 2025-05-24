@@ -1,23 +1,2 @@
 ﻿  Validating sources
-  Copying sources remotely to '127.0.0.1'
-  Build command not configured, skipping.
-  Invoking 'make build', working directory: '/home/user/projects/LinuxV/'
-  gcc -g -O0 -o ./app ./main.c antlr/labgrammLexer.c antlr/labgrammParser.c ./treeStructure.c -lantlr3c  
-  
-  ./treeStructure.c: In function ‘makeDot’:
-  ./treeStructure.c:174:22: warning: passing argument 2 of ‘fprintf’ from incompatible pointer type [-Wincompatible-pointer-types]
-    174 |     fprintf(outFile, root);
-        |                      ^~~~
-        |                      |
-        |                      treeStruct *
-  In file included from /usr/include/antlr3defs.h:248,
-                   from /usr/include/antlr3.h:33,
-                   from ./antlr/labgrammLexer.h:237,
-                   from ./treeStructure.h:2,
-                   from ./define.h:2,
-                   from ./treeStructure.c:2:
-  /usr/include/stdio.h:351:44: note: expected ‘const char * restrict’ but argument is of type ‘treeStruct *’
-    351 |                     const char *__restrict __format, ...);
-        |                     ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
-  
-  Copying file '/home/user/projects/LinuxV/app' to 'C:\SPO_labs\LinuxV\bin\x64\Debug\app'
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Application Type\Linux\1.0\Linux.Makefile.Targets(206,5): error : Could not connect to the remote system. Please verify your connection settings, and that your machine is on the network and reachable.

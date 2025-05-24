@@ -37,7 +37,7 @@ void printTree(AstNode* tree, int depth) {
     }
 }
 
-AstNode* convertToMyTree(pANTLR3_BASE_TREE antlrTree) {
+AstNode* convertToMyTree(pANTLR3_BASE_TREE antlrTree, int parentLine) {
     if (antlrTree == NULL) {
         return NULL;
     }
@@ -47,6 +47,14 @@ AstNode* convertToMyTree(pANTLR3_BASE_TREE antlrTree) {
     AstNode* result = malloc(sizeof(AstNode));
     assert(result);
 
+    pANTLR3_COMMON_TOKEN token = antlrTree->getToken(antlrTree);
+    result->lineNumber = (token != NULL) ? token->getLine(token) : parentLine;
+
+
+    if (result->lineNumber > 0) printf("%d\n", result->lineNumber);
+
+    printf("AST Node: %s, Line: %d\n", currentNode, result->lineNumber);
+
     //Сортировка под TypeRef
     if (strcmp(currentNode, "TypeRef") == 0) {
         pANTLR3_BASE_TREE basic_antlr_type = (pANTLR3_BASE_TREE)antlrTree->getChild(antlrTree, 0);
@@ -55,6 +63,7 @@ AstNode* convertToMyTree(pANTLR3_BASE_TREE antlrTree) {
 
         AstNode* tpref = malloc(sizeof(AstNode));
         assert(tpref);
+        
         result->nodeName = strdup(basic_typeref_value->toString(basic_typeref_value)->chars);
         result->childrenCount = basic_typeref_value->getChildCount(basic_typeref_value);
 
@@ -76,6 +85,12 @@ AstNode* convertToMyTree(pANTLR3_BASE_TREE antlrTree) {
         result = tpref;
 
         result->childrenCount = 1;
+
+        pANTLR3_BASE_TREE firstChild = (pANTLR3_BASE_TREE)antlrTree->getChild(antlrTree, 0);
+        if (firstChild != NULL) {
+            pANTLR3_COMMON_TOKEN childToken = firstChild->getToken(firstChild);
+            result->lineNumber = (childToken != NULL) ? childToken->getLine(childToken) : parentLine;
+        }
 
         //Случай Array
         if (count > 1) {
@@ -119,6 +134,8 @@ AstNode* convertToMyTree(pANTLR3_BASE_TREE antlrTree) {
         return result;
     }
 
+    //printf("AST Node: %s, Line: %d\n", currentNode, result->lineNumber);
+
     //AstNode* node = malloc(sizeof(AstNode));
     //assert(node);
     result->childrenCount = antlrTree->getChildCount(antlrTree);;
@@ -132,7 +149,7 @@ AstNode* convertToMyTree(pANTLR3_BASE_TREE antlrTree) {
     if (result->childrenCount > 0) {
         for (int i = 0; i < result->childrenCount; i++) {
             pANTLR3_BASE_TREE childTree = (pANTLR3_BASE_TREE)antlrTree->getChild(antlrTree, i);
-            result->children[i] = convertToMyTree(childTree);
+            result->children[i] = convertToMyTree(childTree, result->lineNumber);
         }
     }
     else {
@@ -234,7 +251,7 @@ treeStruct* treeGeneration(char* inputPath) {
     pANTLR3_BASE_TREE tree = langAST.tree;
 
     //Переопределяем дерево в своей структуре
-    treeAST->tree = convertToMyTree(tree);
+    treeAST->tree = convertToMyTree(tree, -1);
 
     treeAST->errors = errors;
     treeAST->erCount = errorCount;

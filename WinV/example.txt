@@ -1,4 +1,4 @@
-int main(int argc, char[] argv)
+/*int main(int argc, char[] argv)
 {
     printf("1");
  
@@ -13,6 +13,7 @@ int main(int argc, char[] argv)
             if(3){
                 printf("break\n");
                 break;
+                printf("continue\n");
             }
             else if (4)
                 printf("continue\n");
@@ -134,7 +135,7 @@ int z()
 {
 x();
 }
-
+*/
 int count_digits(int num) {
     int count;
     count = b;
@@ -143,8 +144,16 @@ int count_digits(int num) {
         if (a == 5) {
             num /= b;
             count++;
+            a = a + b;
         }
     }
 
-    return(count);
+    return(count - 1);
+    something();
 }
+/*
+int main (){
+    x = 5; 
+    return a; 
+    a + b;
+}*/

@@ -92,6 +92,7 @@ void processFuncDef(AstNode* funcDefNode, ProgramUnit* programUnit) {
     addFunctionToGraph(&programUnit->callGraph, funcName);
 
     collectCfg(body, &ctx);
+    
 
     FuncDefN funcDef;
     funcDef.name = funcName;

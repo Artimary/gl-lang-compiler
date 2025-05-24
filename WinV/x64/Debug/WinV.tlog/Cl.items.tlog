@@ -2,6 +2,7 @@ C:\SPO_labs\LinuxV\antlr\labgrammLexer.c;C:\SPO_labs\WinV\x64\Debug\labgrammLexe
 C:\SPO_labs\LinuxV\antlr\labgrammParser.c;C:\SPO_labs\WinV\x64\Debug\labgrammParser.obj
 C:\SPO_labs\LinuxV\callGraph.c;C:\SPO_labs\WinV\x64\Debug\callGraph.obj
 C:\SPO_labs\LinuxV\cfg.c;C:\SPO_labs\WinV\x64\Debug\cfg.obj
+C:\SPO_labs\LinuxV\codegen.c;C:\SPO_labs\WinV\x64\Debug\codegen.obj
 C:\SPO_labs\LinuxV\main.c;C:\SPO_labs\WinV\x64\Debug\main.obj
 C:\SPO_labs\LinuxV\model.c;C:\SPO_labs\WinV\x64\Debug\model.obj
 C:\SPO_labs\LinuxV\OpTree.c;C:\SPO_labs\WinV\x64\Debug\OpTree.obj

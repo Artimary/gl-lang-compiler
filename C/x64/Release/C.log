@@ -1,47 +1,47 @@
 ﻿  antlr3baserecognizer.c
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3baserecognizer.c(9,13): error C1083: Cannot open include file: 'antlr3baserecognizer.h': No such file or directory
   antlr3basetree.c
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3basetree.c(1,13): error C1083: Cannot open include file: 'antlr3basetree.h': No such file or directory
   antlr3basetreeadaptor.c
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3basetreeadaptor.c(36,13): error C1083: Cannot open include file: 'antlr3basetreeadaptor.h': No such file or directory
+C:\SPO_labs\C\src\antlr3baserecognizer.c(9,13): error C1083: Cannot open include file: 'antlr3baserecognizer.h': No such file or directory
+C:\SPO_labs\C\src\antlr3basetree.c(1,13): error C1083: Cannot open include file: 'antlr3basetree.h': No such file or directory
+C:\SPO_labs\C\src\antlr3basetreeadaptor.c(36,13): error C1083: Cannot open include file: 'antlr3basetreeadaptor.h': No such file or directory
   antlr3bitset.c
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3bitset.c(36,13): error C1083: Cannot open include file: 'antlr3bitset.h': No such file or directory
+C:\SPO_labs\C\src\antlr3bitset.c(36,13): error C1083: Cannot open include file: 'antlr3bitset.h': No such file or directory
   antlr3collections.c
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3collections.c(38,13): error C1083: Cannot open include file: 'antlr3.h': No such file or directory
+C:\SPO_labs\C\src\antlr3collections.c(38,13): error C1083: Cannot open include file: 'antlr3.h': No such file or directory
   antlr3commontoken.c
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontoken.c(36,13): error C1083: Cannot open include file: 'antlr3.h': No such file or directory
+C:\SPO_labs\C\src\antlr3commontoken.c(36,13): error C1083: Cannot open include file: 'antlr3.h': No such file or directory
   antlr3commontree.c
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontree.c(38,13): error C1083: Cannot open include file: 'antlr3commontree.h': No such file or directory
+C:\SPO_labs\C\src\antlr3commontree.c(38,13): error C1083: Cannot open include file: 'antlr3commontree.h': No such file or directory
   antlr3commontreeadaptor.c
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreeadaptor.c(39,13): error C1083: Cannot open include file: 'antlr3commontreeadaptor.h': No such file or directory
+C:\SPO_labs\C\src\antlr3commontreeadaptor.c(39,13): error C1083: Cannot open include file: 'antlr3commontreeadaptor.h': No such file or directory
   antlr3commontreenodestream.c
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3commontreenodestream.c(35,13): error C1083: Cannot open include file: 'antlr3commontreenodestream.h': No such file or directory
+C:\SPO_labs\C\src\antlr3commontreenodestream.c(35,13): error C1083: Cannot open include file: 'antlr3commontreenodestream.h': No such file or directory
   antlr3convertutf.c
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3convertutf.c(42,10): error C1083: Cannot open include file: 'antlr3convertutf.h': No such file or directory
+C:\SPO_labs\C\src\antlr3convertutf.c(42,10): error C1083: Cannot open include file: 'antlr3convertutf.h': No such file or directory
   antlr3cyclicdfa.c
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3cyclicdfa.c(45,13): error C1083: Cannot open include file: 'antlr3defs.h': No such file or directory
+C:\SPO_labs\C\src\antlr3cyclicdfa.c(45,13): error C1083: Cannot open include file: 'antlr3defs.h': No such file or directory
   antlr3debughandlers.c
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3debughandlers.c(36,13): error C1083: Cannot open include file: 'antlr3.h': No such file or directory
+C:\SPO_labs\C\src\antlr3debughandlers.c(36,13): error C1083: Cannot open include file: 'antlr3.h': No such file or directory
   antlr3encodings.c
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3encodings.c(39,13): error C1083: Cannot open include file: 'antlr3.h': No such file or directory
+C:\SPO_labs\C\src\antlr3encodings.c(39,13): error C1083: Cannot open include file: 'antlr3.h': No such file or directory
   antlr3exception.c
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3exception.c(35,13): error C1083: Cannot open include file: 'antlr3exception.h': No such file or directory
+C:\SPO_labs\C\src\antlr3exception.c(35,13): error C1083: Cannot open include file: 'antlr3exception.h': No such file or directory
   antlr3filestream.c
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3filestream.c(47,13): error C1083: Cannot open include file: 'antlr3.h': No such file or directory
+C:\SPO_labs\C\src\antlr3filestream.c(47,13): error C1083: Cannot open include file: 'antlr3.h': No such file or directory
   antlr3inputstream.c
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3inputstream.c(34,13): error C1083: Cannot open include file: 'antlr3input.h': No such file or directory
+C:\SPO_labs\C\src\antlr3inputstream.c(34,13): error C1083: Cannot open include file: 'antlr3input.h': No such file or directory
   antlr3intstream.c
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3intstream.c(36,13): error C1083: Cannot open include file: 'antlr3intstream.h': No such file or directory
+C:\SPO_labs\C\src\antlr3intstream.c(36,13): error C1083: Cannot open include file: 'antlr3intstream.h': No such file or directory
   antlr3lexer.c
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3lexer.c(40,13): error C1083: Cannot open include file: 'antlr3lexer.h': No such file or directory
+C:\SPO_labs\C\src\antlr3lexer.c(40,13): error C1083: Cannot open include file: 'antlr3lexer.h': No such file or directory
   antlr3parser.c
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3parser.c(34,13): error C1083: Cannot open include file: 'antlr3parser.h': No such file or directory
+C:\SPO_labs\C\src\antlr3parser.c(34,13): error C1083: Cannot open include file: 'antlr3parser.h': No such file or directory
   antlr3rewritestreams.c
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3rewritestreams.c(36,13): error C1083: Cannot open include file: 'antlr3rewritestreams.h': No such file or directory
+C:\SPO_labs\C\src\antlr3rewritestreams.c(36,13): error C1083: Cannot open include file: 'antlr3rewritestreams.h': No such file or directory
   Compiling...
   antlr3string.c
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3string.c(34,13): error C1083: Cannot open include file: 'antlr3string.h': No such file or directory
+C:\SPO_labs\C\src\antlr3string.c(34,13): error C1083: Cannot open include file: 'antlr3string.h': No such file or directory
   antlr3tokenstream.c
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3tokenstream.c(34,13): error C1083: Cannot open include file: 'antlr3tokenstream.h': No such file or directory
+C:\SPO_labs\C\src\antlr3tokenstream.c(34,13): error C1083: Cannot open include file: 'antlr3tokenstream.h': No such file or directory
   antlr3treeparser.c
-C:\Users\ap-ip\OneDrive\Рабочий стол\ITMO\SPO_labs\C\src\antlr3treeparser.c(34,13): error C1083: Cannot open include file: 'antlr3treeparser.h': No such file or directory
+C:\SPO_labs\C\src\antlr3treeparser.c(34,13): error C1083: Cannot open include file: 'antlr3treeparser.h': No such file or directory
